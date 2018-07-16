@@ -30,21 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnCompare = new System.Windows.Forms.Button();
-            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.lstForm1 = new System.Windows.Forms.ListBox();
             this.btnOpenFile = new System.Windows.Forms.Button();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsbtnFile = new System.Windows.Forms.ToolStripButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnStationDetail = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.toolStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCompare
             // 
-            this.btnCompare.Location = new System.Drawing.Point(258, 35);
+            this.btnCompare.Location = new System.Drawing.Point(271, 35);
             this.btnCompare.Name = "btnCompare";
             this.btnCompare.Size = new System.Drawing.Size(146, 23);
             this.btnCompare.TabIndex = 5;
@@ -52,15 +44,19 @@
             this.btnCompare.UseVisualStyleBackColor = true;
             this.btnCompare.Click += new System.EventHandler(this.btnCompare_Click);
             // 
-            // listBox3
+            // lstForm1
             // 
-            this.listBox3.AllowDrop = true;
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 12;
-            this.listBox3.Location = new System.Drawing.Point(25, 77);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(114, 268);
-            this.listBox3.TabIndex = 7;
+            this.lstForm1.AllowDrop = true;
+            this.lstForm1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lstForm1.FormattingEnabled = true;
+            this.lstForm1.HorizontalScrollbar = true;
+            this.lstForm1.ItemHeight = 16;
+            this.lstForm1.Location = new System.Drawing.Point(25, 77);
+            this.lstForm1.Name = "lstForm1";
+            this.lstForm1.Size = new System.Drawing.Size(552, 276);
+            this.lstForm1.TabIndex = 7;
+            this.lstForm1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form_DragDrop);
+            this.lstForm1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Form_DragEnter);
             // 
             // btnOpenFile
             // 
@@ -72,102 +68,28 @@
             this.btnOpenFile.UseVisualStyleBackColor = true;
             this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click_1);
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsbtnFile});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(995, 25);
-            this.toolStrip1.TabIndex = 12;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // tsbtnFile
-            // 
-            this.tsbtnFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnFile.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnFile.Image")));
-            this.tsbtnFile.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnFile.Name = "tsbtnFile";
-            this.tsbtnFile.Size = new System.Drawing.Size(23, 22);
-            this.tsbtnFile.Text = "打开文件";
-            this.tsbtnFile.Click += new System.EventHandler(this.tsbtnFile_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(459, 77);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(507, 268);
-            this.dataGridView1.TabIndex = 13;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(555, 35);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // btnStationDetail
-            // 
-            this.btnStationDetail.Location = new System.Drawing.Point(722, 34);
-            this.btnStationDetail.Name = "btnStationDetail";
-            this.btnStationDetail.Size = new System.Drawing.Size(75, 23);
-            this.btnStationDetail.TabIndex = 15;
-            this.btnStationDetail.Text = "StationDetail";
-            this.btnStationDetail.UseVisualStyleBackColor = true;
-            this.btnStationDetail.Click += new System.EventHandler(this.btnStationDetail_Click);
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(164, 77);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(135, 268);
-            this.listBox1.TabIndex = 16;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(995, 395);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.btnStationDetail);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.toolStrip1);
+            this.ClientSize = new System.Drawing.Size(605, 395);
+            this.Controls.Add(this.lstForm1);
             this.Controls.Add(this.btnOpenFile);
-            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.btnCompare);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.Button btnCompare;
-        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox lstForm1;
         private System.Windows.Forms.Button btnOpenFile;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton tsbtnFile;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnStationDetail;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

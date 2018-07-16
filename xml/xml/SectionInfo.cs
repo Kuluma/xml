@@ -19,10 +19,10 @@ namespace xml
 
 
             //XDocument xDoc = XDocument.Load(@"C:\Users\ShenBoyi\Desktop\SectionInfos-SN1T.xml"); //加载xml文件
-            XDocument xDoc = XDocument.Load(PublicValue.file);
-            XElement root = xDoc.Root;  //获取根节点
+            //XDocument xDoc = XDocument.Load(PublicValue.file);
+            //XElement root = xDoc.Root;  //获取根节点
                                         //通过递归，获取所有下面的子元素
-            GetXElement(root);
+            //GetXElement(root);
             //List<String> SecControls = new List<string>();
 
 
