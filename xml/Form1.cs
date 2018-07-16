@@ -12,8 +12,6 @@ namespace xml
     {
         GetFilePath getFile = new GetFilePath();
         OpenFile openFile = new OpenFile();
-        public winBtnCompare winbtncompare;
-
         public Form1()
         {
             InitializeComponent();
@@ -64,10 +62,6 @@ namespace xml
                 }
             }
         }
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-            //listBox3.Width=
-        }
         private void btnOpenFile_Click_1(object sender, EventArgs e)
         {
             PublicValue.FilePath = null;
@@ -102,12 +96,6 @@ namespace xml
         {
             this.Dispose();
             this.Close();
-        }
-
-        private void btnStationDetail_Click(object sender, EventArgs e)
-        {
-            formStationDetail formStationDetail = new formStationDetail();
-            formStationDetail.Show();
         }
         protected override void OnSizeChanged(EventArgs e)
         {

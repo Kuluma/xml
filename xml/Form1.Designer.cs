@@ -81,7 +81,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
-            this.Resize += new System.EventHandler(this.Form1_Resize);
+
             this.ResumeLayout(false);
 
         }
