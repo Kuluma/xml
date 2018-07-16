@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<TransInfo StaBrief="DJZ">
+    <CollectDevSpace type="Interlock" StaBrief="DJZ">
+        <IndependentRules>
+            <rule>DC.DW = DC.DB</rule>
+            <rule>DC.FW = DC.FB</rule>
+            <rule>DC.JC = ~DC.DB*~DC.FB</rule>
+            <rule>DC.DS = DC.DS</rule>
+            <rule>DC.DF = DC.DF</rule>
+            <rule>DC.ZY = ~DC.ZY</rule>
+            <rule>DC.SB = DC.SB</rule>
+            <rule>WC.ZY = ~WC.ZY</rule>
+            <rule>WC.SB = WC.SB</rule>
+            <rule>GD.ZY = ~GD.ZY</rule>
+            <rule>GD.SB = GD.SB</rule>
+            <rule>QJ.ZY = ~QJ.ZY</rule>
+            <rule>QJ.SB = QJ.SB</rule>
+            <rule>JZXH.L = JZXH.L</rule>
+            <rule>JZXH.LL = JZXH.LL</rule>
+            <rule>JZXH.U = JZXH.U</rule>
+            <rule>JZXH.H = ~JZXH.L*~JZXH.U*~JZXH.B*~JZXH.LL*~JZXH.UU*~JZXH.LU*~JZXH.HB*~JZXH.USU*~JZXH.BS*JZXH.HS*~JZXH.US*~JZXH.LS</rule>
+            <rule>JZXH.LU = JZXH.LU</rule>
+            <rule>JZXH.USU = JZXH.USU</rule>
+            <rule>JZXH.UU = JZXH.UU</rule>
+            <rule>JZXH.C = JZXH.C</rule>
+            <rule>JZXH.HS = ~JZXH.HS</rule>
+            <rule>JZXH.HB = JZXH.HB</rule>
+            <rule>JZXH.BS = JZXH.BS</rule>
+            <rule>JZXH.US = JZXH.US</rule>
+            <rule>JZXH.LS = JZXH.LS</rule>
+            <rule>JZXH.SS = JZXH.SS</rule>
+            <rule>DCXH.M = ~DCXH.B*~DCXH.H*~DCXH.BS*~DCXH.SS</rule>
+            <rule>DCXH.BS = DCXH.BS</rule>
+            <rule>DCXH.AS = ~DCXH.AS</rule>
+            <rule>DCXH.B = DCXH.B</rule>
+            <rule>DCXH.A = ~DCXH.B*DCXH.AS*~DCXH.US*~DCXH.LS*~DCXH.BS</rule>
+            <rule>CZXH.H = ~CZXH.L*~CZXH.U*~CZXH.B*~CZXH.LL*~CZXH.UU*~CZXH.LU*~CZXH.HB*~CZXH.USU*~CZXH.BS*CZXH.HS*~CZXH.US*~CZXH.LS</rule>
+            <rule>CZXH.L = CZXH.L</rule>
+            <rule>CZXH.U = CZXH.U</rule>
+            <rule>CZXH.B = CZXH.B</rule>
+            <rule>CZXH.C = CZXH.C</rule>
+            <rule>CZXH.LU = CZXH.LU</rule>
+            <rule>CZXH.HS = ~CZXH.HS</rule>
+            <rule>CZXH.LL = CZXH.LL</rule>
+            <rule>CZXH.BS = CZXH.BS</rule>
+            <rule>CZXH.UU = CZXH.UU</rule>
+            <rule>CZXH.HB = CZXH.HB</rule>
+            <rule>QJXH.M = QJXH.M</rule>
+            <rule>QJXH.L = QJXH.L</rule>
+            <rule>QJXH.U = QJXH.U</rule>
+            <rule>QJXH.H = QJXH.H</rule>
+            <rule>QJXH.LU = QJXH.LU</rule>
+            <rule>XHAN.AX = XHAN.AX</rule>
+            <rule>XHAN.SS = XHAN.SS</rule>
+            <rule>XHAN.FS = XHAN.FS</rule>
+            <rule>GNAN.AX = GNAN.AX</rule>
+            <rule>GNAN.SS = GNAN.SS</rule>
+            <rule>GNAN.FS = GNAN.FS</rule>
+            <rule>BBS.L = BBS.L</rule>
+            <rule>BBS.H = BBS.H</rule>
+            <rule>BBS.U = BBS.U</rule>
+            <rule>BSD.B = BSD.B</rule>
+            <rule>BSD.BS = BSD.BS</rule>
+            <rule>BSD.H = BSD.H</rule>
+            <rule>BSD.HS = BSD.HS</rule>
+            <rule>BSD.L = BSD.L</rule>
+            <rule>BSD.LS = BSD.LS</rule>
+            <rule>BSD.U = BSD.U</rule>
+            <rule>BSD.US = BSD.US</rule>
+        </IndependentRules>
+        <SpecialRules>
+            <rule>DC[1].DW = DC[1].DW * ~DC[1].FW</rule>
+            <rule>DC[1].FW = DC[1].FW * ~DC[1].DW</rule>
+            <rule>DC[1].SB = DCQD[1-11DG].SB</rule>
+            <rule>DC[1].ZY = ~DCQD[1-11DG].ZY</rule>
+            <rule>DC[1].DS = DC[1].DS</rule>
+            <rule>DC[1].DF = DC[1].DF</rule>
+            <rule>DC[3].DW = DC[3].DW * ~DC[3].FW</rule>
+            <rule>DC[3].FW = DC[3].FW * ~DC[3].DW</rule>
+            <rule>DC[3].SB = DCQD[1-11DG].SB</rule>
+            <rule>DC[3].ZY = ~DCQD[1-11DG].ZY</rule>
+            <rule>DC[3].DS = DC[3].DS</rule>
+            <rule>DC[3].DF = DC[3].DF</rule>
+            <rule>DC[3].JC = ~DC[3].DW*~DC[3].FW</rule>
+            <rule>DC[5].DW = DC[5].DW * ~DC[5].FW</rule>
+            <rule>DC[5].FW = DC[5].FW * ~DC[5].DW</rule>
+            <rule>DC[5].SB = DCQD[5DG].SB</rule>
+            <rule>DC[5].ZY = ~DCQD[5DG].ZY</rule>
+            <rule>DC[5].DS = DC[5].DS</rule>
+            <rule>DC[5].DF = DC[5].DF</rule>
+            <rule>DC[5].JC = ~DC[5].DW*~DC[5].FW</rule>
+            <rule>DC[7].DW = DC[7].DW * ~DC[7].FW</rule>
+            <rule>DC[7].FW = DC[7].FW * ~DC[7].DW</rule>
+            <rule>DC[7].SB = DCQD[7DG].SB</rule>
+            <rule>DC[7].ZY = ~DCQD[7DG].ZY</rule>
+            <rule>DC[7].DS = DC[7].DS</rule>
+            <rule>DC[7].DF = DC[7].DF</rule>
+            <rule>DC[7].JC = ~DC[7].DW*~DC[7].FW</rule>
+            <rule>DC[9].DW = DC[9].DW * ~DC[9].FW</rule>
+            <rule>DC[9].FW = DC[9].FW * ~DC[9].DW</rule>
+            <rule>DC[9].SB = DCQD[9DG].SB</rule>
+            <rule>DC[9].ZY = ~DCQD[9DG].ZY</rule>
+            <rule>DC[9].DS = DC[9].DS</rule>
+            <rule>DC[9].DF = DC[9].DF</rule>
+            <rule>DC[9].JC = ~DC[9].DW*~DC[9].FW</rule>
+            <rule>DC[11].DW = DC[11].DW * ~DC[11].FW</rule>
+            <rule>DC[11].FW = DC[11].FW * ~DC[11].DW</rule>
+            <rule>DC[11].SB = DCQD[1-11DG].SB*DC[3].DW</rule>
+            <rule>DC[11].ZY = ~DCQD[1-11DG].ZY*DC[3].DW</rule>
+            <rule>DC[11].DS = DC[11].DS</rule>
+            <rule>DC[11].DF = DC[11].DF</rule>
+            <rule>DC[13].DW = DC[13].DW * ~DC[13].FW</rule>
+            <rule>DC[13].FW = DC[13].FW * ~DC[13].DW</rule>
+            <rule>DC[13].SB = DCQD[13DG].SB</rule>
+            <rule>DC[13].ZY = ~DCQD[13DG].ZY</rule>
+            <rule>DC[13].DS = DC[13].DS</rule>
+            <rule>DC[13].DF = DC[13].DF</rule>
+            <rule>DC[15].DW = DC[15].DW * ~DC[15].FW</rule>
+            <rule>DC[15].FW = DC[15].FW * ~DC[15].DW</rule>
+            <rule>DC[15].SB = DCQD[15DG].SB</rule>
+            <rule>DC[15].ZY = ~DCQD[15DG].ZY</rule>
+            <rule>DC[15].DS = DC[15].DS</rule>
+            <rule>DC[15].DF = DC[15].DF</rule>
+            <rule>DC[15].JC = ~DC[15].DW*~DC[15].FW</rule>
+            <rule>DC[17].DW = DC[17].DW * ~DC[17].FW</rule>
+            <rule>DC[17].FW = DC[17].FW * ~DC[17].DW</rule>
+            <rule>DC[17].SB = DCQD[17DG].SB</rule>
+            <rule>DC[17].ZY = ~DCQD[17DG].ZY</rule>
+            <rule>DC[17].DS = DC[17].DS</rule>
+            <rule>DC[17].DF = DC[17].DF</rule>
+            <rule>DC[17].JC = ~DC[17].DW*~DC[17].FW</rule>
+            <rule>DC[19].DW = DC[19].DW * ~DC[19].FW</rule>
+            <rule>DC[19].FW = DC[19].FW * ~DC[19].DW</rule>
+            <rule>DC[19].SB = DCQD[19DG].SB</rule>
+            <rule>DC[19].ZY = ~DCQD[19DG].ZY</rule>
+            <rule>DC[19].DS = DC[19].DS</rule>
+            <rule>DC[19].DF = DC[19].DF</rule>
+            <rule>DC[21].DW = DC[21].DW * ~DC[21].FW</rule>
+            <rule>DC[21].FW = DC[21].FW * ~DC[21].DW</rule>
+            <rule>DC[21].SB = DCQD[21-23DG].SB</rule>
+            <rule>DC[21].ZY = ~DCQD[21-23DG].ZY</rule>
+            <rule>DC[21].DS = DC[21].DS</rule>
+            <rule>DC[21].DF = DC[21].DF</rule>
+            <rule>DC[23].DW = DC[23].DW * ~DC[23].FW</rule>
+            <rule>DC[23].FW = DC[23].FW * ~DC[23].DW</rule>
+            <rule>DC[23].SB = DCQD[21-23DG].SB*DC[21].DW</rule>
+            <rule>DC[23].ZY = ~DCQD[21-23DG].ZY*DC[21].DW</rule>
+            <rule>DC[23].DS = DC[23].DS</rule>
+            <rule>DC[23].DF = DC[23].DF</rule>
+            <rule>DC[2].DW = DC[2].DW * ~DC[2].FW</rule>
+            <rule>DC[2].FW = DC[2].FW * ~DC[2].DW</rule>
+            <rule>DC[2].SB = DCQD[2-4DG].SB</rule>
+            <rule>DC[2].ZY = ~DCQD[2-4DG].ZY</rule>
+            <rule>DC[2].DS = DC[2].DS</rule>
+            <rule>DC[2].DF = DC[2].DF</rule>
+            <rule>DC[4].DW = DC[4].DW * ~DC[4].FW</rule>
+            <rule>DC[4].FW = DC[4].FW * ~DC[4].DW</rule>
+            <rule>DC[4].SB = DCQD[2-4DG].SB*DC[2].DW</rule>
+            <rule>DC[4].ZY = ~DCQD[2-4DG].ZY*DC[2].DW</rule>
+            <rule>DC[4].DS = DC[4].DS</rule>
+            <rule>DC[4].DF = DC[4].DF</rule>
+            <rule>DC[4].JC = ~DC[4].DW*~DC[4].FW</rule>
+            <rule>DC[6].DW = DC[6].DW * ~DC[6].FW</rule>
+            <rule>DC[6].FW = DC[6].FW * ~DC[6].DW</rule>
+            <rule>DC[6].SB = DCQD[6DG].SB</rule>
+            <rule>DC[6].ZY = ~DCQD[6DG].ZY</rule>
+            <rule>DC[6].DS = DC[6].DS</rule>
+            <rule>DC[6].DF = DC[6].DF</rule>
+            <rule>DC[6].JC = ~DC[6].DW*~DC[6].FW</rule>
+            <rule>DC[8].DW = DC[8].DW * ~DC[8].FW</rule>
+            <rule>DC[8].FW = DC[8].FW * ~DC[8].DW</rule>
+            <rule>DC[8].SB = DCQD[8DG].SB</rule>
+            <rule>DC[8].ZY = ~DCQD[8DG].ZY</rule>
+            <rule>DC[8].DS = DC[8].DS</rule>
+            <rule>DC[8].DF = DC[8].DF</rule>
+            <rule>XHAN[XLA].FS = JZXH[X].DF</rule>
+            <rule>XHAN[XTA].FS = JZXH[X].DF</rule>
+            <rule>XHAN[SLA].FS = JZXH[S].DF</rule>
+            <rule>XHAN[STA].FS = JZXH[S].DF</rule>
+            <rule>XHAN[SIIDA].FS = CZXH[SII].DF</rule>
+            <rule>XHAN[SIILA].FS = CZXH[SII].DF</rule>
+            <rule>XHAN[S1DA].FS = CZXH[S1].DF</rule>
+            <rule>XHAN[S1LA].FS = CZXH[S1].DF</rule>
+            <rule>XHAN[S3DA].FS = CZXH[S3].DF</rule>
+            <rule>XHAN[S3LA].FS = CZXH[S3].DF</rule>
+            <rule>XHAN[XIIDA].FS = CZXH[XII].DF</rule>
+            <rule>XHAN[XIILA].FS = CZXH[XII].DF</rule>
+            <rule>XHAN[X1DA].FS = CZXH[X1].DF</rule>
+            <rule>XHAN[X1LA].FS = CZXH[X1].DF</rule>
+            <rule>XHAN[X3DA].FS = CZXH[X3].DF</rule>
+            <rule>XHAN[X3LA].FS = CZXH[X3].DF</rule>
+            <rule>XHAN[D1A].FS = DCXH[D1].DF</rule>
+            <rule>XHAN[D3A].FS = DCXH[D3].DF</rule>
+            <rule>XHAN[D9A].FS = DCXH[D9].DF</rule>
+            <rule>XHAN[D5A].FS = DCXH[D5].DF</rule>
+            <rule>XHAN[D7A].FS = DCXH[D7].DF</rule>
+            <rule>XHAN[D11A].FS = DCXH[D11].DF</rule>
+            <rule>XHAN[D13A].FS = DCXH[D13].DF</rule>
+            <rule>XHAN[D15A].FS = DCXH[D15].DF</rule>
+            <rule>XHAN[D17A].FS = DCXH[D17].DF</rule>
+            <rule>XHAN[D19A].FS = DCXH[D19].DF</rule>
+            <rule>XHAN[D21A].FS = DCXH[D21].DF</rule>
+            <rule>XHAN[D23A].FS = DCXH[D23].DF</rule>
+            <rule>XHAN[D25A].FS = DCXH[D25].DF</rule>
+            <rule>XHAN[D2A].FS = DCXH[D2].DF</rule>
+            <rule>XHAN[D4A].FS = DCXH[D4].DF</rule>
+            <rule>DCAN[3/5CA].AX = DCAN[3/5CA].AX</rule>
+            <rule>DCAN[7/9CA].AX = DCAN[7/9CA].AX</rule>
+            <rule>DCAN[15/17CA].AX = DCAN[15/17CA].AX</rule>
+            <rule>DCAN[4/6CA].AX = DCAN[4/6CA].AX</rule>
+            <rule>BSD[熔丝报警].H = BSD[熔丝报警].H</rule>
+            <rule>BSD[X轨道停电].H = BSD[X轨道停电].H</rule>
+            <rule>BSD[S轨道停电].H = BSD[S轨道停电].H</rule>
+            <rule>BSD[主电源].L = BSD[主电源].L</rule>
+            <rule>BSD[副电源].U = BSD[副电源].U</rule>
+            <rule>BSD[X人解30秒].H = BSD[X人解30秒].H</rule>
+            <rule>BSD[X人解3分钟].H = BSD[X人解3分钟].H</rule>
+            <rule>BSD[X轨道故障报警].H = BSD[X轨道故障报警].H</rule>
+            <rule>BSD[允许转回分散自律].H = BSD[允许转回分散自律].H</rule>
+            <rule>BSD[非常站控].H = BSD[非常站控].H</rule>
+            <rule>BSD[网络连接1].H = BSD[网络连接1].H</rule>
+            <rule>BSD[网络连接2].H = BSD[网络连接2].H</rule>
+            <rule>BSD[分散自律].H = BSD[分散自律].H</rule>
+            <rule>BSD[移频报警].H = BSD[移频报警].H</rule>
+            <rule>BSD[控制方式].H = BSD[控制方式].H</rule>
+            <rule>BSD[S轨道故障报警].H = BSD[S轨道故障报警].H</rule>
+            <rule>BSD[S人解3分钟].H = BSD[S人解3分钟].H</rule>
+            <rule>BSD[S人解30秒].H = BSD[S人解30秒].H</rule>
+            <rule>BSD[S灯丝断丝].H = BSD[S灯丝断丝].H</rule>
+            <rule>BSD[X灯丝断丝].H = BSD[X灯丝断丝].H</rule>
+            <rule>BSD[S计轴停止灯].H = BSD[S计轴停止灯].H</rule>
+            <rule>BSD[S计轴使用灯].H = BSD[S计轴使用灯].H</rule>
+            <rule>BSD[S计轴复零灯].H = BSD[S计轴复零灯].H</rule>
+            <rule>BSD[S区轨].H = BSD[S区轨].H</rule>
+            <rule>BSD[X计轴停止灯].H = BSD[X计轴停止灯].H</rule>
+            <rule>BSD[X计轴使用灯].H = BSD[X计轴使用灯].H</rule>
+            <rule>BSD[X计轴复零灯].H = BSD[X计轴复零灯].H</rule>
+            <rule>BSD[X区轨].H = BSD[X区轨].H</rule>
+            <rule>BSD[电源屏故障报警].H = BSD[电源屏故障报警].H</rule>
+        </SpecialRules>
+        <Collect_DevDefine>
+            <DevType brief="DC" desc="道岔">
+                <DevState name="DB" desc="DB" />
+                <DevState name="FB" desc="FB" />
+                <DevState name="DS" desc="单锁" />
+                <DevState name="DF" desc="单封" />
+                <DevState name="引导总锁闭" desc="引导总锁闭" />
+                <DevState name="预排兰光带" desc="预排兰光带" />
+            </DevType>
+            <DevType brief="DCQD" desc="道岔区段">
+                <DevState name="ZY" desc="占用" />
+                <DevState name="SB" desc="锁闭" />
+            </DevType>
+            <DevType brief="WC" desc="无岔">
+                <DevState name="ZY" desc="占用" />
+                <DevState name="SB" desc="锁闭" />
+                <DevState name="DF" desc="单封" />
+            </DevType>
+            <DevType brief="QJ" desc="接近离去区段闭塞分区">
+                <DevState name="ZY" desc="占用" />
+                <DevState name="SB" desc="锁闭" />
+                <DevState name="DF" desc="单封" />
+            </DevType>
+            <DevType brief="GD" desc="股道">
+                <DevState name="ZY" desc="占用" />
+                <DevState name="SB" desc="锁闭" />
+                <DevState name="DF" desc="单封" />
+            </DevType>
+            <DevType brief="JZXH" desc="进站信号机">
+                <DevState name="H" desc="红" />
+                <DevState name="B" desc="白" />
+                <DevState name="U" desc="黄" />
+                <DevState name="UU" desc="黄黄" />
+                <DevState name="LU" desc="绿黄" />
+                <DevState name="L" desc="绿" />
+                <DevState name="HB" desc="红白" />
+                <DevState name="LL" desc="绿绿" />
+                <DevState name="SS" desc="SS" />
+                <DevState name="信号黄框" desc="信号黄框" />
+                <DevState name="3分钟" desc="3分钟" />
+                <DevState name="30秒" desc="30秒" />
+                <DevState name="10秒" desc="10秒" />
+                <DevState name="坡道延时解锁" desc="坡道延时解锁" />
+                <DevState name="DF" desc="DF" />
+            </DevType>
+            <DevType brief="XHAN" desc="信号按钮">
+                <DevState name="SS" desc="闪烁" />
+                <DevState name="KD" desc="KD" />
+                <DevState name="S" desc="S" />
+            </DevType>
+            <DevType brief="CZXH" desc="出站信号机（与出站兼调车信号机相同）">
+                <DevState name="H" desc="红" />
+                <DevState name="B" desc="白" />
+                <DevState name="U" desc="黄" />
+                <DevState name="UU" desc="黄黄" />
+                <DevState name="LU" desc="绿黄" />
+                <DevState name="L" desc="绿" />
+                <DevState name="HB" desc="红白" />
+                <DevState name="LL" desc="绿绿" />
+                <DevState name="SS" desc="SS" />
+                <DevState name="信号黄框" desc="信号黄框" />
+                <DevState name="3分钟" desc="3分钟" />
+                <DevState name="30秒" desc="30秒" />
+                <DevState name="10秒" desc="10秒" />
+                <DevState name="坡道延时解锁" desc="坡道延时解锁" />
+                <DevState name="DF" desc="DF" />
+            </DevType>
+            <DevType brief="DCXH" desc="调车信号机">
+                <DevState name="H" desc="红" />
+                <DevState name="B" desc="白" />
+                <DevState name="U" desc="U" />
+                <DevState name="UU" desc="UU" />
+                <DevState name="LU" desc="LU" />
+                <DevState name="L" desc="L" />
+                <DevState name="HB" desc="HB" />
+                <DevState name="LL" desc="LL" />
+                <DevState name="AS" desc="蓝闪" />
+                <DevState name="S" desc="S" />
+                <DevState name="KD" desc="KD" />
+                <DevState name="信号黄框" desc="信号黄框" />
+                <DevState name="3分钟" desc="3分钟" />
+                <DevState name="30秒" desc="30秒" />
+                <DevState name="10秒" desc="10秒" />
+                <DevState name="坡道延时解锁" desc="坡道延时解锁" />
+                <DevState name="DF" desc="DF" />
+            </DevType>
+            <DevType brief="GNAN" desc="功能按钮">
+                <DevState name="H" desc="H" />
+                <DevState name="B" desc="B" />
+                <DevState name="U" desc="U" />
+                <DevState name="UU" desc="UU" />
+                <DevState name="LU" desc="LU" />
+                <DevState name="L" desc="L" />
+                <DevState name="HB" desc="HB" />
+                <DevState name="LL" desc="LL" />
+                <DevState name="SS" desc="闪烁" />
+                <DevState name="S" desc="S" />
+                <DevState name="KD" desc="KD" />
+                <DevState name="信号黄框" desc="信号黄框" />
+                <DevState name="3分钟" desc="3分钟" />
+                <DevState name="30秒" desc="30秒" />
+                <DevState name="10秒" desc="10秒" />
+                <DevState name="坡道延时解锁" desc="坡道延时解锁" />
+                <DevState name="DF" desc="单封" />
+                <DevState name="KF" desc="开放" />
+                <DevState name="A" desc="A" />
+            </DevType>
+            <DevType brief="BSD" desc="表示灯">
+                <DevState name="KF" desc="开放" />
+                <DevState name="SS" desc="SS" />
+                <DevState name="H" desc="红" />
+                <DevState name="U" desc="黄" />
+                <DevState name="L" desc="绿" />
+                <DevState name="A" desc="蓝" />
+                <DevState name="B" desc="白" />
+            </DevType>
+        </Collect_DevDefine>
+        <DevInfoBits>
+            <bit pos="0" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="DB" />
+            <bit pos="1" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="FB" />
+            <bit pos="2" OneOrZeroValid="1" DevName="1DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="3" OneOrZeroValid="1" DevName="1DG" DevType="DCQD" DevState="SB" />
+            <bit pos="4" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="DS" />
+            <bit pos="5" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="DF" />
+            <bit pos="6" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="7" OneOrZeroValid="1" DevName="1" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="8" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="9" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="10" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="11" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="12" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="13" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="14" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="15" OneOrZeroValid="1" DevName="1" DevType="DC"  DevState="NULL" /-->
+            <bit pos="16" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="DB" />
+            <bit pos="17" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="FB" />
+            <bit pos="18" OneOrZeroValid="1" DevName="3DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="19" OneOrZeroValid="1" DevName="3DG" DevType="DCQD" DevState="SB" />
+            <bit pos="20" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="DS" />
+            <bit pos="21" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="DF" />
+            <bit pos="22" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="23" OneOrZeroValid="1" DevName="3" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="24" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="25" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="26" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="27" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="28" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="29" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="30" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="31" OneOrZeroValid="1" DevName="3" DevType="DC"  DevState="NULL" /-->
+            <bit pos="32" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="DB" />
+            <bit pos="33" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="FB" />
+            <bit pos="34" OneOrZeroValid="1" DevName="5DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="35" OneOrZeroValid="1" DevName="5DG" DevType="DCQD" DevState="SB" />
+            <bit pos="36" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="DS" />
+            <bit pos="37" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="DF" />
+            <bit pos="38" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="39" OneOrZeroValid="1" DevName="5" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="40" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="41" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="42" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="43" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="44" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="45" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="46" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="47" OneOrZeroValid="1" DevName="5" DevType="DC"  DevState="NULL" /-->
+            <bit pos="48" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="DB" />
+            <bit pos="49" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="FB" />
+            <bit pos="50" OneOrZeroValid="1" DevName="7DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="51" OneOrZeroValid="1" DevName="7DG" DevType="DCQD" DevState="SB" />
+            <bit pos="52" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="DS" />
+            <bit pos="53" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="DF" />
+            <bit pos="54" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="55" OneOrZeroValid="1" DevName="7" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="56" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="57" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="58" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="59" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="60" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="61" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="62" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="63" OneOrZeroValid="1" DevName="7" DevType="DC"  DevState="NULL" /-->
+            <bit pos="64" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="DB" />
+            <bit pos="65" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="FB" />
+            <bit pos="66" OneOrZeroValid="1" DevName="9DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="67" OneOrZeroValid="1" DevName="9DG" DevType="DCQD" DevState="SB" />
+            <bit pos="68" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="DS" />
+            <bit pos="69" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="DF" />
+            <bit pos="70" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="71" OneOrZeroValid="1" DevName="9" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="72" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="73" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="74" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="75" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="76" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="77" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="78" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="79" OneOrZeroValid="1" DevName="9" DevType="DC"  DevState="NULL" /-->
+            <bit pos="80" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="DB" />
+            <bit pos="81" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="FB" />
+            <bit pos="82" OneOrZeroValid="1" DevName="11DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="83" OneOrZeroValid="1" DevName="11DG" DevType="DCQD" DevState="SB" />
+            <bit pos="84" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="DS" />
+            <bit pos="85" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="DF" />
+            <bit pos="86" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="87" OneOrZeroValid="1" DevName="11" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="88" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="89" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="90" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="91" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="92" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="93" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="94" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="95" OneOrZeroValid="1" DevName="11" DevType="DC"  DevState="NULL" /-->
+            <bit pos="96" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="DB" />
+            <bit pos="97" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="FB" />
+            <bit pos="98" OneOrZeroValid="1" DevName="13DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="99" OneOrZeroValid="1" DevName="13DG" DevType="DCQD" DevState="SB" />
+            <bit pos="100" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="DS" />
+            <bit pos="101" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="DF" />
+            <bit pos="102" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="103" OneOrZeroValid="1" DevName="13" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="104" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="105" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="106" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="107" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="108" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="109" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="110" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="111" OneOrZeroValid="1" DevName="13" DevType="DC"  DevState="NULL" /-->
+            <bit pos="112" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="DB" />
+            <bit pos="113" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="FB" />
+            <bit pos="114" OneOrZeroValid="1" DevName="15DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="115" OneOrZeroValid="1" DevName="15DG" DevType="DCQD" DevState="SB" />
+            <bit pos="116" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="DS" />
+            <bit pos="117" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="DF" />
+            <bit pos="118" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="119" OneOrZeroValid="1" DevName="15" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="120" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="121" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="122" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="123" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="124" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="125" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="126" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="127" OneOrZeroValid="1" DevName="15" DevType="DC"  DevState="NULL" /-->
+            <bit pos="128" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="DB" />
+            <bit pos="129" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="FB" />
+            <bit pos="130" OneOrZeroValid="1" DevName="17DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="131" OneOrZeroValid="1" DevName="17DG" DevType="DCQD" DevState="SB" />
+            <bit pos="132" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="DS" />
+            <bit pos="133" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="DF" />
+            <bit pos="134" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="135" OneOrZeroValid="1" DevName="17" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="136" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="137" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="138" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="139" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="140" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="141" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="142" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="143" OneOrZeroValid="1" DevName="17" DevType="DC"  DevState="NULL" /-->
+            <bit pos="144" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="DB" />
+            <bit pos="145" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="FB" />
+            <bit pos="146" OneOrZeroValid="1" DevName="19DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="147" OneOrZeroValid="1" DevName="19DG" DevType="DCQD" DevState="SB" />
+            <bit pos="148" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="DS" />
+            <bit pos="149" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="DF" />
+            <bit pos="150" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="151" OneOrZeroValid="1" DevName="19" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="152" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="153" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="154" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="155" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="156" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="157" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="158" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="159" OneOrZeroValid="1" DevName="19" DevType="DC"  DevState="NULL" /-->
+            <bit pos="160" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="DB" />
+            <bit pos="161" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="FB" />
+            <bit pos="162" OneOrZeroValid="1" DevName="21DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="163" OneOrZeroValid="1" DevName="21DG" DevType="DCQD" DevState="SB" />
+            <bit pos="164" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="DS" />
+            <bit pos="165" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="DF" />
+            <bit pos="166" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="167" OneOrZeroValid="1" DevName="21" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="168" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="169" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="170" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="171" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="172" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="173" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="174" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="175" OneOrZeroValid="1" DevName="21" DevType="DC"  DevState="NULL" /-->
+            <bit pos="176" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="DB" />
+            <bit pos="177" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="FB" />
+            <bit pos="178" OneOrZeroValid="1" DevName="23DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="179" OneOrZeroValid="1" DevName="23DG" DevType="DCQD" DevState="SB" />
+            <bit pos="180" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="DS" />
+            <bit pos="181" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="DF" />
+            <bit pos="182" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="183" OneOrZeroValid="1" DevName="23" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="184" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="185" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="186" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="187" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="188" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="189" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="190" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="191" OneOrZeroValid="1" DevName="23" DevType="DC"  DevState="NULL" /-->
+            <bit pos="192" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="DB" />
+            <bit pos="193" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="FB" />
+            <bit pos="194" OneOrZeroValid="1" DevName="2DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="195" OneOrZeroValid="1" DevName="2DG" DevType="DCQD" DevState="SB" />
+            <bit pos="196" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="DS" />
+            <bit pos="197" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="DF" />
+            <bit pos="198" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="199" OneOrZeroValid="1" DevName="2" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="200" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="201" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="202" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="203" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="204" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="205" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="206" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="207" OneOrZeroValid="1" DevName="2" DevType="DC"  DevState="NULL" /-->
+            <bit pos="208" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="DB" />
+            <bit pos="209" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="FB" />
+            <bit pos="210" OneOrZeroValid="1" DevName="4DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="211" OneOrZeroValid="1" DevName="4DG" DevType="DCQD" DevState="SB" />
+            <bit pos="212" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="DS" />
+            <bit pos="213" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="DF" />
+            <bit pos="214" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="215" OneOrZeroValid="1" DevName="4" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="216" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="217" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="218" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="219" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="220" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="221" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="222" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="223" OneOrZeroValid="1" DevName="4" DevType="DC"  DevState="NULL" /-->
+            <bit pos="224" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="DB" />
+            <bit pos="225" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="FB" />
+            <bit pos="226" OneOrZeroValid="1" DevName="6DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="227" OneOrZeroValid="1" DevName="6DG" DevType="DCQD" DevState="SB" />
+            <bit pos="228" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="DS" />
+            <bit pos="229" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="DF" />
+            <bit pos="230" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="231" OneOrZeroValid="1" DevName="6" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="232" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="233" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="234" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="235" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="236" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="237" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="238" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="239" OneOrZeroValid="1" DevName="6" DevType="DC"  DevState="NULL" /-->
+            <bit pos="240" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="DB" />
+            <bit pos="241" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="FB" />
+            <bit pos="242" OneOrZeroValid="1" DevName="8DG" DevType="DCQD" DevState="ZY" />
+            <bit pos="243" OneOrZeroValid="1" DevName="8DG" DevType="DCQD" DevState="SB" />
+            <bit pos="244" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="DS" />
+            <bit pos="245" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="DF" />
+            <bit pos="246" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="引导总锁闭" />
+            <bit pos="247" OneOrZeroValid="1" DevName="8" DevType="DC" DevState="预排兰光带" />
+            <!--bit pos="248" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="249" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="250" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="251" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="252" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="253" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="254" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <!--bit pos="255" OneOrZeroValid="1" DevName="8" DevType="DC"  DevState="NULL" /-->
+            <bit pos="256" OneOrZeroValid="1" DevName="IIAG" DevType="WC" DevState="ZY" />
+            <bit pos="257" OneOrZeroValid="1" DevName="IIAG" DevType="WC" DevState="SB" />
+            <bit pos="258" OneOrZeroValid="1" DevName="IIAG" DevType="WC" DevState="DF" />
+            <!--bit pos="259" OneOrZeroValid="1" DevName="IIAG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="260" OneOrZeroValid="1" DevName="IIAG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="261" OneOrZeroValid="1" DevName="IIAG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="262" OneOrZeroValid="1" DevName="IIAG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="263" OneOrZeroValid="1" DevName="IIAG" DevType="WC"  DevState="NULL" /-->
+            <bit pos="264" OneOrZeroValid="1" DevName="IIBG" DevType="WC" DevState="ZY" />
+            <bit pos="265" OneOrZeroValid="1" DevName="IIBG" DevType="WC" DevState="SB" />
+            <bit pos="266" OneOrZeroValid="1" DevName="IIBG" DevType="WC" DevState="DF" />
+            <!--bit pos="267" OneOrZeroValid="1" DevName="IIBG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="268" OneOrZeroValid="1" DevName="IIBG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="269" OneOrZeroValid="1" DevName="IIBG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="270" OneOrZeroValid="1" DevName="IIBG" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="271" OneOrZeroValid="1" DevName="IIBG" DevType="WC"  DevState="NULL" /-->
+            <bit pos="272" OneOrZeroValid="1" DevName="D1G" DevType="WC" DevState="ZY" />
+            <bit pos="273" OneOrZeroValid="1" DevName="D1G" DevType="WC" DevState="SB" />
+            <bit pos="274" OneOrZeroValid="1" DevName="D1G" DevType="WC" DevState="DF" />
+            <!--bit pos="275" OneOrZeroValid="1" DevName="D1G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="276" OneOrZeroValid="1" DevName="D1G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="277" OneOrZeroValid="1" DevName="D1G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="278" OneOrZeroValid="1" DevName="D1G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="279" OneOrZeroValid="1" DevName="D1G" DevType="WC"  DevState="NULL" /-->
+            <bit pos="280" OneOrZeroValid="1" DevName="D7G" DevType="WC" DevState="ZY" />
+            <bit pos="281" OneOrZeroValid="1" DevName="D7G" DevType="WC" DevState="SB" />
+            <bit pos="282" OneOrZeroValid="1" DevName="D7G" DevType="WC" DevState="DF" />
+            <!--bit pos="283" OneOrZeroValid="1" DevName="D7G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="284" OneOrZeroValid="1" DevName="D7G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="285" OneOrZeroValid="1" DevName="D7G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="286" OneOrZeroValid="1" DevName="D7G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="287" OneOrZeroValid="1" DevName="D7G" DevType="WC"  DevState="NULL" /-->
+            <bit pos="288" OneOrZeroValid="1" DevName="D15G" DevType="WC" DevState="ZY" />
+            <bit pos="289" OneOrZeroValid="1" DevName="D15G" DevType="WC" DevState="SB" />
+            <bit pos="290" OneOrZeroValid="1" DevName="D15G" DevType="WC" DevState="DF" />
+            <!--bit pos="291" OneOrZeroValid="1" DevName="D15G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="292" OneOrZeroValid="1" DevName="D15G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="293" OneOrZeroValid="1" DevName="D15G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="294" OneOrZeroValid="1" DevName="D15G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="295" OneOrZeroValid="1" DevName="D15G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="296" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="H" /-->
+            <!--bit pos="297" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="B" /-->
+            <!--bit pos="298" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="DF" /-->
+            <!--bit pos="299" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="NULL" /-->
+            <!--bit pos="300" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="NULL" /-->
+            <!--bit pos="301" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="NULL" /-->
+            <!--bit pos="302" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="NULL" /-->
+            <!--bit pos="303" OneOrZeroValid="1" DevName="9_21G" DevType="未知"  DevState="NULL" /-->
+            <bit pos="304" OneOrZeroValid="1" DevName="D25G" DevType="WC" DevState="ZY" />
+            <bit pos="305" OneOrZeroValid="1" DevName="D25G" DevType="WC" DevState="SB" />
+            <bit pos="306" OneOrZeroValid="1" DevName="D25G" DevType="WC" DevState="DF" />
+            <!--bit pos="307" OneOrZeroValid="1" DevName="D25G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="308" OneOrZeroValid="1" DevName="D25G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="309" OneOrZeroValid="1" DevName="D25G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="310" OneOrZeroValid="1" DevName="D25G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="311" OneOrZeroValid="1" DevName="D25G" DevType="WC"  DevState="NULL" /-->
+            <bit pos="312" OneOrZeroValid="1" DevName="D23G" DevType="WC" DevState="ZY" />
+            <bit pos="313" OneOrZeroValid="1" DevName="D23G" DevType="WC" DevState="SB" />
+            <bit pos="314" OneOrZeroValid="1" DevName="D23G" DevType="WC" DevState="DF" />
+            <!--bit pos="315" OneOrZeroValid="1" DevName="D23G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="316" OneOrZeroValid="1" DevName="D23G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="317" OneOrZeroValid="1" DevName="D23G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="318" OneOrZeroValid="1" DevName="D23G" DevType="WC"  DevState="NULL" /-->
+            <!--bit pos="319" OneOrZeroValid="1" DevName="D23G" DevType="WC"  DevState="NULL" /-->
+            <bit pos="320" OneOrZeroValid="1" DevName="XJG" DevType="QJ" DevState="ZY" />
+            <bit pos="321" OneOrZeroValid="1" DevName="XJG" DevType="QJ" DevState="SB" />
+            <bit pos="322" OneOrZeroValid="1" DevName="XJG" DevType="QJ" DevState="DF" />
+            <!--bit pos="323" OneOrZeroValid="1" DevName="XJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="324" OneOrZeroValid="1" DevName="XJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="325" OneOrZeroValid="1" DevName="XJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="326" OneOrZeroValid="1" DevName="XJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="327" OneOrZeroValid="1" DevName="XJG" DevType="QJ"  DevState="NULL" /-->
+            <bit pos="328" OneOrZeroValid="1" DevName="SJG" DevType="QJ" DevState="ZY" />
+            <bit pos="329" OneOrZeroValid="1" DevName="SJG" DevType="QJ" DevState="SB" />
+            <bit pos="330" OneOrZeroValid="1" DevName="SJG" DevType="QJ" DevState="DF" />
+            <!--bit pos="331" OneOrZeroValid="1" DevName="SJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="332" OneOrZeroValid="1" DevName="SJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="333" OneOrZeroValid="1" DevName="SJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="334" OneOrZeroValid="1" DevName="SJG" DevType="QJ"  DevState="NULL" /-->
+            <!--bit pos="335" OneOrZeroValid="1" DevName="SJG" DevType="QJ"  DevState="NULL" /-->
+            <bit pos="336" OneOrZeroValid="1" DevName="IIG" DevType="GD" DevState="ZY" />
+            <bit pos="337" OneOrZeroValid="1" DevName="IIG" DevType="GD" DevState="SB" />
+            <bit pos="338" OneOrZeroValid="1" DevName="IIG" DevType="GD" DevState="DF" />
+            <!--bit pos="339" OneOrZeroValid="1" DevName="IIG" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="340" OneOrZeroValid="1" DevName="IIG" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="341" OneOrZeroValid="1" DevName="IIG" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="342" OneOrZeroValid="1" DevName="IIG" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="343" OneOrZeroValid="1" DevName="IIG" DevType="GD"  DevState="NULL" /-->
+            <bit pos="344" OneOrZeroValid="1" DevName="3G" DevType="GD" DevState="ZY" />
+            <bit pos="345" OneOrZeroValid="1" DevName="3G" DevType="GD" DevState="SB" />
+            <bit pos="346" OneOrZeroValid="1" DevName="3G" DevType="GD" DevState="DF" />
+            <!--bit pos="347" OneOrZeroValid="1" DevName="3G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="348" OneOrZeroValid="1" DevName="3G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="349" OneOrZeroValid="1" DevName="3G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="350" OneOrZeroValid="1" DevName="3G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="351" OneOrZeroValid="1" DevName="3G" DevType="GD"  DevState="NULL" /-->
+            <bit pos="352" OneOrZeroValid="1" DevName="1G" DevType="GD" DevState="ZY" />
+            <bit pos="353" OneOrZeroValid="1" DevName="1G" DevType="GD" DevState="SB" />
+            <bit pos="354" OneOrZeroValid="1" DevName="1G" DevType="GD" DevState="DF" />
+            <!--bit pos="355" OneOrZeroValid="1" DevName="1G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="356" OneOrZeroValid="1" DevName="1G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="357" OneOrZeroValid="1" DevName="1G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="358" OneOrZeroValid="1" DevName="1G" DevType="GD"  DevState="NULL" /-->
+            <!--bit pos="359" OneOrZeroValid="1" DevName="1G" DevType="GD"  DevState="NULL" /-->
+            <bit pos="360" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="H" />
+            <bit pos="361" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="B" />
+            <bit pos="362" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="U" />
+            <bit pos="363" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="UU" />
+            <bit pos="364" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="LU" />
+            <bit pos="365" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="L" />
+            <bit pos="366" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="HB" />
+            <bit pos="367" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="LL" />
+            <bit pos="368" OneOrZeroValid="1" DevName="XLA" DevType="XHAN" DevState="SS" />
+            <bit pos="369" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="SS" />
+            <!--bit pos="370" OneOrZeroValid="1" DevName="XDZA" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="371" OneOrZeroValid="1" DevName="XDZA" DevType="未知"  DevState="S" /-->
+            <bit pos="372" OneOrZeroValid="1" DevName="XLA" DevType="XHAN" DevState="KD" />
+            <bit pos="373" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="信号黄框" />
+            <bit pos="374" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="3分钟" />
+            <bit pos="375" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="30秒" />
+            <bit pos="376" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="10秒" />
+            <bit pos="377" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="坡道延时解锁" />
+            <bit pos="378" OneOrZeroValid="1" DevName="X" DevType="JZXH" DevState="DF" />
+            <!--bit pos="379" OneOrZeroValid="1" DevName="X" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="380" OneOrZeroValid="1" DevName="X" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="381" OneOrZeroValid="1" DevName="X" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="382" OneOrZeroValid="1" DevName="X" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="383" OneOrZeroValid="1" DevName="X" DevType="JZXH"  DevState="NULL" /-->
+            <bit pos="384" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="H" />
+            <bit pos="385" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="B" />
+            <bit pos="386" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="U" />
+            <bit pos="387" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="UU" />
+            <bit pos="388" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="LU" />
+            <bit pos="389" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="L" />
+            <bit pos="390" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="HB" />
+            <bit pos="391" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="LL" />
+            <bit pos="392" OneOrZeroValid="1" DevName="SLA" DevType="XHAN" DevState="SS" />
+            <bit pos="393" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="SS" />
+            <!--bit pos="394" OneOrZeroValid="1" DevName="SDZA" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="395" OneOrZeroValid="1" DevName="SDZA" DevType="未知"  DevState="S" /-->
+            <bit pos="396" OneOrZeroValid="1" DevName="SLA" DevType="XHAN" DevState="KD" />
+            <bit pos="397" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="信号黄框" />
+            <bit pos="398" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="3分钟" />
+            <bit pos="399" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="30秒" />
+            <bit pos="400" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="10秒" />
+            <bit pos="401" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="坡道延时解锁" />
+            <bit pos="402" OneOrZeroValid="1" DevName="S" DevType="JZXH" DevState="DF" />
+            <!--bit pos="403" OneOrZeroValid="1" DevName="S" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="404" OneOrZeroValid="1" DevName="S" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="405" OneOrZeroValid="1" DevName="S" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="406" OneOrZeroValid="1" DevName="S" DevType="JZXH"  DevState="NULL" /-->
+            <!--bit pos="407" OneOrZeroValid="1" DevName="S" DevType="JZXH"  DevState="NULL" /-->
+            <bit pos="408" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="H" />
+            <bit pos="409" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="B" />
+            <bit pos="410" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="U" />
+            <bit pos="411" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="UU" />
+            <bit pos="412" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="LU" />
+            <bit pos="413" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="L" />
+            <bit pos="414" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="HB" />
+            <bit pos="415" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="LL" />
+            <bit pos="416" OneOrZeroValid="1" DevName="X3LA" DevType="XHAN" DevState="SS" />
+            <bit pos="417" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="SS" />
+            <bit pos="418" OneOrZeroValid="1" DevName="X3DA" DevType="XHAN" DevState="SS" />
+            <bit pos="419" OneOrZeroValid="1" DevName="X3DA" DevType="XHAN" DevState="S" />
+            <bit pos="420" OneOrZeroValid="1" DevName="X3LA" DevType="XHAN" DevState="KD" />
+            <bit pos="421" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="422" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="3分钟" />
+            <bit pos="423" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="30秒" />
+            <bit pos="424" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="10秒" />
+            <bit pos="425" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="426" OneOrZeroValid="1" DevName="X3" DevType="CZXH" DevState="DF" />
+            <!--bit pos="427" OneOrZeroValid="1" DevName="X3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="428" OneOrZeroValid="1" DevName="X3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="429" OneOrZeroValid="1" DevName="X3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="430" OneOrZeroValid="1" DevName="X3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="431" OneOrZeroValid="1" DevName="X3" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="432" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="H" />
+            <bit pos="433" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="B" />
+            <bit pos="434" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="U" />
+            <bit pos="435" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="UU" />
+            <bit pos="436" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="LU" />
+            <bit pos="437" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="L" />
+            <bit pos="438" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="HB" />
+            <bit pos="439" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="LL" />
+            <bit pos="440" OneOrZeroValid="1" DevName="XIILA" DevType="XHAN" DevState="SS" />
+            <bit pos="441" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="SS" />
+            <bit pos="442" OneOrZeroValid="1" DevName="XIIDA" DevType="XHAN" DevState="SS" />
+            <bit pos="443" OneOrZeroValid="1" DevName="XIIDA" DevType="XHAN" DevState="S" />
+            <bit pos="444" OneOrZeroValid="1" DevName="XIILA" DevType="XHAN" DevState="KD" />
+            <bit pos="445" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="446" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="3分钟" />
+            <bit pos="447" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="30秒" />
+            <bit pos="448" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="10秒" />
+            <bit pos="449" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="450" OneOrZeroValid="1" DevName="XII" DevType="CZXH" DevState="DF" />
+            <!--bit pos="451" OneOrZeroValid="1" DevName="XII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="452" OneOrZeroValid="1" DevName="XII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="453" OneOrZeroValid="1" DevName="XII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="454" OneOrZeroValid="1" DevName="XII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="455" OneOrZeroValid="1" DevName="XII" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="456" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="H" />
+            <bit pos="457" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="B" />
+            <bit pos="458" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="U" />
+            <bit pos="459" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="UU" />
+            <bit pos="460" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="LU" />
+            <bit pos="461" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="L" />
+            <bit pos="462" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="HB" />
+            <bit pos="463" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="LL" />
+            <bit pos="464" OneOrZeroValid="1" DevName="X1LA" DevType="XHAN" DevState="SS" />
+            <bit pos="465" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="SS" />
+            <bit pos="466" OneOrZeroValid="1" DevName="X1DA" DevType="XHAN" DevState="SS" />
+            <bit pos="467" OneOrZeroValid="1" DevName="X1DA" DevType="XHAN" DevState="S" />
+            <bit pos="468" OneOrZeroValid="1" DevName="X1LA" DevType="XHAN" DevState="KD" />
+            <bit pos="469" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="470" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="3分钟" />
+            <bit pos="471" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="30秒" />
+            <bit pos="472" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="10秒" />
+            <bit pos="473" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="474" OneOrZeroValid="1" DevName="X1" DevType="CZXH" DevState="DF" />
+            <!--bit pos="475" OneOrZeroValid="1" DevName="X1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="476" OneOrZeroValid="1" DevName="X1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="477" OneOrZeroValid="1" DevName="X1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="478" OneOrZeroValid="1" DevName="X1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="479" OneOrZeroValid="1" DevName="X1" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="480" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="H" />
+            <bit pos="481" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="B" />
+            <bit pos="482" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="U" />
+            <bit pos="483" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="UU" />
+            <bit pos="484" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="LU" />
+            <bit pos="485" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="L" />
+            <bit pos="486" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="HB" />
+            <bit pos="487" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="LL" />
+            <bit pos="488" OneOrZeroValid="1" DevName="SIILA" DevType="XHAN" DevState="SS" />
+            <bit pos="489" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="SS" />
+            <bit pos="490" OneOrZeroValid="1" DevName="SIIDA" DevType="XHAN" DevState="SS" />
+            <bit pos="491" OneOrZeroValid="1" DevName="SIIDA" DevType="XHAN" DevState="S" />
+            <bit pos="492" OneOrZeroValid="1" DevName="SIILA" DevType="XHAN" DevState="KD" />
+            <bit pos="493" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="494" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="3分钟" />
+            <bit pos="495" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="30秒" />
+            <bit pos="496" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="10秒" />
+            <bit pos="497" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="498" OneOrZeroValid="1" DevName="SII" DevType="CZXH" DevState="DF" />
+            <!--bit pos="499" OneOrZeroValid="1" DevName="SII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="500" OneOrZeroValid="1" DevName="SII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="501" OneOrZeroValid="1" DevName="SII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="502" OneOrZeroValid="1" DevName="SII" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="503" OneOrZeroValid="1" DevName="SII" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="504" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="H" />
+            <bit pos="505" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="B" />
+            <bit pos="506" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="U" />
+            <bit pos="507" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="UU" />
+            <bit pos="508" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="LU" />
+            <bit pos="509" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="L" />
+            <bit pos="510" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="HB" />
+            <bit pos="511" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="LL" />
+            <bit pos="512" OneOrZeroValid="1" DevName="S3LA" DevType="XHAN" DevState="SS" />
+            <bit pos="513" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="SS" />
+            <bit pos="514" OneOrZeroValid="1" DevName="S3DA" DevType="XHAN" DevState="SS" />
+            <bit pos="515" OneOrZeroValid="1" DevName="S3DA" DevType="XHAN" DevState="S" />
+            <bit pos="516" OneOrZeroValid="1" DevName="S3LA" DevType="XHAN" DevState="KD" />
+            <bit pos="517" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="518" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="3分钟" />
+            <bit pos="519" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="30秒" />
+            <bit pos="520" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="10秒" />
+            <bit pos="521" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="522" OneOrZeroValid="1" DevName="S3" DevType="CZXH" DevState="DF" />
+            <!--bit pos="523" OneOrZeroValid="1" DevName="S3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="524" OneOrZeroValid="1" DevName="S3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="525" OneOrZeroValid="1" DevName="S3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="526" OneOrZeroValid="1" DevName="S3" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="527" OneOrZeroValid="1" DevName="S3" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="528" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="H" />
+            <bit pos="529" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="B" />
+            <bit pos="530" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="U" />
+            <bit pos="531" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="UU" />
+            <bit pos="532" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="LU" />
+            <bit pos="533" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="L" />
+            <bit pos="534" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="HB" />
+            <bit pos="535" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="LL" />
+            <bit pos="536" OneOrZeroValid="1" DevName="S1LA" DevType="XHAN" DevState="SS" />
+            <bit pos="537" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="SS" />
+            <bit pos="538" OneOrZeroValid="1" DevName="S1DA" DevType="XHAN" DevState="SS" />
+            <bit pos="539" OneOrZeroValid="1" DevName="S1DA" DevType="XHAN" DevState="S" />
+            <bit pos="540" OneOrZeroValid="1" DevName="S1LA" DevType="XHAN" DevState="KD" />
+            <bit pos="541" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="信号黄框" />
+            <bit pos="542" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="3分钟" />
+            <bit pos="543" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="30秒" />
+            <bit pos="544" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="10秒" />
+            <bit pos="545" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="坡道延时解锁" />
+            <bit pos="546" OneOrZeroValid="1" DevName="S1" DevType="CZXH" DevState="DF" />
+            <!--bit pos="547" OneOrZeroValid="1" DevName="S1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="548" OneOrZeroValid="1" DevName="S1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="549" OneOrZeroValid="1" DevName="S1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="550" OneOrZeroValid="1" DevName="S1" DevType="CZXH"  DevState="NULL" /-->
+            <!--bit pos="551" OneOrZeroValid="1" DevName="S1" DevType="CZXH"  DevState="NULL" /-->
+            <bit pos="552" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="H" />
+            <bit pos="553" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="B" />
+            <bit pos="554" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="U" />
+            <bit pos="555" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="UU" />
+            <bit pos="556" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="LU" />
+            <bit pos="557" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="L" />
+            <bit pos="558" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="HB" />
+            <bit pos="559" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="LL" />
+            <!--bit pos="560" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="561" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="AS" />
+            <bit pos="562" OneOrZeroValid="1" DevName="D1A" DevType="XHAN" DevState="SS" />
+            <bit pos="563" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="S" />
+            <bit pos="564" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="KD" />
+            <bit pos="565" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="566" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="3分钟" />
+            <bit pos="567" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="30秒" />
+            <bit pos="568" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="10秒" />
+            <bit pos="569" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="570" OneOrZeroValid="1" DevName="D1" DevType="DCXH" DevState="DF" />
+            <!--bit pos="571" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="572" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="573" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="574" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="575" OneOrZeroValid="1" DevName="D1" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="576" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="H" />
+            <bit pos="577" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="B" />
+            <bit pos="578" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="U" />
+            <bit pos="579" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="UU" />
+            <bit pos="580" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="LU" />
+            <bit pos="581" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="L" />
+            <bit pos="582" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="HB" />
+            <bit pos="583" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="LL" />
+            <!--bit pos="584" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="585" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="AS" />
+            <bit pos="586" OneOrZeroValid="1" DevName="D3A" DevType="XHAN" DevState="SS" />
+            <bit pos="587" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="S" />
+            <bit pos="588" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="KD" />
+            <bit pos="589" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="590" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="3分钟" />
+            <bit pos="591" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="30秒" />
+            <bit pos="592" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="10秒" />
+            <bit pos="593" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="594" OneOrZeroValid="1" DevName="D3" DevType="DCXH" DevState="DF" />
+            <!--bit pos="595" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="596" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="597" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="598" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="599" OneOrZeroValid="1" DevName="D3" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="600" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="H" />
+            <bit pos="601" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="B" />
+            <bit pos="602" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="U" />
+            <bit pos="603" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="UU" />
+            <bit pos="604" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="LU" />
+            <bit pos="605" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="L" />
+            <bit pos="606" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="HB" />
+            <bit pos="607" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="LL" />
+            <!--bit pos="608" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="609" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="AS" />
+            <bit pos="610" OneOrZeroValid="1" DevName="D5A" DevType="XHAN" DevState="SS" />
+            <bit pos="611" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="S" />
+            <bit pos="612" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="KD" />
+            <bit pos="613" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="614" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="3分钟" />
+            <bit pos="615" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="30秒" />
+            <bit pos="616" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="10秒" />
+            <bit pos="617" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="618" OneOrZeroValid="1" DevName="D5" DevType="DCXH" DevState="DF" />
+            <!--bit pos="619" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="620" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="621" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="622" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="623" OneOrZeroValid="1" DevName="D5" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="624" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="H" />
+            <bit pos="625" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="B" />
+            <bit pos="626" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="U" />
+            <bit pos="627" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="UU" />
+            <bit pos="628" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="LU" />
+            <bit pos="629" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="L" />
+            <bit pos="630" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="HB" />
+            <bit pos="631" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="LL" />
+            <!--bit pos="632" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="633" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="AS" />
+            <bit pos="634" OneOrZeroValid="1" DevName="D7A" DevType="XHAN" DevState="SS" />
+            <bit pos="635" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="S" />
+            <bit pos="636" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="KD" />
+            <bit pos="637" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="638" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="3分钟" />
+            <bit pos="639" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="30秒" />
+            <bit pos="640" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="10秒" />
+            <bit pos="641" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="642" OneOrZeroValid="1" DevName="D7" DevType="DCXH" DevState="DF" />
+            <!--bit pos="643" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="644" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="645" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="646" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="647" OneOrZeroValid="1" DevName="D7" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="648" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="H" />
+            <bit pos="649" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="B" />
+            <bit pos="650" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="U" />
+            <bit pos="651" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="UU" />
+            <bit pos="652" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="LU" />
+            <bit pos="653" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="L" />
+            <bit pos="654" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="HB" />
+            <bit pos="655" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="LL" />
+            <!--bit pos="656" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="657" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="AS" />
+            <bit pos="658" OneOrZeroValid="1" DevName="D9A" DevType="XHAN" DevState="SS" />
+            <bit pos="659" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="S" />
+            <bit pos="660" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="KD" />
+            <bit pos="661" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="662" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="3分钟" />
+            <bit pos="663" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="30秒" />
+            <bit pos="664" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="10秒" />
+            <bit pos="665" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="666" OneOrZeroValid="1" DevName="D9" DevType="DCXH" DevState="DF" />
+            <!--bit pos="667" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="668" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="669" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="670" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="671" OneOrZeroValid="1" DevName="D9" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="672" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="H" />
+            <bit pos="673" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="B" />
+            <bit pos="674" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="U" />
+            <bit pos="675" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="UU" />
+            <bit pos="676" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="LU" />
+            <bit pos="677" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="L" />
+            <bit pos="678" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="HB" />
+            <bit pos="679" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="LL" />
+            <!--bit pos="680" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="681" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="AS" />
+            <bit pos="682" OneOrZeroValid="1" DevName="D11A" DevType="XHAN" DevState="SS" />
+            <bit pos="683" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="S" />
+            <bit pos="684" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="KD" />
+            <bit pos="685" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="686" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="3分钟" />
+            <bit pos="687" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="30秒" />
+            <bit pos="688" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="10秒" />
+            <bit pos="689" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="690" OneOrZeroValid="1" DevName="D11" DevType="DCXH" DevState="DF" />
+            <!--bit pos="691" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="692" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="693" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="694" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="695" OneOrZeroValid="1" DevName="D11" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="696" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="H" />
+            <bit pos="697" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="B" />
+            <bit pos="698" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="U" />
+            <bit pos="699" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="UU" />
+            <bit pos="700" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="LU" />
+            <bit pos="701" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="L" />
+            <bit pos="702" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="HB" />
+            <bit pos="703" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="LL" />
+            <!--bit pos="704" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="705" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="AS" />
+            <bit pos="706" OneOrZeroValid="1" DevName="D13A" DevType="XHAN" DevState="SS" />
+            <bit pos="707" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="S" />
+            <bit pos="708" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="KD" />
+            <bit pos="709" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="710" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="3分钟" />
+            <bit pos="711" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="30秒" />
+            <bit pos="712" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="10秒" />
+            <bit pos="713" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="714" OneOrZeroValid="1" DevName="D13" DevType="DCXH" DevState="DF" />
+            <!--bit pos="715" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="716" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="717" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="718" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="719" OneOrZeroValid="1" DevName="D13" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="720" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="H" />
+            <bit pos="721" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="B" />
+            <bit pos="722" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="U" />
+            <bit pos="723" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="UU" />
+            <bit pos="724" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="LU" />
+            <bit pos="725" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="L" />
+            <bit pos="726" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="HB" />
+            <bit pos="727" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="LL" />
+            <!--bit pos="728" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="729" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="AS" />
+            <bit pos="730" OneOrZeroValid="1" DevName="D15A" DevType="XHAN" DevState="SS" />
+            <bit pos="731" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="S" />
+            <bit pos="732" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="KD" />
+            <bit pos="733" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="734" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="3分钟" />
+            <bit pos="735" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="30秒" />
+            <bit pos="736" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="10秒" />
+            <bit pos="737" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="738" OneOrZeroValid="1" DevName="D15" DevType="DCXH" DevState="DF" />
+            <!--bit pos="739" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="740" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="741" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="742" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="743" OneOrZeroValid="1" DevName="D15" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="744" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="H" />
+            <bit pos="745" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="B" />
+            <bit pos="746" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="U" />
+            <bit pos="747" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="UU" />
+            <bit pos="748" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="LU" />
+            <bit pos="749" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="L" />
+            <bit pos="750" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="HB" />
+            <bit pos="751" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="LL" />
+            <!--bit pos="752" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="753" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="AS" />
+            <bit pos="754" OneOrZeroValid="1" DevName="D17A" DevType="XHAN" DevState="SS" />
+            <bit pos="755" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="S" />
+            <bit pos="756" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="KD" />
+            <bit pos="757" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="758" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="3分钟" />
+            <bit pos="759" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="30秒" />
+            <bit pos="760" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="10秒" />
+            <bit pos="761" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="762" OneOrZeroValid="1" DevName="D17" DevType="DCXH" DevState="DF" />
+            <!--bit pos="763" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="764" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="765" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="766" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="767" OneOrZeroValid="1" DevName="D17" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="768" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="H" />
+            <bit pos="769" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="B" />
+            <bit pos="770" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="U" />
+            <bit pos="771" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="UU" />
+            <bit pos="772" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="LU" />
+            <bit pos="773" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="L" />
+            <bit pos="774" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="HB" />
+            <bit pos="775" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="LL" />
+            <!--bit pos="776" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="777" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="AS" />
+            <bit pos="778" OneOrZeroValid="1" DevName="D19A" DevType="XHAN" DevState="SS" />
+            <bit pos="779" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="S" />
+            <bit pos="780" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="KD" />
+            <bit pos="781" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="782" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="3分钟" />
+            <bit pos="783" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="30秒" />
+            <bit pos="784" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="10秒" />
+            <bit pos="785" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="786" OneOrZeroValid="1" DevName="D19" DevType="DCXH" DevState="DF" />
+            <!--bit pos="787" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="788" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="789" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="790" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="791" OneOrZeroValid="1" DevName="D19" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="792" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="H" />
+            <bit pos="793" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="B" />
+            <bit pos="794" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="U" />
+            <bit pos="795" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="UU" />
+            <bit pos="796" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="LU" />
+            <bit pos="797" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="L" />
+            <bit pos="798" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="HB" />
+            <bit pos="799" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="LL" />
+            <!--bit pos="800" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="801" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="AS" />
+            <bit pos="802" OneOrZeroValid="1" DevName="D21A" DevType="XHAN" DevState="SS" />
+            <bit pos="803" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="S" />
+            <bit pos="804" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="KD" />
+            <bit pos="805" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="806" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="3分钟" />
+            <bit pos="807" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="30秒" />
+            <bit pos="808" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="10秒" />
+            <bit pos="809" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="810" OneOrZeroValid="1" DevName="D21" DevType="DCXH" DevState="DF" />
+            <!--bit pos="811" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="812" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="813" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="814" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="815" OneOrZeroValid="1" DevName="D21" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="816" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="H" />
+            <bit pos="817" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="B" />
+            <bit pos="818" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="U" />
+            <bit pos="819" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="UU" />
+            <bit pos="820" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="LU" />
+            <bit pos="821" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="L" />
+            <bit pos="822" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="HB" />
+            <bit pos="823" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="LL" />
+            <!--bit pos="824" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="825" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="AS" />
+            <bit pos="826" OneOrZeroValid="1" DevName="D23A" DevType="XHAN" DevState="SS" />
+            <bit pos="827" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="S" />
+            <bit pos="828" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="KD" />
+            <bit pos="829" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="830" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="3分钟" />
+            <bit pos="831" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="30秒" />
+            <bit pos="832" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="10秒" />
+            <bit pos="833" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="834" OneOrZeroValid="1" DevName="D23" DevType="DCXH" DevState="DF" />
+            <!--bit pos="835" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="836" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="837" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="838" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="839" OneOrZeroValid="1" DevName="D23" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="840" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="H" />
+            <bit pos="841" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="B" />
+            <bit pos="842" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="U" />
+            <bit pos="843" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="UU" />
+            <bit pos="844" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="LU" />
+            <bit pos="845" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="L" />
+            <bit pos="846" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="HB" />
+            <bit pos="847" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="LL" />
+            <!--bit pos="848" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="849" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="AS" />
+            <bit pos="850" OneOrZeroValid="1" DevName="D25A" DevType="XHAN" DevState="SS" />
+            <bit pos="851" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="S" />
+            <bit pos="852" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="KD" />
+            <bit pos="853" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="854" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="3分钟" />
+            <bit pos="855" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="30秒" />
+            <bit pos="856" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="10秒" />
+            <bit pos="857" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="858" OneOrZeroValid="1" DevName="D25" DevType="DCXH" DevState="DF" />
+            <!--bit pos="859" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="860" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="861" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="862" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="863" OneOrZeroValid="1" DevName="D25" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="864" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="H" />
+            <bit pos="865" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="B" />
+            <bit pos="866" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="U" />
+            <bit pos="867" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="UU" />
+            <bit pos="868" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="LU" />
+            <bit pos="869" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="L" />
+            <bit pos="870" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="HB" />
+            <bit pos="871" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="LL" />
+            <!--bit pos="872" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="873" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="AS" />
+            <bit pos="874" OneOrZeroValid="1" DevName="D2A" DevType="XHAN" DevState="SS" />
+            <bit pos="875" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="S" />
+            <bit pos="876" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="KD" />
+            <bit pos="877" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="878" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="3分钟" />
+            <bit pos="879" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="30秒" />
+            <bit pos="880" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="10秒" />
+            <bit pos="881" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="882" OneOrZeroValid="1" DevName="D2" DevType="DCXH" DevState="DF" />
+            <!--bit pos="883" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="884" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="885" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="886" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="887" OneOrZeroValid="1" DevName="D2" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="888" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="H" />
+            <bit pos="889" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="B" />
+            <bit pos="890" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="U" />
+            <bit pos="891" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="UU" />
+            <bit pos="892" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="LU" />
+            <bit pos="893" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="L" />
+            <bit pos="894" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="HB" />
+            <bit pos="895" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="LL" />
+            <!--bit pos="896" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="897" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="AS" />
+            <bit pos="898" OneOrZeroValid="1" DevName="D4A" DevType="XHAN" DevState="SS" />
+            <bit pos="899" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="S" />
+            <bit pos="900" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="KD" />
+            <bit pos="901" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="信号黄框" />
+            <bit pos="902" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="3分钟" />
+            <bit pos="903" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="30秒" />
+            <bit pos="904" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="10秒" />
+            <bit pos="905" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="坡道延时解锁" />
+            <bit pos="906" OneOrZeroValid="1" DevName="D4" DevType="DCXH" DevState="DF" />
+            <!--bit pos="907" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="908" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="909" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="910" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <!--bit pos="911" OneOrZeroValid="1" DevName="D4" DevType="DCXH"  DevState="NULL" /-->
+            <bit pos="912" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="H" />
+            <bit pos="913" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="B" />
+            <bit pos="914" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="U" />
+            <bit pos="915" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="UU" />
+            <bit pos="916" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="LU" />
+            <bit pos="917" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="L" />
+            <bit pos="918" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="HB" />
+            <bit pos="919" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="LL" />
+            <!--bit pos="920" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <bit pos="921" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="SS" />
+            <!--bit pos="922" OneOrZeroValid="1" DevName="APAA" DevType="未知"  DevState="SS" /-->
+            <bit pos="923" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="S" />
+            <bit pos="924" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="KD" />
+            <bit pos="925" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="信号黄框" />
+            <bit pos="926" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="3分钟" />
+            <bit pos="927" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="30秒" />
+            <bit pos="928" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="10秒" />
+            <bit pos="929" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="坡道延时解锁" />
+            <bit pos="930" OneOrZeroValid="1" DevName="APA" DevType="GNAN" DevState="DF" />
+            <!--bit pos="931" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <!--bit pos="932" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <!--bit pos="933" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <!--bit pos="934" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <!--bit pos="935" OneOrZeroValid="1" DevName="APA" DevType="GNAN"  DevState="NULL" /-->
+            <!--bit pos="936" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="937" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="938" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="H" /-->
+            <!--bit pos="939" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="940" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="L" /-->
+            <!--bit pos="941" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="A" /-->
+            <!--bit pos="942" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="B" /-->
+            <!--bit pos="943" OneOrZeroValid="1" DevName="X接灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="944" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="945" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="946" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="H" /-->
+            <!--bit pos="947" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="948" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="L" /-->
+            <!--bit pos="949" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="A" /-->
+            <!--bit pos="950" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="B" /-->
+            <!--bit pos="951" OneOrZeroValid="1" DevName="X发灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="952" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="953" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="954" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="H" /-->
+            <!--bit pos="955" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="956" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="L" /-->
+            <!--bit pos="957" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="A" /-->
+            <!--bit pos="958" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="B" /-->
+            <!--bit pos="959" OneOrZeroValid="1" DevName="S接灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="960" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="961" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="962" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="H" /-->
+            <!--bit pos="963" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="U" /-->
+            <!--bit pos="964" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="L" /-->
+            <!--bit pos="965" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="A" /-->
+            <!--bit pos="966" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="B" /-->
+            <!--bit pos="967" OneOrZeroValid="1" DevName="S发灯" DevType="未知"  DevState="U" /-->
+            <bit pos="968" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="KF" />
+            <bit pos="969" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="SS" />
+            <bit pos="970" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="H" />
+            <bit pos="971" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="U" />
+            <bit pos="972" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="L" />
+            <bit pos="973" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="A" />
+            <bit pos="974" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="B" />
+            <bit pos="975" OneOrZeroValid="1" DevName="主电源" DevType="BSD" DevState="U" />
+            <bit pos="976" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="KF" />
+            <bit pos="977" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="SS" />
+            <bit pos="978" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="H" />
+            <bit pos="979" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="U" />
+            <bit pos="980" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="L" />
+            <bit pos="981" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="A" />
+            <bit pos="982" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="B" />
+            <bit pos="983" OneOrZeroValid="1" DevName="副电源" DevType="BSD" DevState="U" />
+            <!--bit pos="984" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="985" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="986" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="H" /-->
+            <!--bit pos="987" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="U" /-->
+            <!--bit pos="988" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="L" /-->
+            <!--bit pos="989" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="A" /-->
+            <!--bit pos="990" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="B" /-->
+            <!--bit pos="991" OneOrZeroValid="1" DevName="FX" DevType="未知"  DevState="U" /-->
+            <bit pos="992" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="KF" />
+            <bit pos="993" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="SS" />
+            <bit pos="994" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="H" />
+            <bit pos="995" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="U" />
+            <bit pos="996" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="L" />
+            <bit pos="997" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="A" />
+            <bit pos="998" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="B" />
+            <bit pos="999" OneOrZeroValid="1" DevName="X计轴复零" DevType="GNAN" DevState="U" />
+            <bit pos="1000" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="KF" />
+            <bit pos="1001" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="SS" />
+            <bit pos="1002" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="H" />
+            <bit pos="1003" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="U" />
+            <bit pos="1004" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="L" />
+            <bit pos="1005" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="A" />
+            <bit pos="1006" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="B" />
+            <bit pos="1007" OneOrZeroValid="1" DevName="X计轴使用" DevType="GNAN" DevState="U" />
+            <bit pos="1008" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="KF" />
+            <bit pos="1009" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="SS" />
+            <bit pos="1010" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="H" />
+            <bit pos="1011" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="U" />
+            <bit pos="1012" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="L" />
+            <bit pos="1013" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="A" />
+            <bit pos="1014" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="B" />
+            <bit pos="1015" OneOrZeroValid="1" DevName="X计轴停止" DevType="GNAN" DevState="U" />
+            <bit pos="1016" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="KF" />
+            <bit pos="1017" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="SS" />
+            <bit pos="1018" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="H" />
+            <bit pos="1019" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="U" />
+            <bit pos="1020" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="L" />
+            <bit pos="1021" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="A" />
+            <bit pos="1022" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="B" />
+            <bit pos="1023" OneOrZeroValid="1" DevName="X区轨" DevType="BSD" DevState="U" />
+            <bit pos="1024" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="KF" />
+            <bit pos="1025" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="SS" />
+            <bit pos="1026" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="H" />
+            <bit pos="1027" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="U" />
+            <bit pos="1028" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="L" />
+            <bit pos="1029" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="A" />
+            <bit pos="1030" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="B" />
+            <bit pos="1031" OneOrZeroValid="1" DevName="S计轴复零" DevType="GNAN" DevState="U" />
+            <bit pos="1032" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="KF" />
+            <bit pos="1033" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="SS" />
+            <bit pos="1034" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="H" />
+            <bit pos="1035" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="U" />
+            <bit pos="1036" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="L" />
+            <bit pos="1037" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="A" />
+            <bit pos="1038" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="B" />
+            <bit pos="1039" OneOrZeroValid="1" DevName="S计轴使用" DevType="GNAN" DevState="U" />
+            <bit pos="1040" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="KF" />
+            <bit pos="1041" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="SS" />
+            <bit pos="1042" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="H" />
+            <bit pos="1043" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="U" />
+            <bit pos="1044" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="L" />
+            <bit pos="1045" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="A" />
+            <bit pos="1046" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="B" />
+            <bit pos="1047" OneOrZeroValid="1" DevName="S计轴停止" DevType="GNAN" DevState="U" />
+            <bit pos="1048" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="KF" />
+            <bit pos="1049" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="SS" />
+            <bit pos="1050" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="H" />
+            <bit pos="1051" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="U" />
+            <bit pos="1052" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="L" />
+            <bit pos="1053" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="A" />
+            <bit pos="1054" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="B" />
+            <bit pos="1055" OneOrZeroValid="1" DevName="S区轨" DevType="BSD" DevState="U" />
+            <!--bit pos="1056" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1057" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1058" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1059" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1060" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1061" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1062" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1063" OneOrZeroValid="1" DevName="X引导总锁BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1064" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1065" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1066" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1067" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1068" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1069" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1070" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1071" OneOrZeroValid="1" DevName="S引导总锁BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1072" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1073" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1074" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1075" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1076" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1077" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1078" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1079" OneOrZeroValid="1" DevName="X闭塞BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1080" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1081" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1082" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1083" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1084" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1085" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1086" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1087" OneOrZeroValid="1" DevName="X复原BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1088" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1089" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1090" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1091" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1092" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1093" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1094" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1095" OneOrZeroValid="1" DevName="X事故BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1096" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1097" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1098" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1099" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1100" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1101" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1102" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1103" OneOrZeroValid="1" DevName="S闭塞BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1104" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1105" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1106" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1107" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1108" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1109" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1110" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1111" OneOrZeroValid="1" DevName="S复原BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1112" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1113" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1114" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1115" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1116" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1117" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1118" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1119" OneOrZeroValid="1" DevName="S事故BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1120" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1121" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1122" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1123" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1124" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1125" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1126" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1127" OneOrZeroValid="1" DevName="X计轴复零BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1128" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1129" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1130" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1131" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1132" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1133" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1134" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1135" OneOrZeroValid="1" DevName="X计轴使用BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1136" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1137" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1138" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1139" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1140" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1141" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1142" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1143" OneOrZeroValid="1" DevName="X计轴停止BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1144" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1145" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1146" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1147" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1148" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1149" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1150" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1151" OneOrZeroValid="1" DevName="S计轴复零BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1152" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1153" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1154" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1155" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1156" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1157" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1158" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1159" OneOrZeroValid="1" DevName="S计轴使用BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1160" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1161" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="SS" /-->
+            <!--bit pos="1162" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="H" /-->
+            <!--bit pos="1163" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1164" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="L" /-->
+            <!--bit pos="1165" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="A" /-->
+            <!--bit pos="1166" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="B" /-->
+            <!--bit pos="1167" OneOrZeroValid="1" DevName="S计轴停止BTN" DevType="未知"  DevState="U" /-->
+            <!--bit pos="1168" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1169" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1170" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1171" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1172" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1173" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1174" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1175" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1176" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1177" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1178" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1179" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1180" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1181" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1182" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1183" OneOrZeroValid="1" DevName="lQFCount" DevType="未知"  DevState="lQFCount" /-->
+            <!--bit pos="1184" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1185" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1186" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1187" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1188" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1189" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1190" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1191" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1192" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1193" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1194" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1195" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1196" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1197" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1198" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1199" OneOrZeroValid="1" DevName="rQFCount" DevType="未知"  DevState="rQFCount" /-->
+            <!--bit pos="1200" OneOrZeroValid="1" DevName="继电器驱采不一致" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1201" OneOrZeroValid="1" DevName="联锁内部24V电源A故障" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1202" OneOrZeroValid="1" DevName="联锁内部24V电源B故障" DevType="未知"  DevState="KF" /-->
+            <bit pos="1203" OneOrZeroValid="1" DevName="熔丝报警" DevType="BSD" DevState="KF" />
+            <!--bit pos="1204" OneOrZeroValid="1" DevName="下灯丝断丝" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1205" OneOrZeroValid="1" DevName="上灯丝断丝" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1206" OneOrZeroValid="1" DevName="下轨道停电" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1207" OneOrZeroValid="1" DevName="上轨道停电" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1208" OneOrZeroValid="1" DevName="站内移频报警" DevType="未知"  DevState="KF" /-->
+            <bit pos="1209" OneOrZeroValid="1" DevName="电源屏故障报警" DevType="BSD" DevState="KF" />
+            <bit pos="1210" OneOrZeroValid="1" DevName="X轨道故障报警" DevType="BSD" DevState="KF" />
+            <bit pos="1211" OneOrZeroValid="1" DevName="S轨道故障报警" DevType="BSD" DevState="KF" />
+            <!--bit pos="1212" OneOrZeroValid="1" DevName="直流转辙机报警" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1213" OneOrZeroValid="1" DevName="6#安全线道岔不在定位" DevType="未知"  DevState="KF" /-->
+            <!--bit pos="1214" OneOrZeroValid="1" DevName="区间设备故障" DevType="未知"  DevState="KF" /-->
+        </DevInfoBits>
+    </CollectDevSpace>
+    <CollectDevSpace type="CollectBoard" StaBrief="DJZ">
+        <Collect_DevDefine />
+    </CollectDevSpace>
+</TransInfo>

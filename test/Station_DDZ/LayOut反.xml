@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<StationLayout StaBrief="DDZ" version="1.0.0.0">
+    <DeviceType>
+        <DeviceInfo type="Track">
+            <Device id="8" Name="3G" Alias="3G">
+                <NamePos x="493" y="392" />
+                <Point x="360" y="390" />
+                <Point x="500" y="390" />
+                <Point x="630" y="390" />
+            </Device>
+            <Device id="9" Name="4G" Alias="4G">
+                <NamePos x="413" y="432" />
+                <Point x="390" y="430" />
+                <Point x="420" y="430" />
+                <Point x="450" y="430" />
+            </Device>
+            <Device id="10" Name="IIG" Alias="IIG">
+                <NamePos x="492" y="352" />
+                <Point x="360" y="350" />
+                <Point x="500" y="350" />
+                <Point x="630" y="350" />
+            </Device>
+            <Device id="11" Name="1G" Alias="1G">
+                <NamePos x="493" y="312" />
+                <Point x="360" y="310" />
+                <Point x="500" y="310" />
+                <Point x="630" y="310" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Switchless">
+            <Device id="2" Name="IIAG" Alias="IIAG">
+                <NamePos x="828" y="352" />
+                <Point x="870" y="350" />
+                <Point x="840" y="350" />
+                <Point x="820" y="350" />
+            </Device>
+            <Device id="3" Name="D1G" Alias="D1G">
+                <NamePos x="799" y="392" />
+                <Point x="820" y="390" />
+                <Point x="810" y="390" />
+                <Point x="800" y="390" />
+            </Device>
+            <Device id="4" Name="15/17G" Alias="15/17G">
+                <NamePos x="590" y="432" />
+                <Point x="590" y="430" />
+                <Point x="610" y="430" />
+                <Point x="630" y="430" />
+            </Device>
+            <Device id="5" Name="D6G" Alias="D6G">
+                <NamePos x="359" y="512" />
+                <Point x="380" y="510" />
+                <Point x="370" y="510" />
+                <Point x="360" y="510" />
+            </Device>
+            <Device id="7" Name="IIBG" Alias="IIBG">
+                <NamePos x="148" y="352" />
+                <Point x="180" y="350" />
+                <Point x="160" y="350" />
+                <Point x="140" y="350" />
+            </Device>
+            <Device id="12" Name="6/8G" Alias="6/8G">
+                <NamePos x="297" y="432" />
+                <Point x="330" y="430" />
+                <Point x="310" y="430" />
+                <Point x="290" y="430" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="InterYard" />
+        <DeviceInfo type="Block">
+            <Device id="1" Name="XJG" Alias="XJG">
+                <NamePos x="881" y="352" />
+                <Point x="920" y="350" />
+                <Point x="890" y="350" />
+                <Point x="870" y="350" />
+            </Device>
+            <Device id="6" Name="SJG" Alias="SJG">
+                <NamePos x="101" y="352" />
+                <Point x="140" y="350" />
+                <Point x="110" y="350" />
+                <Point x="90" y="350" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="HomeSignal">
+            <Device id="273" Name="X" Alias="X" LampSum="2" PoleType="0" Angle="180">
+                <NamePos x="864" y="366" />
+                <Point x="870" y="360" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="289" Name="S" Alias="S" LampSum="2" PoleType="0" Angle="0">
+                <NamePos x="140" y="322" />
+                <Point x="140" y="340" />
+                <DefaultColor color="0x01" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="StartSignal">
+            <Device id="274" Name="SII" Alias="SII" LampSum="2" PoleType="0" Angle="0">
+                <NamePos x="630" y="322" />
+                <Point x="630" y="340" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="275" Name="S1" Alias="S1" LampSum="2" PoleType="0" Angle="0">
+                <NamePos x="630" y="282" />
+                <Point x="630" y="300" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="276" Name="S3" Alias="S3" LampSum="2" PoleType="0" Angle="0">
+                <NamePos x="630" y="362" />
+                <Point x="630" y="380" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="277" Name="S4" Alias="S4" LampSum="2" PoleType="0" Angle="0">
+                <NamePos x="630" y="402" />
+                <Point x="630" y="420" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="290" Name="XII" Alias="XII" LampSum="2" PoleType="0" Angle="180">
+                <NamePos x="346" y="366" />
+                <Point x="360" y="360" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="291" Name="X1" Alias="X1" LampSum="2" PoleType="0" Angle="180">
+                <NamePos x="349" y="326" />
+                <Point x="360" y="320" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="292" Name="X3" Alias="X3" LampSum="2" PoleType="0" Angle="180">
+                <NamePos x="349" y="406" />
+                <Point x="360" y="400" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="293" Name="X4" Alias="X4" LampSum="2" PoleType="0" Angle="180">
+                <NamePos x="279" y="446" />
+                <Point x="290" y="440" />
+                <DefaultColor color="0x01" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="ShuntSignal">
+            <Device id="278" Name="D1" Alias="D1" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="788" y="406" />
+                <Point x="800" y="400" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="279" Name="D3" Alias="D3" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="808" y="366" />
+                <Point x="820" y="360" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="280" Name="D5" Alias="D5" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="728" y="406" />
+                <Point x="740" y="400" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="281" Name="D7" Alias="D7" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="728" y="366" />
+                <Point x="740" y="360" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="282" Name="D9" Alias="D9" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="630" y="442" />
+                <Point x="630" y="460" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="283" Name="D11" Alias="D11" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="593" y="486" />
+                <Point x="610" y="480" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="284" Name="D13" Alias="D13" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="573" y="446" />
+                <Point x="590" y="440" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="285" Name="D15" Alias="D15" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="530" y="402" />
+                <Point x="530" y="420" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="286" Name="D17" Alias="D17" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="513" y="446" />
+                <Point x="530" y="440" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="287" Name="D19" Alias="D19" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="450" y="402" />
+                <Point x="450" y="420" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="288" Name="D21" Alias="D21" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="460" y="442" />
+                <Point x="460" y="460" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="294" Name="D2" Alias="D2" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="180" y="322" />
+                <Point x="180" y="340" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="295" Name="D4" Alias="D4" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="330" y="402" />
+                <Point x="330" y="420" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="296" Name="D8" Alias="D8" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="378" y="446" />
+                <Point x="390" y="440" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="297" Name="D10" Alias="D10" LampSum="1" PoleType="0" Angle="180">
+                <NamePos x="423" y="486" />
+                <Point x="440" y="480" />
+                <DefaultColor color="0x01" />
+            </Device>
+            <Device id="298" Name="D6" Alias="D6" LampSum="1" PoleType="0" Angle="0">
+                <NamePos x="380" y="482" />
+                <Point x="380" y="500" />
+                <DefaultColor color="0x01" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="SectionSignal" />
+        <DeviceInfo type="HumpSignal" />
+        <DeviceInfo type="RouteSingal" />
+        <DeviceInfo type="HumpStartSignal" />
+        <DeviceInfo type="HumpAuxSignal" />
+        <DeviceInfo type="KiloMeterSignDevice" />
+        <DeviceInfo type="SignalSignboard" />
+        <DeviceInfo type="Switch">
+            <Device id="257" Name="1" Alias="1">
+                <NamePos x="788" y="338" />
+                <Center>
+                    <Point x="790" y="350" />
+                </Center>
+                <Front>
+                    <Point x="820" y="350" />
+                </Front>
+                <Normal>
+                    <Point x="770" y="350" />
+                    <Point x="770" y="350" />
+                    <Point x="770" y="350" />
+                </Normal>
+                <Reverse>
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                </Reverse>
+            </Device>
+            <Device id="258" Name="3" Alias="3">
+                <NamePos x="748" y="392" />
+                <Center>
+                    <Point x="750" y="390" />
+                </Center>
+                <Front>
+                    <Point x="740" y="390" />
+                </Front>
+                <Normal>
+                    <Point x="770" y="390" />
+                    <Point x="770" y="390" />
+                    <Point x="770" y="390" />
+                </Normal>
+                <Reverse>
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                </Reverse>
+            </Device>
+            <Device id="259" Name="5" Alias="5">
+                <NamePos x="788" y="392" />
+                <Center>
+                    <Point x="790" y="390" />
+                </Center>
+                <Front>
+                    <Point x="800" y="390" />
+                </Front>
+                <Normal>
+                    <Point x="770" y="390" />
+                    <Point x="770" y="390" />
+                    <Point x="770" y="390" />
+                </Normal>
+                <Reverse>
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                </Reverse>
+            </Device>
+            <Device id="260" Name="7" Alias="7">
+                <NamePos x="748" y="338" />
+                <Center>
+                    <Point x="750" y="350" />
+                </Center>
+                <Front>
+                    <Point x="740" y="350" />
+                </Front>
+                <Normal>
+                    <Point x="770" y="350" />
+                    <Point x="770" y="350" />
+                    <Point x="770" y="350" />
+                </Normal>
+                <Reverse>
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                    <Point x="770" y="370" />
+                </Reverse>
+            </Device>
+            <Device id="261" Name="9" Alias="9">
+                <NamePos x="728" y="378" />
+                <Center>
+                    <Point x="730" y="390" />
+                </Center>
+                <Front>
+                    <Point x="740" y="390" />
+                </Front>
+                <Normal>
+                    <Point x="710" y="390" />
+                    <Point x="710" y="390" />
+                    <Point x="710" y="390" />
+                </Normal>
+                <Reverse>
+                    <Point x="650" y="470" />
+                    <Point x="630" y="470" />
+                    <Point x="630" y="470" />
+                </Reverse>
+            </Device>
+            <Device id="262" Name="11" Alias="11">
+                <NamePos x="685" y="352" />
+                <Center>
+                    <Point x="690" y="350" />
+                </Center>
+                <Front>
+                    <Point x="740" y="350" />
+                </Front>
+                <Normal>
+                    <Point x="630" y="350" />
+                    <Point x="630" y="350" />
+                    <Point x="630" y="350" />
+                </Normal>
+                <Reverse>
+                    <Point x="670" y="330" />
+                    <Point x="670" y="330" />
+                    <Point x="670" y="330" />
+                </Reverse>
+            </Device>
+            <Device id="263" Name="13" Alias="13">
+                <NamePos x="645" y="298" />
+                <Center>
+                    <Point x="650" y="310" />
+                </Center>
+                <Front>
+                    <Point x="630" y="310" />
+                </Front>
+                <Normal>
+                    <Point x="710" y="310" />
+                    <Point x="710" y="310" />
+                    <Point x="710" y="310" />
+                </Normal>
+                <Reverse>
+                    <Point x="670" y="330" />
+                    <Point x="670" y="330" />
+                    <Point x="670" y="330" />
+                </Reverse>
+            </Device>
+            <Device id="264" Name="15" Alias="15">
+                <NamePos x="685" y="378" />
+                <Center>
+                    <Point x="690" y="390" />
+                </Center>
+                <Front>
+                    <Point x="710" y="390" />
+                </Front>
+                <Normal>
+                    <Point x="630" y="390" />
+                    <Point x="630" y="390" />
+                    <Point x="630" y="390" />
+                </Normal>
+                <Reverse>
+                    <Point x="650" y="430" />
+                    <Point x="630" y="430" />
+                    <Point x="630" y="430" />
+                </Reverse>
+            </Device>
+            <Device id="265" Name="17" Alias="17">
+                <NamePos x="545" y="418" />
+                <Center>
+                    <Point x="550" y="430" />
+                </Center>
+                <Front>
+                    <Point x="530" y="430" />
+                </Front>
+                <Normal>
+                    <Point x="590" y="430" />
+                    <Point x="590" y="430" />
+                    <Point x="590" y="430" />
+                </Normal>
+                <Reverse>
+                    <Point x="590" y="470" />
+                    <Point x="610" y="470" />
+                    <Point x="610" y="470" />
+                </Reverse>
+            </Device>
+            <Device id="266" Name="19" Alias="19">
+                <NamePos x="505" y="418" />
+                <Center>
+                    <Point x="510" y="430" />
+                </Center>
+                <Front>
+                    <Point x="530" y="430" />
+                </Front>
+                <Normal>
+                    <Point x="450" y="430" />
+                    <Point x="450" y="430" />
+                    <Point x="450" y="430" />
+                </Normal>
+                <Reverse>
+                    <Point x="470" y="470" />
+                    <Point x="460" y="470" />
+                    <Point x="460" y="470" />
+                </Reverse>
+            </Device>
+            <Device id="267" Name="2" Alias="2">
+                <NamePos x="188" y="338" />
+                <Center>
+                    <Point x="190" y="350" />
+                </Center>
+                <Front>
+                    <Point x="180" y="350" />
+                </Front>
+                <Normal>
+                    <Point x="230" y="350" />
+                    <Point x="230" y="350" />
+                    <Point x="230" y="350" />
+                </Normal>
+                <Reverse>
+                    <Point x="210" y="370" />
+                    <Point x="210" y="370" />
+                    <Point x="210" y="370" />
+                </Reverse>
+            </Device>
+            <Device id="268" Name="4" Alias="4">
+                <NamePos x="248" y="352" />
+                <Center>
+                    <Point x="250" y="350" />
+                </Center>
+                <Front>
+                    <Point x="230" y="350" />
+                </Front>
+                <Normal>
+                    <Point x="360" y="350" />
+                    <Point x="360" y="350" />
+                    <Point x="360" y="350" />
+                </Normal>
+                <Reverse>
+                    <Point x="290" y="310" />
+                    <Point x="360" y="310" />
+                    <Point x="360" y="310" />
+                </Reverse>
+            </Device>
+            <Device id="269" Name="6" Alias="6">
+                <NamePos x="228" y="378" />
+                <Center>
+                    <Point x="230" y="390" />
+                </Center>
+                <Front>
+                    <Point x="210" y="370" />
+                </Front>
+                <Normal>
+                    <Point x="270" y="430" />
+                    <Point x="290" y="430" />
+                    <Point x="290" y="430" />
+                </Normal>
+                <Reverse>
+                    <Point x="360" y="390" />
+                    <Point x="360" y="390" />
+                    <Point x="360" y="390" />
+                </Reverse>
+            </Device>
+            <Device id="270" Name="8" Alias="8">
+                <NamePos x="348" y="418" />
+                <Center>
+                    <Point x="350" y="430" />
+                </Center>
+                <Front>
+                    <Point x="330" y="430" />
+                </Front>
+                <Normal>
+                    <Point x="390" y="430" />
+                    <Point x="390" y="430" />
+                    <Point x="390" y="430" />
+                </Normal>
+                <Reverse>
+                    <Point x="390" y="470" />
+                    <Point x="410" y="470" />
+                    <Point x="410" y="470" />
+                </Reverse>
+            </Device>
+            <Device id="271" Name="12" Alias="12">
+                <NamePos x="425" y="458" />
+                <Center>
+                    <Point x="430" y="470" />
+                </Center>
+                <Front>
+                    <Point x="440" y="470" />
+                </Front>
+                <Normal>
+                    <Point x="410" y="470" />
+                    <Point x="410" y="470" />
+                    <Point x="410" y="470" />
+                </Normal>
+                <Reverse>
+                    <Point x="410" y="490" />
+                    <Point x="410" y="490" />
+                    <Point x="410" y="490" />
+                </Reverse>
+            </Device>
+            <Device id="272" Name="10" Alias="10">
+                <NamePos x="385" y="512" />
+                <Center>
+                    <Point x="390" y="510" />
+                </Center>
+                <Front>
+                    <Point x="380" y="510" />
+                </Front>
+                <Normal>
+                    <Point x="440" y="510" />
+                    <Point x="440" y="510" />
+                    <Point x="440" y="510" />
+                </Normal>
+                <Reverse>
+                    <Point x="410" y="490" />
+                    <Point x="410" y="490" />
+                    <Point x="410" y="490" />
+                </Reverse>
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Insulation">
+            <Device id="1" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="800" y="370" />
+                <Point x="800" y="390" />
+            </Device>
+            <Device id="2" Name="" Alias="" type="2" Angle="90">
+                <NamePos x="210" y="350" />
+                <Point x="210" y="370" />
+            </Device>
+            <Device id="3" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="820" y="330" />
+                <Point x="820" y="350" />
+            </Device>
+            <Device id="4" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="800" y="370" />
+                <Point x="800" y="390" />
+            </Device>
+            <Device id="5" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="870" y="330" />
+                <Point x="870" y="350" />
+            </Device>
+            <Device id="6" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="630" y="450" />
+                <Point x="630" y="470" />
+            </Device>
+            <Device id="7" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="740" y="370" />
+                <Point x="740" y="390" />
+            </Device>
+            <Device id="8" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="740" y="330" />
+                <Point x="740" y="350" />
+            </Device>
+            <Device id="9" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="610" y="450" />
+                <Point x="610" y="470" />
+            </Device>
+            <Device id="10" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="630" y="410" />
+                <Point x="630" y="430" />
+            </Device>
+            <Device id="11" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="630" y="370" />
+                <Point x="630" y="390" />
+            </Device>
+            <Device id="12" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="630" y="330" />
+                <Point x="630" y="350" />
+            </Device>
+            <Device id="13" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="630" y="290" />
+                <Point x="630" y="310" />
+            </Device>
+            <Device id="14" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="590" y="410" />
+                <Point x="590" y="430" />
+            </Device>
+            <Device id="15" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="530" y="410" />
+                <Point x="530" y="430" />
+            </Device>
+            <Device id="16" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="460" y="450" />
+                <Point x="460" y="470" />
+            </Device>
+            <Device id="17" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="380" y="490" />
+                <Point x="380" y="510" />
+            </Device>
+            <Device id="18" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="460" y="450" />
+                <Point x="460" y="470" />
+            </Device>
+            <Device id="19" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="440" y="450" />
+                <Point x="440" y="470" />
+            </Device>
+            <Device id="20" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="390" y="410" />
+                <Point x="390" y="430" />
+            </Device>
+            <Device id="21" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="140" y="330" />
+                <Point x="140" y="350" />
+            </Device>
+            <Device id="22" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="180" y="330" />
+                <Point x="180" y="350" />
+            </Device>
+            <Device id="23" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="290" y="410" />
+                <Point x="290" y="430" />
+            </Device>
+            <Device id="24" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="360" y="370" />
+                <Point x="360" y="390" />
+            </Device>
+            <Device id="25" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="360" y="330" />
+                <Point x="360" y="350" />
+            </Device>
+            <Device id="26" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="360" y="290" />
+                <Point x="360" y="310" />
+            </Device>
+            <Device id="27" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="450" y="410" />
+                <Point x="450" y="430" />
+            </Device>
+            <Device id="28" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="670" y="310" />
+                <Point x="670" y="330" />
+            </Device>
+            <Device id="29" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="770" y="350" />
+                <Point x="770" y="370" />
+            </Device>
+            <Device id="30" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="410" y="450" />
+                <Point x="410" y="470" />
+            </Device>
+            <Device id="31" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="330" y="410" />
+                <Point x="330" y="430" />
+            </Device>
+            <Device id="32" Name="" Alias="" type="1" Angle="90">
+                <NamePos x="410" y="470" />
+                <Point x="410" y="490" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="TrainWin">
+            <Device id="1" Name="DDZXJG" Alias="DDZXJG">
+                <NamePos x="860" y="310" />
+                <Point x="860" y="310" />
+            </Device>
+            <Device id="2" Name="DDZSJG" Alias="DDZSJG">
+                <NamePos x="90" y="310" />
+                <Point x="90" y="310" />
+            </Device>
+            <Device id="3" Name="DDZ3G" Alias="DDZ3G">
+                <NamePos x="480" y="370" />
+                <Point x="480" y="370" />
+            </Device>
+            <Device id="4" Name="DDZ4G" Alias="DDZ4G">
+                <NamePos x="400" y="410" />
+                <Point x="400" y="410" />
+            </Device>
+            <Device id="5" Name="DDZIIG" Alias="DDZIIG">
+                <NamePos x="480" y="330" />
+                <Point x="480" y="330" />
+            </Device>
+            <Device id="6" Name="DDZ1G" Alias="DDZ1G">
+                <NamePos x="480" y="290" />
+                <Point x="480" y="290" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="SemiBlockLamp">
+            <Device id="299" Name="X发车" Alias="X发车" Angle="0">
+                <NamePos x="802" y="300" />
+                <Point x="830" y="290" />
+            </Device>
+            <Device id="300" Name="X接车" Alias="X接车" Angle="180">
+                <NamePos x="837" y="302" />
+                <Point x="830" y="290" />
+            </Device>
+            <Device id="301" Name="S发车" Alias="S发车" Angle="180">
+                <NamePos x="211" y="299" />
+                <Point x="210" y="290" />
+            </Device>
+            <Device id="302" Name="S接车" Alias="S接车" Angle="0">
+                <NamePos x="181" y="298" />
+                <Point x="210" y="290" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="IndicationLamp">
+            <Device id="1" Name="熔丝报警" Alias="熔丝报警" SubType="0x09">
+                <NamePos x="480" y="612" />
+                <Point x="500" y="600" />
+            </Device>
+            <Device id="2" Name="X轨道停电" Alias="X轨道停电" SubType="0x08">
+                <NamePos x="924" y="614" />
+                <Point x="950" y="600" />
+            </Device>
+            <Device id="3" Name="S轨道停电" Alias="S轨道停电" SubType="0x08">
+                <NamePos x="27" y="612" />
+                <Point x="50" y="600" />
+            </Device>
+            <Device id="8" Name="主电源" Alias="主电源" SubType="0x0a">
+                <NamePos x="455" y="242" />
+                <Point x="470" y="230" />
+            </Device>
+            <Device id="9" Name="副电源" Alias="副电源" SubType="0x0a">
+                <NamePos x="525" y="242" />
+                <Point x="540" y="230" />
+            </Device>
+            <Device id="22" Name="X人解30秒" Alias="X人解30秒" SubType="0x07">
+                <NamePos x="687" y="612" />
+                <Point x="710" y="600" />
+            </Device>
+            <Device id="23" Name="X人解3分钟" Alias="X人解3分钟" SubType="0x06">
+                <NamePos x="615" y="612" />
+                <Point x="640" y="600" />
+            </Device>
+            <Device id="25" Name="X轨道故障报警" Alias="X轨道故障报警" SubType="0x08">
+                <NamePos x="837" y="612" />
+                <Point x="870" y="600" />
+            </Device>
+            <Device id="26" Name="允许转回分散自律" Alias="允许转回分散自律" SubType="0x03">
+                <NamePos x="670" y="562" />
+                <Point x="710" y="550" />
+            </Device>
+            <Device id="27" Name="非常站控" Alias="非常站控" SubType="0x04">
+                <NamePos x="620" y="562" />
+                <Point x="640" y="550" />
+            </Device>
+            <Device id="28" Name="网络连接1" Alias="网络连接1" SubType="0x01">
+                <NamePos x="338" y="562" />
+                <Point x="360" y="550" />
+            </Device>
+            <Device id="29" Name="网络连接2" Alias="网络连接2" SubType="0x01">
+                <NamePos x="408" y="562" />
+                <Point x="430" y="550" />
+            </Device>
+            <Device id="30" Name="分散自律" Alias="分散自律" SubType="0x02">
+                <NamePos x="480" y="562" />
+                <Point x="500" y="550" />
+            </Device>
+            <Device id="33" Name="移频报警" Alias="移频报警" SubType="0x08">
+                <NamePos x="550" y="612" />
+                <Point x="570" y="600" />
+            </Device>
+            <Device id="36" Name="控制方式" Alias="控制方式" SubType="0x05">
+                <NamePos x="550" y="562" />
+                <Point x="570" y="550" />
+            </Device>
+            <Device id="37" Name="S轨道故障报警" Alias="S轨道故障报警" SubType="0x08">
+                <NamePos x="97" y="612" />
+                <Point x="130" y="600" />
+            </Device>
+            <Device id="38" Name="S人解3分钟" Alias="S人解3分钟" SubType="0x06">
+                <NamePos x="335" y="612" />
+                <Point x="360" y="600" />
+            </Device>
+            <Device id="39" Name="S人解30秒" Alias="S人解30秒" SubType="0x07">
+                <NamePos x="267" y="612" />
+                <Point x="290" y="600" />
+            </Device>
+            <Device id="43" Name="S灯丝断丝" Alias="S灯丝断丝" SubType="0x08">
+                <NamePos x="187" y="612" />
+                <Point x="210" y="600" />
+            </Device>
+            <Device id="10" Name="S计轴停止灯" Alias="S计轴停止灯" SubType="0x0a">
+                <NamePos x="82" y="72" />
+                <Point x="110" y="60" />
+            </Device>
+            <Device id="11" Name="S计轴使用灯" Alias="S计轴使用灯" SubType="0x0a">
+                <NamePos x="152" y="72" />
+                <Point x="180" y="60" />
+            </Device>
+            <Device id="12" Name="S计轴复零灯" Alias="S计轴复零灯" SubType="0x0a">
+                <NamePos x="222" y="72" />
+                <Point x="250" y="60" />
+            </Device>
+            <Device id="13" Name="S区轨" Alias="S区轨" SubType="0x0a">
+                <NamePos x="297" y="72" />
+                <Point x="310" y="60" />
+            </Device>
+            <Device id="14" Name="X计轴停止灯" Alias="X计轴停止灯" SubType="0x0a">
+                <NamePos x="872" y="72" />
+                <Point x="900" y="60" />
+            </Device>
+            <Device id="15" Name="X计轴使用灯" Alias="X计轴使用灯" SubType="0x0a">
+                <NamePos x="802" y="72" />
+                <Point x="830" y="60" />
+            </Device>
+            <Device id="16" Name="X计轴复零灯" Alias="X计轴复零灯" SubType="0x0a">
+                <NamePos x="732" y="72" />
+                <Point x="760" y="60" />
+            </Device>
+            <Device id="17" Name="X区轨" Alias="X区轨" SubType="0x0a">
+                <NamePos x="687" y="72" />
+                <Point x="700" y="60" />
+            </Device>
+            <Device id="125" Name="电源屏故障报警" Alias="电源屏故障报警" SubType="0x08">
+                <NamePos x="395" y="612" />
+                <Point x="430" y="600" />
+            </Device>
+            <Device id="4" Name="10#反位" Alias="10#反位" SubType="0x08">
+                <NamePos x="192" y="562" />
+                <Point x="210" y="550" />
+            </Device>
+            <Device id="5" Name="X灯丝断丝" Alias="X灯丝断丝" SubType="0x08">
+                <NamePos x="767" y="612" />
+                <Point x="790" y="600" />
+            </Device>
+            <Device id="6" Name="13#反位" Alias="13#反位" SubType="0x08">
+                <NamePos x="852" y="562" />
+                <Point x="870" y="550" />
+            </Device>
+            <Device id="7" Name="17#反位" Alias="17#反位" SubType="0x08">
+                <NamePos x="902" y="562" />
+                <Point x="920" y="550" />
+            </Device>
+            <Device id="18" Name="19#反位" Alias="19#反位" SubType="0x08">
+                <NamePos x="952" y="562" />
+                <Point x="970" y="550" />
+            </Device>
+            <Device id="19" Name="8#反位" Alias="8#反位" SubType="0x08">
+                <NamePos x="114" y="562" />
+                <Point x="130" y="550" />
+            </Device>
+            <Device id="20" Name="坡道解3分钟" Alias="坡道解3分钟" SubType="0x06">
+                <NamePos x="263" y="562" />
+                <Point x="290" y="550" />
+            </Device>
+            <Device id="21" Name="中岔延时3分钟" Alias="中岔延时3分钟" SubType="0x06">
+                <NamePos x="758" y="562" />
+                <Point x="790" y="550" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Gate" />
+        <DeviceInfo type="Text">
+            <Device id="256" Name="大德" Alias="DDZ" SubType="0xf4" Content="大德" DeviceNo="0">
+                <Point x="480" y="190" />
+            </Device>
+            <Device id="1" Name="6‰" Alias="6‰" SubType="0x11" Content="6‰" DeviceNo="0">
+                <Point x="120" y="390" />
+            </Device>
+            <Device id="2" Name="安全线" Alias="" SubType="0x11" Content="安全线" DeviceNo="0">
+                <Point x="760" y="320" />
+            </Device>
+            <Device id="3" Name="安全线" Alias="" SubType="0x11" Content="安全线" DeviceNo="0">
+                <Point x="490" y="520" />
+            </Device>
+            <Device id="4" Name="牵出线" Alias="" SubType="0x11" Content="牵出线" DeviceNo="0">
+                <Point x="860" y="410" />
+            </Device>
+            <Device id="5" Name="货物线" Alias="" SubType="0x11" Content="货物线" DeviceNo="0">
+                <Point x="640" y="490" />
+            </Device>
+            <Device id="6" Name="存车线" Alias="" SubType="0x11" Content="存车线" DeviceNo="0">
+                <Point x="470" y="480" />
+            </Device>
+            <Device id="7" Name="6923专用线" Alias="" SubType="0x11" Content="6923专用线" DeviceNo="0">
+                <Point x="340" y="520" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="AuxLine">
+            <Device id="1" Name="" Alias="">
+                <NamePos x="130" y="380" />
+                <Point x="100" y="400" />
+                <Point x="150" y="400" />
+            </Device>
+            <Device id="2" Name="" Alias="">
+                <NamePos x="135" y="380" />
+                <Point x="150" y="400" />
+                <Point x="160" y="420" />
+            </Device>
+            <Device id="3" Name="" Alias="">
+                <NamePos x="440" y="450" />
+                <Point x="460" y="470" />
+                <Point x="440" y="470" />
+            </Device>
+            <Device id="4" Name="" Alias="">
+                <NamePos x="185" y="450" />
+                <Point x="630" y="470" />
+                <Point x="610" y="470" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="TerminalSign">
+            <Device id="1" Name="" Alias="" SubType="0x06">
+                <NamePos x="710" y="290" />
+                <Point x="710" y="310" />
+            </Device>
+            <Device id="2" Name="" Alias="" SubType="0x01">
+                <NamePos x="720" y="290" />
+                <Point x="720" y="310" />
+            </Device>
+            <Device id="3" Name="" Alias="" SubType="0x06">
+                <NamePos x="440" y="490" />
+                <Point x="440" y="510" />
+            </Device>
+            <Device id="4" Name="" Alias="" SubType="0x01">
+                <NamePos x="450" y="490" />
+                <Point x="450" y="510" />
+            </Device>
+            <Device id="5" Name="" Alias="" SubType="0x05">
+                <NamePos x="460" y="450" />
+                <Point x="460" y="470" />
+            </Device>
+            <Device id="6" Name="" Alias="" SubType="0x05">
+                <NamePos x="630" y="450" />
+                <Point x="630" y="470" />
+            </Device>
+            <Device id="7" Name="" Alias="" SubType="0x04">
+                <NamePos x="610" y="450" />
+                <Point x="610" y="470" />
+            </Device>
+            <Device id="8" Name="" Alias="" SubType="0x04">
+                <NamePos x="440" y="450" />
+                <Point x="440" y="470" />
+            </Device>
+            <Device id="9" Name="" Alias="" SubType="0x05">
+                <NamePos x="360" y="490" />
+                <Point x="360" y="510" />
+            </Device>
+            <Device id="10" Name="" Alias="" SubType="0x02">
+                <NamePos x="350" y="490" />
+                <Point x="350" y="510" />
+            </Device>
+            <Device id="11" Name="" Alias="" SubType="0x06">
+                <NamePos x="820" y="370" />
+                <Point x="820" y="390" />
+            </Device>
+            <Device id="12" Name="" Alias="" SubType="0x01">
+                <NamePos x="830" y="370" />
+                <Point x="830" y="390" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Bridge" />
+        <DeviceInfo type="FuncButton">
+            <Device id="15" SubType="0x0d" Name="股道封锁" Alias="股道封锁" LeadSeelType="0">
+                <NamePos x="390" y="712" />
+                <Point x="410" y="700" />
+            </Device>
+            <Device id="16" SubType="0x0e" Name="股道解锁" Alias="股道解锁" LeadSeelType="0">
+                <NamePos x="430" y="712" />
+                <Point x="450" y="700" />
+            </Device>
+            <Device id="17" SubType="0x01" Name="进路选排" Alias="进路选排" LeadSeelType="0">
+                <NamePos x="480" y="712" />
+                <Point x="500" y="700" />
+            </Device>
+            <Device id="18" SubType="0x07" Name="上电解锁" Alias="上电解锁" LeadSeelType="1">
+                <NamePos x="560" y="712" />
+                <Point x="580" y="700" />
+            </Device>
+            <Device id="20" SubType="0x03" Name="信号重开" Alias="信号重开" LeadSeelType="0">
+                <NamePos x="600" y="712" />
+                <Point x="620" y="700" />
+            </Device>
+            <Device id="21" SubType="0x08" Name="X引导总锁" Alias="X引导总锁" LeadSeelType="1">
+                <NamePos x="17" y="712" />
+                <Point x="40" y="700" />
+            </Device>
+            <Device id="22" SubType="0x10" Name="X区间解锁" Alias="X区间解锁" LeadSeelType="0">
+                <NamePos x="-43" y="752" />
+                <Point x="-20" y="740" />
+            </Device>
+            <Device id="23" SubType="0x05" Name="X道岔总定" Alias="X道岔总定" LeadSeelType="0">
+                <NamePos x="317" y="712" />
+                <Point x="340" y="700" />
+            </Device>
+            <Device id="24" SubType="0x13" Name="X道岔单锁" Alias="X道岔单锁" LeadSeelType="0">
+                <NamePos x="257" y="712" />
+                <Point x="280" y="700" />
+            </Device>
+            <Device id="25" SubType="0x11" Name="X道岔单封" Alias="X道岔单封" LeadSeelType="0">
+                <NamePos x="197" y="712" />
+                <Point x="220" y="700" />
+            </Device>
+            <Device id="26" SubType="0x0b" Name="X按钮封锁" Alias="X按钮封锁" LeadSeelType="0">
+                <NamePos x="137" y="712" />
+                <Point x="160" y="700" />
+            </Device>
+            <Device id="27" SubType="0x04" Name="X总取消" Alias="X总取消" LeadSeelType="0">
+                <NamePos x="82" y="712" />
+                <Point x="100" y="700" />
+            </Device>
+            <Device id="28" SubType="0x06" Name="X道岔总反" Alias="X道岔总反" LeadSeelType="0">
+                <NamePos x="317" y="752" />
+                <Point x="340" y="740" />
+            </Device>
+            <Device id="29" SubType="0x14" Name="X道岔单解" Alias="X道岔单解" LeadSeelType="0">
+                <NamePos x="257" y="752" />
+                <Point x="280" y="740" />
+            </Device>
+            <Device id="30" SubType="0x12" Name="X道岔解封" Alias="X道岔解封" LeadSeelType="0">
+                <NamePos x="197" y="752" />
+                <Point x="220" y="740" />
+            </Device>
+            <Device id="31" SubType="0x0c" Name="X按钮解封" Alias="X按钮解封" LeadSeelType="0">
+                <NamePos x="137" y="752" />
+                <Point x="160" y="740" />
+            </Device>
+            <Device id="32" SubType="0x15" Name="X总人解" Alias="X总人解" LeadSeelType="1">
+                <NamePos x="82" y="752" />
+                <Point x="100" y="740" />
+            </Device>
+            <Device id="33" SubType="0x16" Name="X区段解锁" Alias="X区段解锁" LeadSeelType="1">
+                <NamePos x="17" y="752" />
+                <Point x="40" y="740" />
+            </Device>
+            <Device id="34" SubType="0x0f" Name="X区间封锁" Alias="X区间封锁" LeadSeelType="0">
+                <NamePos x="-43" y="712" />
+                <Point x="-20" y="700" />
+            </Device>
+            <Device id="35" SubType="0x05" Name="S道岔总定" Alias="S道岔总定" LeadSeelType="0">
+                <NamePos x="1027" y="712" />
+                <Point x="1050" y="700" />
+            </Device>
+            <Device id="36" SubType="0x13" Name="S道岔单锁" Alias="S道岔单锁" LeadSeelType="0">
+                <NamePos x="967" y="712" />
+                <Point x="990" y="700" />
+            </Device>
+            <Device id="37" SubType="0x11" Name="S道岔单封" Alias="S道岔单封" LeadSeelType="0">
+                <NamePos x="907" y="712" />
+                <Point x="930" y="700" />
+            </Device>
+            <Device id="38" SubType="0x0b" Name="S按钮封锁" Alias="S按钮封锁" LeadSeelType="0">
+                <NamePos x="847" y="712" />
+                <Point x="870" y="700" />
+            </Device>
+            <Device id="39" SubType="0x04" Name="S总取消" Alias="S总取消" LeadSeelType="0">
+                <NamePos x="792" y="712" />
+                <Point x="810" y="700" />
+            </Device>
+            <Device id="40" SubType="0x08" Name="S引导总锁" Alias="S引导总锁" LeadSeelType="1">
+                <NamePos x="727" y="712" />
+                <Point x="750" y="700" />
+            </Device>
+            <Device id="41" SubType="0x06" Name="S道岔总反" Alias="S道岔总反" LeadSeelType="0">
+                <NamePos x="1027" y="752" />
+                <Point x="1050" y="740" />
+            </Device>
+            <Device id="42" SubType="0x14" Name="S道岔单解" Alias="S道岔单解" LeadSeelType="0">
+                <NamePos x="967" y="752" />
+                <Point x="990" y="740" />
+            </Device>
+            <Device id="43" SubType="0x12" Name="S道岔解封" Alias="S道岔解封" LeadSeelType="0">
+                <NamePos x="907" y="752" />
+                <Point x="930" y="740" />
+            </Device>
+            <Device id="44" SubType="0x0c" Name="S按钮解封" Alias="S按钮解封" LeadSeelType="0">
+                <NamePos x="847" y="752" />
+                <Point x="870" y="740" />
+            </Device>
+            <Device id="45" SubType="0x15" Name="S总人解" Alias="S总人解" LeadSeelType="1">
+                <NamePos x="792" y="752" />
+                <Point x="810" y="740" />
+            </Device>
+            <Device id="46" SubType="0x16" Name="S区段解锁" Alias="S区段解锁" LeadSeelType="1">
+                <NamePos x="727" y="752" />
+                <Point x="750" y="740" />
+            </Device>
+            <Device id="47" SubType="0x10" Name="S区间解锁" Alias="S区间解锁" LeadSeelType="0">
+                <NamePos x="677" y="752" />
+                <Point x="700" y="740" />
+            </Device>
+            <Device id="48" SubType="0x0f" Name="S区间封锁" Alias="S区间封锁" LeadSeelType="0">
+                <NamePos x="677" y="712" />
+                <Point x="700" y="700" />
+            </Device>
+            <Device id="50" SubType="0x09" Name="X进路引导" Alias="X进路引导" LeadSeelType="1">
+                <NamePos x="437" y="752" />
+                <Point x="460" y="740" />
+            </Device>
+            <Device id="51" SubType="0x09" Name="S进路引导" Alias="S进路引导" LeadSeelType="1">
+                <NamePos x="557" y="752" />
+                <Point x="580" y="740" />
+            </Device>
+            <Device id="8" SubType="0x22" Name="S计轴停止" Alias="S计轴停止" LeadSeelType="1">
+                <NamePos x="87" y="112" />
+                <Point x="110" y="100" />
+            </Device>
+            <Device id="9" SubType="0x21" Name="S计轴使用" Alias="S计轴使用" LeadSeelType="1">
+                <NamePos x="157" y="112" />
+                <Point x="180" y="100" />
+            </Device>
+            <Device id="10" SubType="0x1c" Name="S计轴复零" Alias="S计轴复零" LeadSeelType="1">
+                <NamePos x="227" y="112" />
+                <Point x="250" y="100" />
+            </Device>
+            <Device id="5" SubType="0x22" Name="X计轴停止" Alias="X计轴停止" LeadSeelType="1">
+                <NamePos x="877" y="112" />
+                <Point x="900" y="100" />
+            </Device>
+            <Device id="6" SubType="0x21" Name="X计轴使用" Alias="X计轴使用" LeadSeelType="1">
+                <NamePos x="807" y="112" />
+                <Point x="830" y="100" />
+            </Device>
+            <Device id="7" SubType="0x1c" Name="X计轴复零" Alias="X计轴复零" LeadSeelType="1">
+                <NamePos x="737" y="112" />
+                <Point x="760" y="100" />
+            </Device>
+            <Device id="3" SubType="0x1d" Name="S闭塞" Alias="S闭塞" LeadSeelType="0">
+                <NamePos x="97" y="32" />
+                <Point x="110" y="20" />
+            </Device>
+            <Device id="49" SubType="0x1e" Name="S事故" Alias="S事故" LeadSeelType="1">
+                <NamePos x="167" y="32" />
+                <Point x="180" y="20" />
+            </Device>
+            <Device id="52" SubType="0x1f" Name="S复原" Alias="S复原" LeadSeelType="0">
+                <NamePos x="237" y="32" />
+                <Point x="250" y="20" />
+            </Device>
+            <Device id="72" SubType="0x1d" Name="X闭塞" Alias="X闭塞" LeadSeelType="0">
+                <NamePos x="887" y="32" />
+                <Point x="900" y="20" />
+            </Device>
+            <Device id="73" SubType="0x1e" Name="X事故" Alias="X事故" LeadSeelType="1">
+                <NamePos x="817" y="32" />
+                <Point x="830" y="20" />
+            </Device>
+            <Device id="74" SubType="0x1f" Name="X复原" Alias="X复原" LeadSeelType="0">
+                <NamePos x="747" y="32" />
+                <Point x="760" y="20" />
+            </Device>
+            <Device id="64" SubType="0x0a" Name="坡道解锁" Alias="坡道解锁" LeadSeelType="1">
+                <NamePos x="500" y="752" />
+                <Point x="520" y="740" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="SignalButton">
+            <Device id="81" SubType="0x01" Name="XLA" Alias="XLA">
+                <NamePos x="886" y="346" />
+                <Point x="880" y="340" />
+            </Device>
+            <Device id="82" SubType="0x02" Name="XTA" Alias="XTA">
+                <NamePos x="886" y="356" />
+                <Point x="880" y="350" />
+            </Device>
+            <Device id="83" SubType="0x01" Name="SLA" Alias="SLA">
+                <NamePos x="106" y="322" />
+                <Point x="130" y="340" />
+            </Device>
+            <Device id="84" SubType="0x02" Name="STA" Alias="STA">
+                <NamePos x="105" y="332" />
+                <Point x="130" y="350" />
+            </Device>
+            <Device id="85" SubType="0x03" Name="SIIDA" Alias="SIIDA">
+                <NamePos x="586" y="322" />
+                <Point x="620" y="340" />
+            </Device>
+            <Device id="86" SubType="0x01" Name="SIILA" Alias="SIILA">
+                <NamePos x="568" y="332" />
+                <Point x="600" y="350" />
+            </Device>
+            <Device id="87" SubType="0x03" Name="S1DA" Alias="S1DA">
+                <NamePos x="589" y="282" />
+                <Point x="620" y="300" />
+            </Device>
+            <Device id="88" SubType="0x01" Name="S1LA" Alias="S1LA">
+                <NamePos x="571" y="292" />
+                <Point x="600" y="310" />
+            </Device>
+            <Device id="89" SubType="0x03" Name="S3DA" Alias="S3DA">
+                <NamePos x="589" y="362" />
+                <Point x="620" y="380" />
+            </Device>
+            <Device id="90" SubType="0x01" Name="S3LA" Alias="S3LA">
+                <NamePos x="571" y="372" />
+                <Point x="600" y="390" />
+            </Device>
+            <Device id="91" SubType="0x03" Name="S4DA" Alias="S4DA">
+                <NamePos x="589" y="392" />
+                <Point x="620" y="410" />
+            </Device>
+            <Device id="92" SubType="0x01" Name="S4LA" Alias="S4LA">
+                <NamePos x="571" y="412" />
+                <Point x="600" y="430" />
+            </Device>
+            <Device id="93" SubType="0x03" Name="XIIDA" Alias="XIIDA">
+                <NamePos x="376" y="366" />
+                <Point x="370" y="360" />
+            </Device>
+            <Device id="94" SubType="0x01" Name="XIILA" Alias="XIILA">
+                <NamePos x="396" y="356" />
+                <Point x="390" y="350" />
+            </Device>
+            <Device id="95" SubType="0x03" Name="X1DA" Alias="X1DA">
+                <NamePos x="376" y="326" />
+                <Point x="370" y="320" />
+            </Device>
+            <Device id="96" SubType="0x01" Name="X1LA" Alias="X1LA">
+                <NamePos x="396" y="316" />
+                <Point x="390" y="310" />
+            </Device>
+            <Device id="97" SubType="0x03" Name="X3DA" Alias="X3DA">
+                <NamePos x="376" y="406" />
+                <Point x="370" y="400" />
+            </Device>
+            <Device id="98" SubType="0x01" Name="X3LA" Alias="X3LA">
+                <NamePos x="396" y="396" />
+                <Point x="390" y="390" />
+            </Device>
+            <Device id="99" SubType="0x03" Name="X4DA" Alias="X4DA">
+                <NamePos x="306" y="446" />
+                <Point x="300" y="440" />
+            </Device>
+            <Device id="100" SubType="0x01" Name="X4LA" Alias="X4LA">
+                <NamePos x="276" y="446" />
+                <Point x="270" y="440" />
+            </Device>
+            <Device id="101" SubType="0x03" Name="D1A" Alias="D1A">
+                <NamePos x="816" y="406" />
+                <Point x="810" y="400" />
+            </Device>
+            <Device id="102" SubType="0x03" Name="D3A" Alias="D3A">
+                <NamePos x="836" y="366" />
+                <Point x="830" y="360" />
+            </Device>
+            <Device id="103" SubType="0x03" Name="D5A" Alias="D5A">
+                <NamePos x="756" y="416" />
+                <Point x="750" y="410" />
+            </Device>
+            <Device id="104" SubType="0x03" Name="D7A" Alias="D7A">
+                <NamePos x="736" y="356" />
+                <Point x="730" y="350" />
+            </Device>
+            <Device id="105" SubType="0x03" Name="D9A" Alias="D9A">
+                <NamePos x="615" y="462" />
+                <Point x="640" y="480" />
+            </Device>
+            <Device id="106" SubType="0x03" Name="D11A" Alias="D11A">
+                <NamePos x="596" y="486" />
+                <Point x="590" y="480" />
+            </Device>
+            <Device id="107" SubType="0x03" Name="D13A" Alias="D13A">
+                <NamePos x="606" y="446" />
+                <Point x="600" y="440" />
+            </Device>
+            <Device id="108" SubType="0x03" Name="D15A" Alias="D15A">
+                <NamePos x="490" y="402" />
+                <Point x="520" y="420" />
+            </Device>
+            <Device id="109" SubType="0x03" Name="D17A" Alias="D17A">
+                <NamePos x="546" y="456" />
+                <Point x="540" y="450" />
+            </Device>
+            <Device id="110" SubType="0x03" Name="D19A" Alias="D19A">
+                <NamePos x="410" y="402" />
+                <Point x="440" y="420" />
+            </Device>
+            <Device id="111" SubType="0x03" Name="D21A" Alias="D21A">
+                <NamePos x="420" y="442" />
+                <Point x="450" y="460" />
+            </Device>
+            <Device id="112" SubType="0x03" Name="D2A" Alias="D2A">
+                <NamePos x="175" y="322" />
+                <Point x="200" y="340" />
+            </Device>
+            <Device id="113" SubType="0x03" Name="D4A" Alias="D4A">
+                <NamePos x="295" y="392" />
+                <Point x="320" y="410" />
+            </Device>
+            <Device id="114" SubType="0x03" Name="D8A" Alias="D8A">
+                <NamePos x="406" y="456" />
+                <Point x="400" y="450" />
+            </Device>
+            <Device id="115" SubType="0x03" Name="D10A" Alias="D10A">
+                <NamePos x="456" y="486" />
+                <Point x="450" y="480" />
+            </Device>
+            <Device id="116" SubType="0x03" Name="D6A" Alias="D6A">
+                <NamePos x="345" y="482" />
+                <Point x="370" y="500" />
+            </Device>
+            <Device id="129" SubType="0x03" Name="APA" Alias="APA">
+                <NamePos x="681" y="290" />
+                <Point x="690" y="310" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="SectionButton">
+            <Device id="62" Name="1-7DGA" Alias="1-7DG">
+                <NamePos x="-34" y="832" />
+                <Point x="-20" y="820" />
+            </Device>
+            <Device id="63" Name="3-5DGA" Alias="3-5DG">
+                <NamePos x="6" y="832" />
+                <Point x="20" y="820" />
+            </Device>
+            <Device id="66" Name="9-15DGA" Alias="9-15DG">
+                <NamePos x="124" y="832" />
+                <Point x="140" y="820" />
+            </Device>
+            <Device id="67" Name="11DGA" Alias="11DG">
+                <NamePos x="168" y="832" />
+                <Point x="180" y="820" />
+            </Device>
+            <Device id="68" Name="13DGA" Alias="13DG">
+                <NamePos x="208" y="832" />
+                <Point x="220" y="820" />
+            </Device>
+            <Device id="70" Name="17DGA" Alias="17DG">
+                <NamePos x="288" y="832" />
+                <Point x="300" y="820" />
+            </Device>
+            <Device id="71" Name="19DGA" Alias="19DG">
+                <NamePos x="328" y="832" />
+                <Point x="340" y="820" />
+            </Device>
+            <Device id="75" Name="12DGA" Alias="12DG">
+                <NamePos x="638" y="842" />
+                <Point x="650" y="830" />
+            </Device>
+            <Device id="76" Name="10DGA" Alias="10DG">
+                <NamePos x="678" y="842" />
+                <Point x="690" y="830" />
+            </Device>
+            <Device id="77" Name="8DGA" Alias="8DG">
+                <NamePos x="721" y="842" />
+                <Point x="730" y="830" />
+            </Device>
+            <Device id="78" Name="6DGA" Alias="6DG">
+                <NamePos x="761" y="842" />
+                <Point x="770" y="830" />
+            </Device>
+            <Device id="80" Name="2-4DGA" Alias="2-4DG">
+                <NamePos x="836" y="842" />
+                <Point x="850" y="830" />
+            </Device>
+            <Device id="117" Name="15/17GA" Alias="15/17GA">
+                <NamePos x="841" y="802" />
+                <Point x="860" y="790" />
+            </Device>
+            <Device id="118" Name="6/8GA" Alias="6/8GA">
+                <NamePos x="886" y="802" />
+                <Point x="900" y="790" />
+            </Device>
+            <Device id="119" Name="IIBGA" Alias="IIBGA">
+                <NamePos x="926" y="802" />
+                <Point x="940" y="790" />
+            </Device>
+            <Device id="121" Name="D1GA" Alias="D1GA">
+                <NamePos x="1007" y="802" />
+                <Point x="1020" y="790" />
+            </Device>
+            <Device id="122" Name="IIAGA" Alias="IIAGA">
+                <NamePos x="1046" y="802" />
+                <Point x="1060" y="790" />
+            </Device>
+            <!--Device id="123" Name="1GA" Alias="1GA">
+                <NamePos x="401" y="812" />
+                <Point x="410" y="800" />
+            </Device>
+            <Device id="124" Name="3GA" Alias="3GA">
+                <NamePos x="441" y="812" />
+                <Point x="450" y="800" />
+            </Device>
+            <Device id="125" Name="4GA" Alias="4GA">
+                <NamePos x="481" y="812" />
+                <Point x="490" y="800" />
+            </Device>
+            <Device id="126" Name="IIGA" Alias="IIGA">
+                <NamePos x="519" y="812" />
+                <Point x="530" y="800" />
+            </Device-->
+            <Device id="53" Name="D6GA" Alias="D6GA">
+                <NamePos x="880" y="810" />
+                <Point x="900" y="830" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="SwitchButton">
+            <Device id="1" Name="1CA" Alias="1CA">
+                <NamePos x="-29" y="802" />
+                <Point x="-20" y="790" />
+            </Device>
+            <Device id="2" Name="3CA" Alias="3CA">
+                <NamePos x="11" y="802" />
+                <Point x="20" y="790" />
+            </Device>
+            <Device id="4" Name="5CA" Alias="5CA">
+                <NamePos x="51" y="802" />
+                <Point x="60" y="790" />
+            </Device>
+            <Device id="11" Name="7CA" Alias="7CA">
+                <NamePos x="91" y="802" />
+                <Point x="100" y="790" />
+            </Device>
+            <Device id="12" Name="9CA" Alias="9CA">
+                <NamePos x="131" y="802" />
+                <Point x="140" y="790" />
+            </Device>
+            <Device id="13" Name="11CA" Alias="11CA">
+                <NamePos x="168" y="802" />
+                <Point x="180" y="790" />
+            </Device>
+            <Device id="14" Name="13CA" Alias="13CA">
+                <NamePos x="208" y="802" />
+                <Point x="220" y="790" />
+            </Device>
+            <Device id="19" Name="15CA" Alias="15CA">
+                <NamePos x="248" y="802" />
+                <Point x="260" y="790" />
+            </Device>
+            <Device id="54" Name="17CA" Alias="17CA">
+                <NamePos x="288" y="802" />
+                <Point x="300" y="790" />
+            </Device>
+            <Device id="55" Name="19CA" Alias="19CA">
+                <NamePos x="328" y="802" />
+                <Point x="340" y="790" />
+            </Device>
+            <Device id="56" Name="2CA" Alias="2CA">
+                <NamePos x="611" y="802" />
+                <Point x="620" y="790" />
+            </Device>
+            <Device id="57" Name="4CA" Alias="4CA">
+                <NamePos x="651" y="802" />
+                <Point x="660" y="790" />
+            </Device>
+            <Device id="58" Name="6CA" Alias="6CA">
+                <NamePos x="691" y="802" />
+                <Point x="700" y="790" />
+            </Device>
+            <Device id="59" Name="8CA" Alias="8CA">
+                <NamePos x="731" y="802" />
+                <Point x="740" y="790" />
+            </Device>
+            <Device id="60" Name="10CA" Alias="10CA">
+                <NamePos x="768" y="802" />
+                <Point x="780" y="790" />
+            </Device>
+            <Device id="61" Name="12CA" Alias="12CA">
+                <NamePos x="808" y="802" />
+                <Point x="820" y="790" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Bme" />
+        <DeviceInfo type="TrainPlanWindow">
+            <Device id="2" Name="S计划框" Alias="S计划框" Length="120" Width="45" LineId="31" PositionType="1" FieldNo="0">
+                <NamePos x="120" y="137" />
+                <Point x="100" y="130" />
+            </Device>
+            <Device id="4" Name="X计划框" Alias="X计划框" Length="120" Width="45" LineId="804" PositionType="1" FieldNo="0">
+                <NamePos x="800" y="137" />
+                <Point x="780" y="130" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="Platform">
+            <Device id="1" Name="" Alias="" Angle="0" Height="16" Width="80" PlatformType="0">
+                <NamePos x="500" y="280" />
+                <Point x="500" y="300" />
+            </Device>
+        </DeviceInfo>
+        <DeviceInfo type="NeutralSign" />
+        <DeviceInfo type="SafetySign" />
+        <DeviceInfo type="BlockRelayStationBorderLine" />
+        <DeviceInfo type="RBCBorderLine" />
+    </DeviceType>
+</StationLayout>

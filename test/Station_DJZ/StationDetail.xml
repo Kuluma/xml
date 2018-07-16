@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Station StaBrief="DJZ" version="1.0.0.0">
+    <Track DevName="3G" Length="860" PlatformType="N">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="N" />
+        <Prop Type="OutLoad" Enable="N" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    <Track DevName="IIG" Length="879" PlatformType="N">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="Y" />
+        <Prop Type="OutLoad" Enable="Y" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    <Track DevName="1G" Length="879" PlatformType="L">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="Y" />
+        <Prop Type="OutLoad" Enable="Y" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    	<!--相邻股道 禁止交汇-->
+	<ForbidMeet TrackName1="IIG" TrackName2="1G">
+		<!--Type1或Type2 为All时表示所有列车-->
+		<TrainType Type1="Outload" Type2="Outload"/>
+	</ForbidMeet>
+</Station>

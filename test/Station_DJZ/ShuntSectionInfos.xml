@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--此文件描述站场股道及无岔是否显示属性、集中区或非集中区配置-->
+<Station StaBrief="DJZ">
+    <Track DevName="XJG" InnerDev="Y" show="Y" />
+    <Track DevName="IIAG" InnerDev="Y" show="Y" />
+    <Track DevName="D15G" InnerDev="Y" show="Y" />
+    <Track DevName="D7G" InnerDev="Y" show="Y" />
+    <Track DevName="9/21G" InnerDev="Y" show="Y" />
+    <Track DevName="D1G" InnerDev="Y" show="Y" />
+    <Track DevName="D25G" InnerDev="Y" show="Y" />
+    <Track DevName="D23G" InnerDev="Y" show="Y" />
+    <Track DevName="SJG" InnerDev="Y" show="Y" />
+    <Track DevName="IIBG" InnerDev="Y" show="Y" />
+    <Track DevName="3G" InnerDev="Y" show="Y" />
+    <Track DevName="IIG" InnerDev="Y" show="Y" />
+    <Track DevName="1G" InnerDev="Y" show="Y" />
+</Station>
+<!--InnerDev含义：是否是集中区设备 若不是则需要配置ReplaceDev项,show 设备是否显示-->

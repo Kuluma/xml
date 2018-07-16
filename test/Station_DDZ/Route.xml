@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Station brief="DDZ" version="1.0.0.0">
+    <TrainRoutes>
+        <ContinueRoute No="1" RunDirection="S">
+            <Button>XLA</Button>
+            <Track>4G</Track>
+            <Section>6/8G</Section>
+            <Section>8DG</Section>
+            <Section>19DG</Section>
+            <Section>17DG</Section>
+            <Section>15/17G</Section>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="8" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="17" Position="L" />
+            <Switch name="15" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <ContinueRoute No="2" RunDirection="S">
+            <Button>XLA</Button>
+            <Track>3G</Track>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="15" Position="L" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <ContinueRoute No="3" RunDirection="S" BaseRoute="yes">
+            <Button>XLA</Button>
+            <Track>IIG</Track>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="11" Position="L" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <ContinueRoute No="4" RunDirection="S" BaseRoute="yes">
+            <Button>APA</Button>
+            <Track>1G</Track>
+            <Section>13DG</Section>
+            <Switch name="13" Position="L" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect>1G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <ContinueRoute No="5" RunDirection="S">
+            <Button>XLA</Button>
+            <Track>1G</Track>
+            <Section>13DG</Section>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="13" Position="U" />
+            <Switch name="11" Position="U" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect>1G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        
+            <ContinueRoute No="6" RunDirection="S">
+            <Button>D1A</Button>
+            <Track>1G</Track>
+            <Section>13DG</Section>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="13" Position="U" />
+            <Switch name="11" Position="U" />
+            <Switch name="7" Position="U" />
+            <Switch name="5" Position="U" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect>1G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        
+         <ContinueRoute No="7" RunDirection="S">
+            <Button>D1A</Button>
+            <Track>IIG</Track>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>           
+            <Switch name="11" Position="L" />
+            <Switch name="7" Position="U" />
+            <Switch name="5" Position="U" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <ContinueRoute No="8" RunDirection="S" BaseRoute="yes">
+            <Button>D1A</Button>
+            <Track>3G</Track>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>           
+            <Section>D1G</Section>
+            <Switch name="15" Position="L" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="L" />
+            <Switch name="5" Position="L" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+         <ContinueRoute No="9" RunDirection="S" BaseRoute="yes">
+            <Button>D1A</Button>
+            <Track>4G</Track>
+            <Section>6/8G</Section>
+            <Section>8DG</Section>
+            <Section>19DG</Section>
+            <Section>17DG</Section>
+            <Section>15/17G</Section>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            
+            <Section>D1G</Section>
+            <Switch name="8" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="17" Position="L" />
+            <Switch name="15" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="L" />
+            <Switch name="5" Position="L" />
+            <OutLineNo>0</OutLineNo>
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </ContinueRoute>
+        <TrainRoute No="10001" RunDirection="X" Type="R">
+            <StartButton>XLA</StartButton>
+            <EndButton>SIILA</EndButton>
+            <StartSignal>X</StartSignal>
+            <Section>IIAG</Section>
+            <Section>1-7DG</Section>
+            <Section>11DG</Section>
+            <Track>IIG</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="1" Position="L" />
+            <Switch name="7" Position="L" />
+            <Switch name="11" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10002" RunDirection="X" Type="R">
+            <StartButton>XLA</StartButton>
+            <EndButton>S1LA</EndButton>
+            <StartSignal>X</StartSignal>
+            <Section>IIAG</Section>
+            <Section>1-7DG</Section>
+            <Section>11DG</Section>
+            <Section>13DG</Section>
+            <Track>1G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="1" Position="L" />
+            <Switch name="7" Position="L" />
+            <Switch name="11" Position="U" />
+            <Switch name="13" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10003" RunDirection="X" Type="R">
+            <StartButton>XLA</StartButton>
+            <EndButton>S3LA</EndButton>
+            <StartSignal>X</StartSignal>
+            <Section>IIAG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>9-15DG</Section>
+            <Track>3G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="1" Position="U" />
+            <Switch name="3" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="15" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10004" RunDirection="X" Type="R">
+            <StartButton>XLA</StartButton>
+            <EndButton>S4LA</EndButton>
+            <StartSignal>X</StartSignal>
+            <Section>IIAG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>9-15DG</Section>
+            <Section>15/17G</Section>
+            <Section>17DG</Section>
+            <Section>19DG</Section>
+            <Section>8DG</Section>
+            <Section>6/8G</Section>
+            <Track>4G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="1" Position="U" />
+            <Switch name="3" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="15" Position="U" />
+            <Switch name="17" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="8" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10005" RunDirection="S" Type="R">
+            <StartButton>SLA</StartButton>
+            <EndButton>XIILA</EndButton>
+            <StartSignal>S</StartSignal>
+            <Section>IIBG</Section>
+            <Section>2-4DG</Section>
+            <Track>IIG</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="2" Position="L" />
+            <Switch name="4" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10006" RunDirection="S" Type="R">
+            <StartButton>SLA</StartButton>
+            <EndButton>X1LA</EndButton>
+            <StartSignal>S</StartSignal>
+            <Section>IIBG</Section>
+            <Section>2-4DG</Section>
+            <Track>1G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="2" Position="L" />
+            <Switch name="4" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10007" RunDirection="S" Type="R">
+            <StartButton>SLA</StartButton>
+            <EndButton>X4LA</EndButton>
+            <StartSignal>S</StartSignal>
+            <Section>IIBG</Section>
+            <Section>2-4DG</Section>
+            <Section>6DG</Section>
+            <Section>6/8G</Section>
+            <Section>8DG</Section>
+            <Section>19DG</Section>
+            <Section>17DG</Section>
+            <Section>15/17G</Section>
+            <Track>4G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="2" Position="U" />
+            <Switch name="6" Position="L" />
+            <Switch name="8" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="17" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10008" RunDirection="S" Type="R">
+            <StartButton>SLA</StartButton>
+            <EndButton>X3LA</EndButton>
+            <StartSignal>S</StartSignal>
+            <Section>IIBG</Section>
+            <Section>2-4DG</Section>
+            <Section>6DG</Section>
+            <Track>3G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="2" Position="U" />
+            <Switch name="6" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10009" RunDirection="X" Type="D">
+            <StartButton>XIILA</StartButton>
+            <EndButton>SLA</EndButton>
+            <StartSignal>XII</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Track>IIG</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="4" Position="L" />
+            <Switch name="2" Position="L" />
+            <TrainSubtendProtect>IIG</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10010" RunDirection="X" Type="D">
+            <StartButton>X1LA</StartButton>
+            <EndButton>SLA</EndButton>
+            <StartSignal>X1</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Track>1G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="4" Position="U" />
+            <Switch name="2" Position="L" />
+            <TrainSubtendProtect>1G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10011" RunDirection="X" Type="D">
+            <StartButton>X3LA</StartButton>
+            <EndButton>SLA</EndButton>
+            <StartSignal>X3</StartSignal>
+            <Section>6DG</Section>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Track>3G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="6" Position="U" />
+            <Switch name="2" Position="U" />
+            <TrainSubtendProtect>3G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10012" RunDirection="X" Type="D">
+            <StartButton>X4LA</StartButton>
+            <EndButton>SLA</EndButton>
+            <StartSignal>X4</StartSignal>
+            <Section>15/17G</Section>
+            <Section>17DG</Section>
+            <Section>19DG</Section>
+            <Section>8DG</Section>
+            <Section>6/8G</Section>
+            <Section>6DG</Section>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Track>4G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="17" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="8" Position="L" />
+            <Switch name="6" Position="L" />
+            <Switch name="2" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10013" RunDirection="S" Type="D">
+            <StartButton>SIILA</StartButton>
+            <EndButton>XLA</EndButton>
+            <StartSignal>SII</StartSignal>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Track>IIG</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="11" Position="L" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <TrainSubtendProtect>IIG</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10014" RunDirection="S" Type="D">
+            <StartButton>S1LA</StartButton>
+            <EndButton>XLA</EndButton>
+            <StartSignal>S1</StartSignal>
+            <Section>13DG</Section>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Track>1G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="13" Position="U" />
+            <Switch name="11" Position="U" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <TrainSubtendProtect>1G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10015" RunDirection="S" Type="D">
+            <StartButton>S3LA</StartButton>
+            <EndButton>XLA</EndButton>
+            <StartSignal>S3</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Track>3G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="15" Position="L" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <TrainSubtendProtect>3G</TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <TrainRoute No="10016" RunDirection="S" Type="D">
+            <StartButton>S4LA</StartButton>
+            <EndButton>XLA</EndButton>
+            <StartSignal>S4</StartSignal>
+            <Section>6/8G</Section>
+            <Section>8DG</Section>
+            <Section>19DG</Section>
+            <Section>17DG</Section>
+            <Section>15/17G</Section>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Track>4G</Track>
+            <InLineNo>0</InLineNo>
+            <OutLineNo>0</OutLineNo>
+            <Switch name="8" Position="L" />
+            <Switch name="19" Position="L" />
+            <Switch name="17" Position="L" />
+            <Switch name="15" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+            <ShuntSubtendProtect></ShuntSubtendProtect>
+        </TrainRoute>
+        <CombineRoute No="10017" RunDirection="X" Type="T">
+            <StartButton>XTA</StartButton>
+            <EndButton>SLA</EndButton>
+            <RouteNo>10001</RouteNo>
+            <RouteNo>10009</RouteNo>
+        </CombineRoute>
+        <CombineRoute No="10021" RunDirection="S" Type="T">
+            <StartButton>STA</StartButton>
+            <EndButton>XLA</EndButton>
+            <RouteNo>10005</RouteNo>
+            <RouteNo>10013</RouteNo>
+        </CombineRoute>
+    </TrainRoutes>
+    <ShuntRoutes>
+        <ShortRoute No="10025">
+            <StartButton>D1A</StartButton>
+            <EndButton>D5A</EndButton>
+            <StartSignal>D1</StartSignal>
+            <Section>3-5DG</Section>
+            <Switch name="5" Position="L" />
+            <Switch name="3" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10026">
+            <StartButton>D1A</StartButton>
+            <EndButton>S3DA</EndButton>
+            <RouteNo>10025</RouteNo>
+            <RouteNo>10039</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10027">
+            <StartButton>D1A</StartButton>
+            <EndButton>S4DA</EndButton>
+            <RouteNo>10025</RouteNo>
+            <RouteNo>10040</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10028">
+            <StartButton>D1A</StartButton>
+            <EndButton>D9A</EndButton>
+            <RouteNo>10025</RouteNo>
+            <RouteNo>10041</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10029">
+            <StartButton>D1A</StartButton>
+            <EndButton>D7A</EndButton>
+            <StartSignal>D1</StartSignal>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Switch name="5" Position="U" />
+            <Switch name="7" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10030">
+            <StartButton>D1A</StartButton>
+            <EndButton>SIIDA</EndButton>
+            <RouteNo>10029</RouteNo>
+            <RouteNo>10042</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10031">
+            <StartButton>D1A</StartButton>
+            <EndButton>S1DA</EndButton>
+            <RouteNo>10029</RouteNo>
+            <RouteNo>10043</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10032">
+            <StartButton>D3A</StartButton>
+            <EndButton>D7A</EndButton>
+            <StartSignal>D3</StartSignal>
+            <Section>1-7DG</Section>
+            <Switch name="1" Position="L" />
+            <Switch name="7" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10033">
+            <StartButton>D3A</StartButton>
+            <EndButton>SIIDA</EndButton>
+            <RouteNo>10032</RouteNo>
+            <RouteNo>10042</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10034">
+            <StartButton>D3A</StartButton>
+            <EndButton>S1DA</EndButton>
+            <RouteNo>10032</RouteNo>
+            <RouteNo>10043</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10035">
+            <StartButton>D3A</StartButton>
+            <EndButton>D5A</EndButton>
+            <StartSignal>D3</StartSignal>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Switch name="1" Position="U" />
+            <Switch name="3" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10036">
+            <StartButton>D3A</StartButton>
+            <EndButton>S3DA</EndButton>
+            <RouteNo>10035</RouteNo>
+            <RouteNo>10039</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10037">
+            <StartButton>D3A</StartButton>
+            <EndButton>S4DA</EndButton>
+            <RouteNo>10035</RouteNo>
+            <RouteNo>10040</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10038">
+            <StartButton>D3A</StartButton>
+            <EndButton>D9A</EndButton>
+            <RouteNo>10035</RouteNo>
+            <RouteNo>10041</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10039">
+            <StartButton>D5A</StartButton>
+            <EndButton>S3DA</EndButton>
+            <StartSignal>D5</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3G</Section>
+            <Switch name="9" Position="L" />
+            <Switch name="15" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10040">
+            <StartButton>D5A</StartButton>
+            <EndButton>S4DA</EndButton>
+            <StartSignal>D5</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>15/17G</Section>
+            <Switch name="9" Position="L" />
+            <Switch name="15" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10041">
+            <StartButton>D5A</StartButton>
+            <EndButton>D9A</EndButton>
+            <StartSignal>D5</StartSignal>
+            <Section>9-15DG</Section>
+            <Switch name="9" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10042">
+            <StartButton>D7A</StartButton>
+            <EndButton>SIIDA</EndButton>
+            <StartSignal>D7</StartSignal>
+            <Section>11DG</Section>
+            <Section>IIG</Section>
+            <Switch name="11" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10043">
+            <StartButton>D7A</StartButton>
+            <EndButton>S1DA</EndButton>
+            <StartSignal>D7</StartSignal>
+            <Section>11DG</Section>
+            <Section>13DG</Section>
+            <Section>1G</Section>
+            <Switch name="11" Position="U" />
+            <Switch name="13" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10044">
+            <StartButton>D11A</StartButton>
+            <EndButton>D15A</EndButton>
+            <StartSignal>D11</StartSignal>
+            <Section>17DG</Section>
+            <Switch name="17" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10045">
+            <StartButton>D11A</StartButton>
+            <EndButton>D19A</EndButton>
+            <RouteNo>10044</RouteNo>
+            <RouteNo>10050</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10046">
+            <StartButton>D11A</StartButton>
+            <EndButton>D21A</EndButton>
+            <RouteNo>10044</RouteNo>
+            <RouteNo>10051</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10047">
+            <StartButton>D13A</StartButton>
+            <EndButton>D15A</EndButton>
+            <StartSignal>D13</StartSignal>
+            <Section>17DG</Section>
+            <Switch name="17" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10048">
+            <StartButton>D13A</StartButton>
+            <EndButton>D19A</EndButton>
+            <RouteNo>10047</RouteNo>
+            <RouteNo>10050</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10049">
+            <StartButton>D13A</StartButton>
+            <EndButton>D21A</EndButton>
+            <RouteNo>10047</RouteNo>
+            <RouteNo>10051</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10050">
+            <StartButton>D17A</StartButton>
+            <EndButton>D19A</EndButton>
+            <StartSignal>D17</StartSignal>
+            <Section>19DG</Section>
+            <Section>4G</Section>
+            <Switch name="19" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10051">
+            <StartButton>D17A</StartButton>
+            <EndButton>D21A</EndButton>
+            <StartSignal>D17</StartSignal>
+            <Section>19DG</Section>
+            <Switch name="19" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10052">
+            <StartButton>SIIDA</StartButton>
+            <EndButton>D3A</EndButton>
+            <StartSignal>SII</StartSignal>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="11" Position="L" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10053">
+            <StartButton>SIIDA</StartButton>
+            <EndButton>D1A</EndButton>
+            <StartSignal>SII</StartSignal>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="11" Position="L" />
+            <Switch name="7" Position="U" />
+            <Switch name="5" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10054">
+            <StartButton>S1DA</StartButton>
+            <EndButton>D3A</EndButton>
+            <StartSignal>S1</StartSignal>
+            <Section>13DG</Section>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="13" Position="U" />
+            <Switch name="11" Position="U" />
+            <Switch name="7" Position="L" />
+            <Switch name="1" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10055">
+            <StartButton>S1DA</StartButton>
+            <EndButton>D1A</EndButton>
+            <StartSignal>S1</StartSignal>
+            <Section>13DG</Section>
+            <Section>11DG</Section>
+            <Section>1-7DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="13" Position="U" />
+            <Switch name="11" Position="U" />
+            <Switch name="7" Position="U" />
+            <Switch name="5" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10056">
+            <StartButton>S3DA</StartButton>
+            <EndButton>D1A</EndButton>
+            <StartSignal>S3</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="15" Position="L" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="L" />
+            <Switch name="5" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10057">
+            <StartButton>S3DA</StartButton>
+            <EndButton>D3A</EndButton>
+            <StartSignal>S3</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="15" Position="L" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10058">
+            <StartButton>S4DA</StartButton>
+            <EndButton>D1A</EndButton>
+            <StartSignal>S4</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="15" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="L" />
+            <Switch name="5" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10059">
+            <StartButton>S4DA</StartButton>
+            <EndButton>D3A</EndButton>
+            <StartSignal>S4</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="15" Position="U" />
+            <Switch name="9" Position="L" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10060">
+            <StartButton>D9A</StartButton>
+            <EndButton>D1A</EndButton>
+            <StartSignal>D9</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>D1G</Section>
+            <Switch name="9" Position="U" />
+            <Switch name="3" Position="L" />
+            <Switch name="5" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10061">
+            <StartButton>D9A</StartButton>
+            <EndButton>D3A</EndButton>
+            <StartSignal>D9</StartSignal>
+            <Section>9-15DG</Section>
+            <Section>3-5DG</Section>
+            <Section>1-7DG</Section>
+            <Section>IIAG</Section>
+            <Switch name="9" Position="U" />
+            <Switch name="3" Position="U" />
+            <Switch name="1" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10062">
+            <StartButton>D15A</StartButton>
+            <EndButton>D13A</EndButton>
+            <StartSignal>D15</StartSignal>
+            <Section>17DG</Section>
+            <Section>15/17G</Section>
+            <Switch name="17" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10063">
+            <StartButton>D15A</StartButton>
+            <EndButton>D1A</EndButton>
+            <RouteNo>10058</RouteNo>
+            <RouteNo>10062</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10064">
+            <StartButton>D15A</StartButton>
+            <EndButton>D3A</EndButton>
+            <RouteNo>10059</RouteNo>
+            <RouteNo>10062</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10065">
+            <StartButton>D15A</StartButton>
+            <EndButton>D11A</EndButton>
+            <StartSignal>D15</StartSignal>
+            <Section>17DG</Section>
+            <Switch name="17" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10066">
+            <StartButton>D19A</StartButton>
+            <EndButton>D17A</EndButton>
+            <StartSignal>D19</StartSignal>
+            <Section>19DG</Section>
+            <Switch name="19" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10067">
+            <StartButton>D19A</StartButton>
+            <EndButton>D13A</EndButton>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10066</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10068">
+            <StartButton>D19A</StartButton>
+            <EndButton>D1A</EndButton>
+            <RouteNo>10058</RouteNo>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10066</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10069">
+            <StartButton>D19A</StartButton>
+            <EndButton>D3A</EndButton>
+            <RouteNo>10059</RouteNo>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10066</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10070">
+            <StartButton>D19A</StartButton>
+            <EndButton>D11A</EndButton>
+            <RouteNo>10065</RouteNo>
+            <RouteNo>10066</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10071">
+            <StartButton>D21A</StartButton>
+            <EndButton>D17A</EndButton>
+            <StartSignal>D21</StartSignal>
+            <Section>19DG</Section>
+            <Switch name="19" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10072">
+            <StartButton>D21A</StartButton>
+            <EndButton>D13A</EndButton>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10071</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10073">
+            <StartButton>D21A</StartButton>
+            <EndButton>D1A</EndButton>
+            <RouteNo>10058</RouteNo>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10071</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10074">
+            <StartButton>D21A</StartButton>
+            <EndButton>D3A</EndButton>
+            <RouteNo>10059</RouteNo>
+            <RouteNo>10062</RouteNo>
+            <RouteNo>10071</RouteNo>
+        </LongShuntRoute>
+        <LongShuntRoute No="10075">
+            <StartButton>D21A</StartButton>
+            <EndButton>D11A</EndButton>
+            <RouteNo>10065</RouteNo>
+            <RouteNo>10071</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10076">
+            <StartButton>XIIDA</StartButton>
+            <EndButton>D2A</EndButton>
+            <StartSignal>XII</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Switch name="4" Position="L" />
+            <Switch name="2" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10077">
+            <StartButton>X1DA</StartButton>
+            <EndButton>D2A</EndButton>
+            <StartSignal>X1</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Switch name="4" Position="U" />
+            <Switch name="2" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10078">
+            <StartButton>X3DA</StartButton>
+            <EndButton>D2A</EndButton>
+            <StartSignal>X3</StartSignal>
+            <Section>6DG</Section>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Switch name="6" Position="U" />
+            <Switch name="2" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10079">
+            <StartButton>X4DA</StartButton>
+            <EndButton>D2A</EndButton>
+            <StartSignal>X4</StartSignal>
+            <Section>6DG</Section>
+            <Section>2-4DG</Section>
+            <Section>IIBG</Section>
+            <Switch name="6" Position="L" />
+            <Switch name="2" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10080">
+            <StartButton>D8A</StartButton>
+            <EndButton>D4A</EndButton>
+            <StartSignal>D8</StartSignal>
+            <Section>8DG</Section>
+            <Section>6/8G</Section>
+            <Switch name="8" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10081">
+            <StartButton>D8A</StartButton>
+            <EndButton>D2A</EndButton>
+            <RouteNo>10079</RouteNo>
+            <RouteNo>10080</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10082">
+            <StartButton>D10A</StartButton>
+            <EndButton>D4A</EndButton>
+            <StartSignal>D10</StartSignal>
+            <Section>12DG</Section>
+            <Section>8DG</Section>
+            <Section>6/8G</Section>
+            <Switch name="12" Position="L" />
+            <Switch name="8" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <LongShuntRoute No="10083">
+            <StartButton>D10A</StartButton>
+            <EndButton>D2A</EndButton>
+            <RouteNo>10079</RouteNo>
+            <RouteNo>10082</RouteNo>
+        </LongShuntRoute>
+        <ShortRoute No="10084">
+            <StartButton>D10A</StartButton>
+            <EndButton>D6A</EndButton>
+            <StartSignal>D10</StartSignal>
+            <Section>12DG</Section>
+            <Section>10DG</Section>
+            <Section>D6G</Section>
+            <Switch name="12" Position="U" />
+            <Switch name="10" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10085">
+            <StartButton>D2A</StartButton>
+            <EndButton>XIIDA</EndButton>
+            <StartSignal>D2</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>IIG</Section>
+            <Switch name="2" Position="L" />
+            <Switch name="4" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10086">
+            <StartButton>D2A</StartButton>
+            <EndButton>X1DA</EndButton>
+            <StartSignal>D2</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>1G</Section>
+            <Switch name="2" Position="L" />
+            <Switch name="4" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10087">
+            <StartButton>D2A</StartButton>
+            <EndButton>X4DA</EndButton>
+            <StartSignal>D2</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>6DG</Section>
+            <Section>6/8G</Section>
+            <Switch name="2" Position="U" />
+            <Switch name="6" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10088">
+            <StartButton>D2A</StartButton>
+            <EndButton>X3DA</EndButton>
+            <StartSignal>D2</StartSignal>
+            <Section>2-4DG</Section>
+            <Section>6DG</Section>
+            <Section>3G</Section>
+            <Switch name="2" Position="U" />
+            <Switch name="6" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10089">
+            <StartButton>D4A</StartButton>
+            <EndButton>D8A</EndButton>
+            <StartSignal>D4</StartSignal>
+            <Section>8DG</Section>
+            <Section>4G</Section>
+            <Switch name="8" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10090">
+            <StartButton>D4A</StartButton>
+            <EndButton>D10A</EndButton>
+            <StartSignal>D4</StartSignal>
+            <Section>8DG</Section>
+            <Section>12DG</Section>
+            <Switch name="8" Position="U" />
+            <Switch name="12" Position="L" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+        <ShortRoute No="10091">
+            <StartButton>D6A</StartButton>
+            <EndButton>D10A</EndButton>
+            <StartSignal>D6</StartSignal>
+            <Section>10DG</Section>
+            <Section>12DG</Section>
+            <Switch name="10" Position="U" />
+            <Switch name="12" Position="U" />
+            <TrainSubtendProtect></TrainSubtendProtect>
+        </ShortRoute>
+    </ShuntRoutes>
+    <ExtendRoute>
+        <TrainRoutes />
+        <ShuntRoutes />
+    </ExtendRoute>
+</Station>

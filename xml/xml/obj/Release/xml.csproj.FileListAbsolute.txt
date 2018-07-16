@@ -1,0 +1,10 @@
+C:\Users\ShenBoyi\source\repos\xml\xml\bin\Release\xml.exe.config
+C:\Users\ShenBoyi\source\repos\xml\xml\bin\Release\xml.exe
+C:\Users\ShenBoyi\source\repos\xml\xml\bin\Release\xml.pdb
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.csprojResolveAssemblyReference.cache
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.Form1.resources
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.Properties.Resources.resources
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.csproj.GenerateResource.cache
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.csproj.CoreCompileInputs.cache
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.exe
+C:\Users\ShenBoyi\source\repos\xml\xml\obj\Release\xml.pdb

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Stations>
+    <Station StaBrief="DJZ">
+        <Line No="0" StartKM="0" StartM="0" StartStyle="0" EndKM="0" EndM="0" EndStyle="0" />
+        <Signal DevName="X" Style="1" KM="954" M="415" TSR="0" />        
+        <Signal DevName="X" Style="1" KM="954" M="555" TSR="0" />    
+        <Signal DevName="S" Style="1" KM="956" M="120" TSR="0" />            
+        <Signal DevName="S" Style="1" KM="955" M="341" TSR="0" />
+        <Signal DevName="SII" Style="1" KM="955" M="20" TSR="0" />
+        <Signal DevName="S1" Style="1" KM="955" M="20" TSR="0" />
+        <Signal DevName="S3" Style="1" KM="955" M="20" TSR="0" />  
+        <Signal DevName="SII" Style="1" KM="955" M="10" TSR="0" /> 
+ 	      <Signal DevName="S1" Style="1" KM="955" M="10" TSR="0" /> 
+ 	      <Signal DevName="S3" Style="1" KM="955" M="10" TSR="0" /> 
+
+        
+        <Signal DevName="XII" Style="1" KM="955" M="685" TSR="0" />
+        <Signal DevName="X1" Style="1" KM="955" M="685" TSR="0" />
+        <Signal DevName="X3" Style="1" KM="955" M="685" TSR="0" />
+        <Signal DevName="XII" Style="1" KM="955" M="880" TSR="0" />
+	      <Signal DevName="X1" Style="1" KM="955" M="880" TSR="0" /> 
+	      <Signal DevName="X3" Style="1" KM="955" M="880" TSR="0" /> 
+
+    </Station>
+</Stations>

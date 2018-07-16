@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Station StaBrief="DDZ" version="1.0.0.0">
+    <Track DevName="3G" Length="845" PlatformType="N">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="Y" />
+        <Prop Type="OutLoad" Enable="N" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    <Track DevName="4G" Length="846" PlatformType="N">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="N" />
+        <Prop Type="OutLoad" Enable="Y" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    <Track DevName="IIG" Length="901" PlatformType="N">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="Y" />
+        <Prop Type="OutLoad" Enable="Y" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+    <Track DevName="1G" Length="877" PlatformType="L">
+        <Prop Type="Wagon" Enable="Y" />
+        <Prop Type="Passenger" Enable="Y" />
+        <Prop Type="OutLoad" Enable="N" />
+        <Prop Type="Motor" Enable="N" />
+    </Track>
+</Station>

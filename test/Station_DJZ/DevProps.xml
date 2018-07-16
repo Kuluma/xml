@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<DevProps StaBrief="DJZ" version="1.0.0.0">
+    <Devs DevType="TrainWin">
+        <TrainWin id="14" name="DJZXJG" Alias="DJZXJG" ThroatType="2" RelatedDev="XJG" />
+        <TrainWin id="20" name="DJZSJG" Alias="DJZSJG" ThroatType="1" RelatedDev="SJG" />
+        <TrainWin id="26" name="DJZ3G" Alias="DJZ3G" ThroatType="2" RelatedDev="3G" />
+        <TrainWin id="28" name="DJZIIG" Alias="DJZIIG" ThroatType="2" RelatedDev="IIG" />
+        <TrainWin id="30" name="DJZ1G" Alias="DJZ1G" ThroatType="2" RelatedDev="1G" />
+    </Devs>
+    <Devs DevType="Track">
+        <Track id="11" name="3G" Alias="3G" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="8" Back="19" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Track id="12" name="IIG" Alias="IIG" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="4" Back="19" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Track id="13" name="1G" Alias="1G" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="6" Back="17" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+    </Devs>
+    <Devs DevType="SwitchSection">
+        <SwitchSection id="259" name="5DG" Alias="5DG">
+            <Switch name="5" />
+        </SwitchSection>
+        <SwitchSection id="260" name="7DG" Alias="7DG">
+            <Switch name="7" />
+        </SwitchSection>
+        <SwitchSection id="261" name="9DG" Alias="9DG">
+            <Switch name="9" />
+        </SwitchSection>
+        <SwitchSection id="263" name="13DG" Alias="13DG">
+            <Switch name="13" />
+        </SwitchSection>
+        <SwitchSection id="264" name="15-19DG" Alias="15-19DG">
+            <Switch name="15" />
+            <Switch name="19" />
+        </SwitchSection>
+        <SwitchSection id="265" name="17DG" Alias="17DG">
+            <Switch name="17" />
+        </SwitchSection>
+        <SwitchSection id="271" name="6DG" Alias="6DG">
+            <Switch name="6" />
+        </SwitchSection>
+        <SwitchSection id="272" name="8DG" Alias="8DG">
+            <Switch name="8" />
+        </SwitchSection>
+        <SwitchSection id="257" name="1-11DG" Alias="1-11DG">
+            <Switch name="1" />
+            <Switch name="3" />
+            <Switch name="11" />
+        </SwitchSection>
+        <SwitchSection id="267" name="21-23DG" Alias="21-23DG">
+            <Switch name="21" />
+            <Switch name="23" />
+        </SwitchSection>
+        <SwitchSection id="269" name="2-4DG" Alias="2-4DG">
+            <Switch name="2" />
+            <Switch name="4" />
+        </SwitchSection>
+    </Devs>
+    <Devs DevType="Switchless">
+        <Switchless id="2" name="IIAG" Alias="IIAG" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="7" Back="XJG" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="3" name="D15G" Alias="D15G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="" Back="11" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="4" name="D7G" Alias="D7G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="1" Back="" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="5" name="9/21G" Alias="9/21G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="21" Back="9" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="6" name="D1G" Alias="D1G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="1" Back="" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="7" name="D25G" Alias="D25G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="23" Back="" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="8" name="D23G" Alias="D23G" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="23" Back="" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Switchless id="10" name="IIBG" Alias="IIBG" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="2" Back="SJG" LFY="0" devNoCmdCheck="0" devNoCmdExe="0" />
+    </Devs>
+    <Devs DevType="Block">
+        <Block id="1" name="XJG" Alias="XJG" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="" Back="IIAG" LFY="0" TransparentDev="0" devNoCmdCheck="0" devNoCmdExe="0" />
+        <Block id="9" name="SJG" Alias="SJG" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="IIBG" Back="" LFY="0" TransparentDev="0" devNoCmdCheck="0" devNoCmdExe="0" />
+    </Devs>
+    <Devs DevType="InterYard" />
+    <Devs DevType="Switch">
+        <Switch id="257" name="1" Alias="1" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="D1G" BackNormal="3" BackReverse="D7G" />
+        <Switch id="258" name="3" Alias="3" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="1" BackNormal="11" BackReverse="5">
+            <DoubleSwitch name="5" />
+        </Switch>
+        <Switch id="259" name="5" Alias="5" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="15" BackNormal="7" BackReverse="3">
+            <DoubleSwitch name="3" />
+        </Switch>
+        <Switch id="260" name="7" Alias="7" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="IIAG" BackNormal="5" BackReverse="9">
+            <DoubleSwitch name="9" />
+        </Switch>
+        <Switch id="261" name="9" Alias="9" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="9/21G" BackNormal="" BackReverse="7">
+            <DoubleSwitch name="7" />
+        </Switch>
+        <Switch id="262" name="11" Alias="11" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="3" BackNormal="13" BackReverse="D15G" />
+        <Switch id="263" name="13" Alias="13" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="11" BackNormal="17" BackReverse="" />
+        <Switch id="264" name="15" Alias="15" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="5" BackNormal="19" BackReverse="17">
+            <DoubleSwitch name="17" />
+        </Switch>
+        <Switch id="265" name="17" Alias="17" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="1G" BackNormal="13" BackReverse="15">
+            <DoubleSwitch name="15" />
+        </Switch>
+        <Switch id="266" name="19" Alias="19" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="15" BackNormal="IIG" BackReverse="3G" />
+        <Switch id="267" name="21" Alias="21" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="9/21G" BackNormal="23" BackReverse="" />
+        <Switch id="268" name="23" Alias="23" FieldNo="0" ThroatType="2" BendPosition="2" SwitchNo="9" TSRLineNo="0" Front="21" BackNormal="D23G" BackReverse="D25G" />
+        <Switch id="269" name="2" Alias="2" FieldNo="0" ThroatType="1" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="IIBG" BackNormal="4" BackReverse="8" />
+        <Switch id="270" name="4" Alias="4" FieldNo="0" ThroatType="1" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="2" BackNormal="IIG" BackReverse="6">
+            <DoubleSwitch name="6" />
+        </Switch>
+        <Switch id="271" name="6" Alias="6" FieldNo="0" ThroatType="1" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="1G" BackNormal="" BackReverse="4">
+            <DoubleSwitch name="4" />
+        </Switch>
+        <Switch id="272" name="8" Alias="8" FieldNo="0" ThroatType="1" BendPosition="2" SwitchNo="12" TSRLineNo="0" Front="2" BackNormal="" BackReverse="3G" />
+    </Devs>
+    <Devs DevType="HomeSignal">
+        <HomeSignal id="273" name="X" Alias="X" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="IIAG" Back="XJG" />
+        <HomeSignal id="290" name="S" Alias="S" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="IIBG" Back="SJG" />
+    </Devs>
+    <Devs DevType="StartSignal">
+        <StartSignal id="274" name="SII" Alias="SII" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="19" Back="IIG" />
+        <StartSignal id="275" name="S1" Alias="S1" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="17" Back="1G" />
+        <StartSignal id="276" name="S3" Alias="S3" FieldNo="0" TSRLineNo="0" ThroatType="2" Front="19" Back="3G" />
+        <StartSignal id="291" name="XII" Alias="XII" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="4" Back="IIG" />
+        <StartSignal id="292" name="X1" Alias="X1" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="6" Back="1G" />
+        <StartSignal id="293" name="X3" Alias="X3" FieldNo="0" TSRLineNo="0" ThroatType="1" Front="8" Back="3G" />
+    </Devs>
+    <Devs DevType="ShuntSignal">
+        <ShuntSignal id="277" name="D1" Alias="D1" FieldNo="0" ThroatType="2" Front="1" Back="D1G" />
+        <ShuntSignal id="278" name="D3" Alias="D3" FieldNo="0" ThroatType="2" Front="7" Back="IIAG" />
+        <ShuntSignal id="279" name="D9" Alias="D9" FieldNo="0" ThroatType="2" Front="9" Back="9/21G" />
+        <ShuntSignal id="280" name="D5" Alias="D5" FieldNo="0" ThroatType="2" Front="9" Back="" />
+        <ShuntSignal id="281" name="D7" Alias="D7" FieldNo="0" ThroatType="2" Front="1" Back="D7G" />
+        <ShuntSignal id="282" name="D11" Alias="D11" FieldNo="0" ThroatType="2" Front="13" Back="11" />
+        <ShuntSignal id="283" name="D13" Alias="D13" FieldNo="0" ThroatType="2" Front="15" Back="5" />
+        <ShuntSignal id="284" name="D15" Alias="D15" FieldNo="0" ThroatType="2" Front="11" Back="D15G" />
+        <ShuntSignal id="285" name="D17" Alias="D17" FieldNo="0" ThroatType="2" Front="13" Back="" />
+        <ShuntSignal id="286" name="D19" Alias="D19" FieldNo="0" ThroatType="2" Front="21" Back="9/21G" />
+        <ShuntSignal id="287" name="D21" Alias="D21" FieldNo="0" ThroatType="2" Front="21" Back="" />
+        <ShuntSignal id="288" name="D23" Alias="D23" FieldNo="0" ThroatType="2" Front="23" Back="D23G" />
+        <ShuntSignal id="289" name="D25" Alias="D25" FieldNo="0" ThroatType="2" Front="23" Back="D25G" />
+        <ShuntSignal id="294" name="D2" Alias="D2" FieldNo="0" ThroatType="1" Front="2" Back="IIBG" />
+        <ShuntSignal id="295" name="D4" Alias="D4" FieldNo="0" ThroatType="1" Front="8" Back="" />
+    </Devs>
+    <Devs DevType="SectionSignal" />
+    <Devs DevType="HumpSignal" />
+    <Devs DevType="HumpStartSignal" />
+    <Devs DevType="HumpAuxSignal" />
+    <Devs DevType="RouteSingal" />
+    <Devs DevType="KiloMeterSignDevice" />
+    <Devs DevType="SignalSignboard" />
+    <Devs DevType="SemiBlockLamp">
+        <SemiBlockLamp id="296" name="X接车" Alias="X接车" ThroatType="2" subtype="1" LineNo="22" RelatedDev="" />
+        <SemiBlockLamp id="297" name="X发车" Alias="X发车" ThroatType="2" subtype="2" LineNo="22" RelatedDev="" />
+        <SemiBlockLamp id="298" name="S接车" Alias="S接车" ThroatType="1" subtype="1" LineNo="23" RelatedDev="" />
+        <SemiBlockLamp id="299" name="S发车" Alias="S发车" ThroatType="1" subtype="2" LineNo="23" RelatedDev="" />
+    </Devs>
+    <Devs DevType="IndicationLamp">
+        <IndicationLamp id="1" name="熔丝报警" Alias="熔丝报警" ThroatType="0" subtype="9" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="2" name="X轨道停电" Alias="X轨道停电" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="3" name="S轨道停电" Alias="S轨道停电" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="8" name="主电源" Alias="主电源" ThroatType="0" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="9" name="副电源" Alias="副电源" ThroatType="0" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="22" name="X人解30秒" Alias="X人解30秒" ThroatType="0" subtype="7" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="23" name="X人解3分钟" Alias="X人解3分钟" ThroatType="0" subtype="6" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="25" name="X轨道故障报警" Alias="X轨道故障报警" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="26" name="允许转回分散自律" Alias="允许转回分散自律" ThroatType="0" subtype="3" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="27" name="非常站控" Alias="非常站控" ThroatType="0" subtype="4" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="28" name="网络连接1" Alias="网络连接1" ThroatType="0" subtype="1" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="29" name="6#反位" Alias="6#反位" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="30" name="分散自律" Alias="分散自律" ThroatType="0" subtype="2" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="33" name="移频报警" Alias="移频报警" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="36" name="控制方式" Alias="控制方式" ThroatType="0" subtype="5" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="37" name="S轨道故障报警" Alias="S轨道故障报警" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="38" name="S人解3分钟" Alias="S人解3分钟" ThroatType="0" subtype="6" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="39" name="S人解30秒" Alias="S人解30秒" ThroatType="0" subtype="7" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="43" name="S灯丝断丝" Alias="S灯丝断丝" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="44" name="X灯丝断丝" Alias="X灯丝断丝" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="10" name="S计轴停止灯" Alias="S计轴停止灯" ThroatType="1" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="11" name="S计轴使用灯" Alias="S计轴使用灯" ThroatType="1" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="12" name="S计轴复零灯" Alias="S计轴复零灯" ThroatType="1" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="13" name="S区轨" Alias="S区轨" ThroatType="1" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="14" name="X计轴停止灯" Alias="X计轴停止灯" ThroatType="2" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="15" name="X计轴使用灯" Alias="X计轴使用灯" ThroatType="2" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="16" name="X计轴复零灯" Alias="X计轴复零灯" ThroatType="2" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="17" name="X区轨" Alias="X区轨" ThroatType="2" subtype="10" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="125" name="电源屏故障报警" Alias="电源屏故障报警" ThroatType="0" subtype="8" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="4" name="网络连接2" Alias="网络连接2" ThroatType="0" subtype="1" LineNo="0" TSRLineNo="0" RelatedDev="" />
+        <IndicationLamp id="5" name="坡道解3分钟" Alias="坡道解3分钟" ThroatType="0" subtype="6" LineNo="0" TSRLineNo="0" RelatedDev="" />
+    </Devs>
+    <Devs DevType="FuncButton">
+        <FuncButton id="15" name="股道封锁" Alias="股道封锁" type="0x0d" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="16" name="股道解锁" Alias="股道解锁" type="0x0e" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="17" name="进路选排" Alias="进路选排" type="0x01" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="18" name="上电解锁" Alias="上电解锁" type="0x07" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="20" name="信号重开" Alias="信号重开" type="0x03" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="21" name="X引导总锁" Alias="X引导总锁" type="0x08" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="22" name="X区间解锁" Alias="X区间解锁" type="0x10" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="23" name="X道岔总定" Alias="X道岔总定" type="0x05" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="24" name="X道岔单锁" Alias="X道岔单锁" type="0x13" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="25" name="X道岔单封" Alias="X道岔单封" type="0x11" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="26" name="X按钮封锁" Alias="X按钮封锁" type="0x0b" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="27" name="X总取消" Alias="X总取消" type="0x04" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="28" name="X道岔总反" Alias="X道岔总反" type="0x06" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="29" name="X道岔单解" Alias="X道岔单解" type="0x14" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="30" name="X道岔解封" Alias="X道岔解封" type="0x12" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="31" name="X按钮解封" Alias="X按钮解封" type="0x0c" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="32" name="X总人解" Alias="X总人解" type="0x15" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="33" name="X区段解锁" Alias="X区段解锁" type="0x16" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="34" name="X区间封锁" Alias="X区间封锁" type="0x0f" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="35" name="S道岔总定" Alias="S道岔总定" type="0x05" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="36" name="S道岔单锁" Alias="S道岔单锁" type="0x13" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="37" name="S道岔单封" Alias="S道岔单封" type="0x11" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="38" name="S按钮封锁" Alias="S按钮封锁" type="0x0b" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="39" name="S总取消" Alias="S总取消" type="0x04" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="40" name="S引导总锁" Alias="S引导总锁" type="0x08" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="41" name="S道岔总反" Alias="S道岔总反" type="0x06" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="42" name="S道岔单解" Alias="S道岔单解" type="0x14" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="43" name="S道岔解封" Alias="S道岔解封" type="0x12" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="44" name="S按钮解封" Alias="S按钮解封" type="0x0c" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="45" name="S总人解" Alias="S总人解" type="0x15" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="46" name="S区段解锁" Alias="S区段解锁" type="0x16" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="47" name="S区间解锁" Alias="S区间解锁" type="0x10" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="48" name="S区间封锁" Alias="S区间封锁" type="0x0f" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="50" name="X进路引导" Alias="X进路引导" type="0x09" FieldNo="0" ThroatType="2" RelatedDev="X" IsComeBack="0" />
+        <FuncButton id="51" name="S进路引导" Alias="S进路引导" type="0x09" FieldNo="0" ThroatType="1" RelatedDev="S" IsComeBack="0" />
+        <FuncButton id="53" name="故障通知" Alias="故障通知" type="0x2f" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="8" name="S计轴停止" Alias="S计轴停止" type="0x22" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="9" name="S计轴使用" Alias="S计轴使用" type="0x21" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="10" name="S计轴复零" Alias="S计轴复零" type="0x1c" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="5" name="X计轴停止" Alias="X计轴停止" type="0x22" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="6" name="X计轴使用" Alias="X计轴使用" type="0x21" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="7" name="X计轴复零" Alias="X计轴复零" type="0x1c" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="3" name="S闭塞" Alias="S闭塞" type="0x1d" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="49" name="S事故" Alias="S事故" type="0x1e" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="52" name="S复原" Alias="S复原" type="0x1f" FieldNo="0" ThroatType="1" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="72" name="X闭塞" Alias="X闭塞" type="0x1d" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="73" name="X事故" Alias="X事故" type="0x1e" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="74" name="X复原" Alias="X复原" type="0x1f" FieldNo="0" ThroatType="2" RelatedDev="" IsComeBack="0" />
+        <FuncButton id="112" name="坡道解锁" Alias="坡道解锁" type="0x0a" FieldNo="0" ThroatType="0" RelatedDev="" IsComeBack="0" />
+    </Devs>
+    <Devs DevType="SignalButton">
+        <SignalButton id="1" name="XLA" Alias="XLA" type="0x01" FieldNo="0" ThroatType="2" RelatedDev="X" />
+        <SignalButton id="2" name="XTA" Alias="XTA" type="0x02" FieldNo="0" ThroatType="2" RelatedDev="X" />
+        <SignalButton id="4" name="SLA" Alias="SLA" type="0x01" FieldNo="0" ThroatType="1" RelatedDev="S" />
+        <SignalButton id="11" name="STA" Alias="STA" type="0x02" FieldNo="0" ThroatType="1" RelatedDev="S" />
+        <SignalButton id="12" name="SIIDA" Alias="SIIDA" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="SII" />
+        <SignalButton id="13" name="SIILA" Alias="SIILA" type="0x01" FieldNo="0" ThroatType="2" RelatedDev="SII" />
+        <SignalButton id="14" name="S1DA" Alias="S1DA" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="S1" />
+        <SignalButton id="19" name="S1LA" Alias="S1LA" type="0x01" FieldNo="0" ThroatType="2" RelatedDev="S1" />
+        <SignalButton id="54" name="S3DA" Alias="S3DA" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="S3" />
+        <SignalButton id="55" name="S3LA" Alias="S3LA" type="0x01" FieldNo="0" ThroatType="2" RelatedDev="S3" />
+        <SignalButton id="56" name="XIIDA" Alias="XIIDA" type="0x03" FieldNo="0" ThroatType="1" RelatedDev="XII" />
+        <SignalButton id="57" name="XIILA" Alias="XIILA" type="0x01" FieldNo="0" ThroatType="1" RelatedDev="XII" />
+        <SignalButton id="58" name="X1DA" Alias="X1DA" type="0x03" FieldNo="0" ThroatType="1" RelatedDev="X1" />
+        <SignalButton id="59" name="X1LA" Alias="X1LA" type="0x01" FieldNo="0" ThroatType="1" RelatedDev="X1" />
+        <SignalButton id="60" name="X3DA" Alias="X3DA" type="0x03" FieldNo="0" ThroatType="1" RelatedDev="X3" />
+        <SignalButton id="61" name="X3LA" Alias="X3LA" type="0x01" FieldNo="0" ThroatType="1" RelatedDev="X3" />
+        <SignalButton id="62" name="D1A" Alias="D1A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D1" />
+        <SignalButton id="63" name="D3A" Alias="D3A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D3" />
+        <SignalButton id="64" name="D9A" Alias="D9A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D9" />
+        <SignalButton id="65" name="D5A" Alias="D5A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D5" />
+        <SignalButton id="66" name="D7A" Alias="D7A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D7" />
+        <SignalButton id="67" name="D11A" Alias="D11A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D11" />
+        <SignalButton id="68" name="D13A" Alias="D13A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D13" />
+        <SignalButton id="69" name="D15A" Alias="D15A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D15" />
+        <SignalButton id="70" name="D17A" Alias="D17A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D17" />
+        <SignalButton id="71" name="D19A" Alias="D19A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D19" />
+        <SignalButton id="75" name="D21A" Alias="D21A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D21" />
+        <SignalButton id="76" name="D23A" Alias="D23A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D23" />
+        <SignalButton id="77" name="D25A" Alias="D25A" type="0x03" FieldNo="0" ThroatType="2" RelatedDev="D25" />
+        <SignalButton id="78" name="D2A" Alias="D2A" type="0x03" FieldNo="0" ThroatType="1" RelatedDev="D2" />
+        <SignalButton id="79" name="D4A" Alias="D4A" type="0x03" FieldNo="0" ThroatType="1" RelatedDev="D4" />
+        <SignalButton id="103" name="APA" Alias="APA" type="0x02" FieldNo="0" ThroatType="1" RelatedDev="" />
+    </Devs>
+    <Devs DevType="SectionButton">
+        <SectionButton id="80" name="1-11DGA" Alias="1-11DG" FieldNo="0" ThroatType="2" RelatedDev="1-11DG" />
+        <SectionButton id="81" name="5DGA" Alias="5DG" FieldNo="0" ThroatType="2" RelatedDev="5DG" />
+        <SectionButton id="82" name="7DGA" Alias="7DG" FieldNo="0" ThroatType="2" RelatedDev="7DG" />
+        <SectionButton id="83" name="9DGA" Alias="9DG" FieldNo="0" ThroatType="2" RelatedDev="9DG" />
+        <SectionButton id="84" name="13DGA" Alias="13DG" FieldNo="0" ThroatType="2" RelatedDev="13DG" />
+        <SectionButton id="85" name="15-19DGA" Alias="15-19DG" FieldNo="0" ThroatType="2" RelatedDev="15-19DG" />
+        <SectionButton id="86" name="17DGA" Alias="17DG" FieldNo="0" ThroatType="2" RelatedDev="17DG" />
+        <SectionButton id="88" name="21-23DGA" Alias="21-23DG" FieldNo="0" ThroatType="2" RelatedDev="21-23DG" />
+        <SectionButton id="89" name="8DGA" Alias="8DG" FieldNo="0" ThroatType="1" RelatedDev="8DG" />
+        <SectionButton id="90" name="6DGA" Alias="6DG" FieldNo="0" ThroatType="1" RelatedDev="6DG" />
+        <SectionButton id="91" name="2-4DGA" Alias="2-4DG" FieldNo="0" ThroatType="1" RelatedDev="2-4DG" />
+        <SectionButton id="92" name="9/21GA" Alias="9/21GA" FieldNo="0" ThroatType="2" RelatedDev="9/21G" />
+        <SectionButton id="93" name="IIBGA" Alias="IIBGA" FieldNo="0" ThroatType="1" RelatedDev="IIBG" />
+        <SectionButton id="94" name="D23GA" Alias="D23GA" FieldNo="0" ThroatType="2" RelatedDev="D23G" />
+        <SectionButton id="95" name="D25GA" Alias="D25GA" FieldNo="0" ThroatType="2" RelatedDev="D25G" />
+        <SectionButton id="96" name="D1GA" Alias="D1GA" FieldNo="0" ThroatType="2" RelatedDev="D1G" />
+        <SectionButton id="97" name="D7GA" Alias="D7GA" FieldNo="0" ThroatType="2" RelatedDev="D7G" />
+        <SectionButton id="98" name="D15GA" Alias="D15GA" FieldNo="0" ThroatType="2" RelatedDev="D15G" />
+        <SectionButton id="99" name="IIAGA" Alias="IIAGA" FieldNo="0" ThroatType="2" RelatedDev="IIAG" />
+        <!--SectionButton id="100" name="1GA" Alias="1GA" FieldNo="0" ThroatType="0" RelatedDev="1G" />
+        <SectionButton id="101" name="3GA" Alias="3GA" FieldNo="0" ThroatType="0" RelatedDev="3G" />
+        <SectionButton id="102" name="IIGA" Alias="IIGA" FieldNo="0" ThroatType="0" RelatedDev="IIG" /-->
+    </Devs>
+    <Devs DevType="SwitchButton">
+        <SwitchButton id="124" name="3/5CA" Alias="3/5CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>3</RelatedDev>
+            <RelatedDev>5</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="125" name="7/9CA" Alias="7/9CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>7</RelatedDev>
+            <RelatedDev>9</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="126" name="15/17CA" Alias="15/17CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>15</RelatedDev>
+            <RelatedDev>17</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="127" name="4/6CA" Alias="4/6CA" FieldNo="0" ThroatType="1">
+            <RelatedDev>4</RelatedDev>
+            <RelatedDev>6</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="104" name="1CA" Alias="1CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>1</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="105" name="11CA" Alias="11CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>11</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="106" name="13CA" Alias="13CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>13</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="107" name="19CA" Alias="19CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>19</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="108" name="21CA" Alias="21CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>21</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="109" name="23CA" Alias="23CA" FieldNo="0" ThroatType="2">
+            <RelatedDev>23</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="110" name="2CA" Alias="2CA" FieldNo="0" ThroatType="1">
+            <RelatedDev>2</RelatedDev>
+        </SwitchButton>
+        <SwitchButton id="111" name="8CA" Alias="8CA" FieldNo="0" ThroatType="1">
+            <RelatedDev>8</RelatedDev>
+        </SwitchButton>
+    </Devs>
+    <Devs DevType="SafetySign" />
+    <Devs DevType="AssembleTrack" />
+    <Devs DevType="Gate" />
+</DevProps>
