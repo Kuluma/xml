@@ -73,7 +73,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(605, 395);
+            this.ClientSize = new System.Drawing.Size(606, 385);
             this.Controls.Add(this.lstForm1);
             this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.btnCompare);
@@ -81,7 +81,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
-
             this.ResumeLayout(false);
 
         }

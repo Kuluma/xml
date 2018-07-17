@@ -19,6 +19,7 @@ namespace xml
         private void btnCompare_Click(object sender, EventArgs e)
         {
             DevProps Dev = new DevProps();
+            DevProps1 Dev1 = new DevProps1();
             InterlockButtons InterLoc = new InterlockButtons();
             OpenFile openFile = new OpenFile();
             lstForm1.Items.Clear();
@@ -28,26 +29,27 @@ namespace xml
                 PublicValue.FilePath = FilePath;
                 try
                 {
-                    PublicValue.InterLocBtn.Clear();
-                    PublicValue.DevBtn.Clear();
-                    Dev.OutDev();
-                    InterLoc.Out();
-                    //lstForm1.Items.Add(PublicValue.FilePath);
-                    lstForm1.Items.Add(new DirectoryInfo(FilePath).Name);
-                    lstForm1.Items.Add("");
-                    PublicValue.BtnCompare.Clear();
-                    BtnCompare btncompare = new BtnCompare();
-                    btncompare.Compare();
-                    //winBtnCompare winbtncompare = new winBtnCompare();       
-                    //winbtncompare.Show();
-                    foreach (String BtnCompare in PublicValue.BtnCompare)
-                    {
-                        lstForm1.Items.Add(BtnCompare);
-                        // MessageBox.Show(BtnCompare);
-                    }
-                    lstForm1.Items.Add("");
-                    lstForm1.Items.Add("");
-                    lstForm1.Items.Add("");
+                    Dev1.Out();
+                    //////PublicValue.InterLocBtn.Clear();
+                    //////PublicValue.DevBtn.Clear();
+                    //////Dev.OutDev();
+                    //////InterLoc.Out();
+                    ////////lstForm1.Items.Add(PublicValue.FilePath);
+                    //////lstForm1.Items.Add(new DirectoryInfo(FilePath).Name);
+                    //////lstForm1.Items.Add("");
+                    //////PublicValue.BtnCompare.Clear();
+                    //////BtnCompare btncompare = new BtnCompare();
+                    //////btncompare.Compare();
+                    ////////winBtnCompare winbtncompare = new winBtnCompare();       
+                    ////////winbtncompare.Show();
+                    //////foreach (String BtnCompare in PublicValue.BtnCompare)
+                    //////{
+                    //////    lstForm1.Items.Add(BtnCompare);
+                    //////    // MessageBox.Show(BtnCompare);
+                    //////}
+                    //////lstForm1.Items.Add("");
+                    //////lstForm1.Items.Add("");
+                    //////lstForm1.Items.Add("");
 
                 }
                 catch (Exception ex)
@@ -196,8 +198,6 @@ namespace xml
             return str.ToString();
         }
     }
-    
-  
 }
  
 
