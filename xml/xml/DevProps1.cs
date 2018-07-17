@@ -14,8 +14,17 @@ namespace xml.xml
         public void Out()
         {
             XDocument xDocument= XDocument.Load(PublicValue.FilePath + "\\DevProps.xml");
-            XElement root = xDocument.;
-            XElement ele = root.Element("Devs");
+            XElement xElement = XElement.Load(PublicValue.FilePath + "\\DevProps.xml");
+            IEnumerable<XElement> childlist = from el in xElement.Elements("Devs")
+                                              where el.Attribute("DevType").Value== "IndicationLamp"
+                                              
+                                              select el;
+        
+                foreach (XElement e in childlist)
+                Console.WriteLine(e);
+            XElement root = xDocument.Root;
+       
+            //XElement ele = root.Element("Devs");
         }
     }
 }

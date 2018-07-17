@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="xml.exe" size="40944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="xml.exe" size="41456">
       <assemblyIdentity name="xml" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UUkU4Mf2f/yB6kYMNbLmjyJsVVybH+oxElXjAKRy/Us=</dsig:DigestValue>
+        <dsig:DigestValue>8Tk0nsNg2EAxTw6omHZBIRBgoGTsl9FYFiZzi0gsjtQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
