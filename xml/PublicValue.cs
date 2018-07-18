@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using xml.xml;
 namespace xml
 {
     class PublicValue
@@ -20,5 +20,7 @@ namespace xml
         public static List<String> StationDeatail_Track = new List<string>();
         public static List<String> StationDeatail_MotorType = new List<string>();
         public static List<String> listdir = new List<string>();
+        public static List<DevPropsMode> modelList = new List<DevPropsMode>();
+        //DevPropsMode devPropsMode = new DevPropsMode();
     }
 }

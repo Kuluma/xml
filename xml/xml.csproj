@@ -94,6 +94,7 @@
     <Compile Include="xml\DevProps.cs" />
     <Compile Include="xml\DevProps1.cs" />
     <Compile Include="xml\InterlockButtons.cs" />
+    <Compile Include="xml\xmlLoad.cs" />
     <Compile Include="xml\SectionInfo.cs" />
     <Compile Include="xml\StationDetail.cs" />
     <Compile Include="界面\formStationDetail.cs">

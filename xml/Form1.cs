@@ -62,6 +62,11 @@ namespace xml
                     //MessageBox.Show(ex.Message);
 
                 }
+                dataGridView1.DataSource = PublicValue.modelList;
+                foreach (var item in PublicValue.modelList)
+                {
+                    lstForm1.Items.Add(item.ToString());
+                }
             }
         }
         private void btnOpenFile_Click_1(object sender, EventArgs e)
@@ -101,14 +106,14 @@ namespace xml
         }
         protected override void OnSizeChanged(EventArgs e)
         {
-            //lstForm1.Font = new Font(lstForm1.Font.FontFamily, 12f * this.Height / 400,//自动变化自大小
-            //                       lstForm1.Font.Style, GraphicsUnit.Pixel);
-            //base.OnSizeChanged(e);
-            lstForm1.Size = new Size(this.ClientSize.Width-50, this.ClientSize.Height-90);//修改窗体大小
-            //lstForm1.Margin =new Padding(10,10,10,10);
-            lstForm1.Dock = DockStyle.None;
-            // .. and add it to the controls.
-            this.Controls.Add(lstForm1);
+            ////lstForm1.Font = new Font(lstForm1.Font.FontFamily, 12f * this.Height / 400,//自动变化自大小
+            ////                       lstForm1.Font.Style, GraphicsUnit.Pixel);
+            ////base.OnSizeChanged(e);
+            //lstForm1.Size = new Size(this.ClientSize.Width-50, this.ClientSize.Height-90);//修改窗体大小
+            ////lstForm1.Margin =new Padding(10,10,10,10);
+            //lstForm1.Dock = DockStyle.None;
+            //// .. and add it to the controls.
+            //this.Controls.Add(lstForm1);
         }
         private void Form_DragEnter(object sender, DragEventArgs e)
         {

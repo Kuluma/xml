@@ -32,6 +32,8 @@
             this.btnCompare = new System.Windows.Forms.Button();
             this.lstForm1 = new System.Windows.Forms.ListBox();
             this.btnOpenFile = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCompare
@@ -51,9 +53,9 @@
             this.lstForm1.FormattingEnabled = true;
             this.lstForm1.HorizontalScrollbar = true;
             this.lstForm1.ItemHeight = 16;
-            this.lstForm1.Location = new System.Drawing.Point(25, 77);
+            this.lstForm1.Location = new System.Drawing.Point(25, 111);
             this.lstForm1.Name = "lstForm1";
-            this.lstForm1.Size = new System.Drawing.Size(552, 276);
+            this.lstForm1.Size = new System.Drawing.Size(75, 228);
             this.lstForm1.TabIndex = 7;
             this.lstForm1.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form_DragDrop);
             this.lstForm1.DragEnter += new System.Windows.Forms.DragEventHandler(this.Form_DragEnter);
@@ -68,12 +70,22 @@
             this.btnOpenFile.UseVisualStyleBackColor = true;
             this.btnOpenFile.Click += new System.EventHandler(this.btnOpenFile_Click_1);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(204, 111);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(653, 312);
+            this.dataGridView1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(606, 385);
+            this.ClientSize = new System.Drawing.Size(894, 435);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lstForm1);
             this.Controls.Add(this.btnOpenFile);
             this.Controls.Add(this.btnCompare);
@@ -81,6 +93,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,6 +102,7 @@
         private System.Windows.Forms.Button btnCompare;
         private System.Windows.Forms.ListBox lstForm1;
         private System.Windows.Forms.Button btnOpenFile;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
