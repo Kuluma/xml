@@ -29,5 +29,6 @@ namespace xml.xml
             get { return name; }
             set { name = value; }
         }
+        https://www.cnblogs.com/a1656344531/archive/2012/11/28/2792863.html
     }
 }
