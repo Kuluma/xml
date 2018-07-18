@@ -13,10 +13,6 @@ namespace xml.xml
 {
     class DevProps1
     {
-        public void add()
-        {
-
-        }
         public void Out()
         {
 
@@ -40,32 +36,8 @@ namespace xml.xml
                     PublicValue.modelList.Add(devPropsMode);
                 }
             }
-            
-
-            //    foreach (XElement e in childlist)
-            //{
-
-            //    Console.WriteLine(e.Element("id").Value);
-
-            //}
-
-
-            XElement root = xDocument.Root;
-       
-            //XElement ele = root.Element("Devs");
         }
-        //DevPropsMode devPropsMode = new DevPropsMode();
-        public void showDev(IEnumerable<XElement> elementss)
-        {
-            
-            foreach (var ele in elementss)
-            {
-                DevPropsMode devPropsMode = new DevPropsMode();
-                devPropsMode.Id = ele.Attribute("id").Value;
-                devPropsMode.Name= ele.Attribute("name").Value;
-                //devPropsMode.Type = item.Attribute("DevType").Value;
-                PublicValue.modelList.Add(devPropsMode);
-            }
-        }
+    
+      
     }
 }

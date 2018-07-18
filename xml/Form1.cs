@@ -30,6 +30,7 @@ namespace xml
                 try
                 {
                     Dev1.Out();
+                    InterLoc.Out();
                     //////PublicValue.InterLocBtn.Clear();
                     //////PublicValue.DevBtn.Clear();
                     //////Dev.OutDev();
@@ -62,11 +63,9 @@ namespace xml
                     //MessageBox.Show(ex.Message);
 
                 }
-                dataGridView1.DataSource = PublicValue.modelList;
-                foreach (var item in PublicValue.modelList)
-                {
-                    lstForm1.Items.Add(item.ToString());
-                }
+                //dataGridView1.DataSource = PublicValue.modelList;
+                dataGridView1.DataSource = PublicValue.interlockButtonsMode;
+                
             }
         }
         private void btnOpenFile_Click_1(object sender, EventArgs e)
@@ -201,6 +200,12 @@ namespace xml
                 }
             }
             return str.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InterlockButtons interlockButtons = new InterlockButtons();
+            interlockButtons.insert();
         }
     }
 }

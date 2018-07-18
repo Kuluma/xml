@@ -21,6 +21,6 @@ namespace xml
         public static List<String> StationDeatail_MotorType = new List<string>();
         public static List<String> listdir = new List<string>();
         public static List<DevPropsMode> modelList = new List<DevPropsMode>();
-        //DevPropsMode devPropsMode = new DevPropsMode();
+        public static List<InterlockButtonsMode> interlockButtonsMode = new List<InterlockButtonsMode>();
     }
 }

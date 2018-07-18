@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InterlockButtons StaCode="0" StaName="WQZ">
+  <button no="1" name="11CA" />
+  <!--     1 = 11-MRA                             -->
+  <button no="2" name="7/9CA" />
+  <!--     2 = 7/9-MRA                            -->
+  <button no="3" name="13/15CA" />
+  <!--     3 = 13/15-MRA                          -->
+  <button no="4" name="3CA" />
+  <!--     4 = 3-MRA                              -->
+  <button no="5" name="36/38CA" />
+  <!--     5 = 36/38-MRA                          -->
+  <button no="6" name="2/4CA" />
+  <!--     6 = 2/4-MRA                            -->
+  <button no="7" name="21/23CA" />
+  <!--     7 = 21/23-MRA                          -->
+  <button no="8" name="17/19CA" />
+  <!--     8 = 17/19-MRA                          -->
+  <button no="9" name="5CA" />
+  <!--     9 = 5-MRA                              -->
+  <button no="10" name="1CA" />
+  <!--    10 = 1-MRA                              -->
+  <button no="11" name="34CA" />
+  <!--    11 = 34-MRA                             -->
+  <button no="12" name="14/16CA" />
+  <!--    12 = 14/16-MRA                          -->
+  <button no="13" name="10/12CA" />
+  <!--    13 = 10/12-MRA                          -->
+  <button no="14" name="6/8CA" />
+  <!--    14 = 6/8-MRA                            -->
+  <button no="15" name="40CA" />
+  <!--    15 = 40-MRA                             -->
+  <button no="16" name="30/32CA" />
+  <!--    16 = 30/32-MRA                          -->
+  <button no="17" name="26/28CA" />
+  <!--    17 = 26/28-MRA                          -->
+  <button no="18" name="22/24CA" />
+  <!--    18 = 22/24-MRA                          -->
+  <button no="19" name="18/20CA" />
+  <!--    19 = 18/20-MRA                          -->
+  <button no="20" name="7-11DGA" />
+  <!--    20 = 7-11DG-CIRDEFAULT                  -->
+  <button no="21" name="9DGA" />
+  <!--    21 = 9DG-CIRDEFAULT                     -->
+  <button no="22" name="13DGA" />
+  <!--    22 = 13DG-CIRDEFAULT                    -->
+  <button no="23" name="15DGA" />
+  <!--    23 = 15DG-CIRDEFAULT                    -->
+  <button no="24" name="3DGA" />
+  <!--    24 = 3DG-CIRDEFAULT                     -->
+  <button no="25" name="38DGA" />
+  <!--    25 = 38DG-CIRDEFAULT                    -->
+  <button no="26" name="36DGA" />
+  <!--    26 = 36DG-CIRDEFAULT                    -->
+  <button no="27" name="4DGA" />
+  <!--    27 = 4DG-CIRDEFAULT                     -->
+  <button no="28" name="21DGA" />
+  <!--    28 = 21DG-CIRDEFAULT                    -->
+  <button no="29" name="23DGA" />
+  <!--    29 = 23DG-CIRDEFAULT                    -->
+  <button no="30" name="17DGA" />
+  <!--    30 = 17DG-CIRDEFAULT                    -->
+  <button no="31" name="19DGA" />
+  <!--    31 = 19DG-CIRDEFAULT                    -->
+  <button no="32" name="5DGA" />
+  <!--    32 = 5DG-CIRDEFAULT                     -->
+  <button no="33" name="1DGA" />
+  <!--    33 = 1DG-CIRDEFAULT                     -->
+  <button no="34" name="34DGA" />
+  <!--    34 = 34DG-CIRDEFAULT                    -->
+  <button no="35" name="16DGA" />
+  <!--    35 = 16DG-CIRDEFAULT                    -->
+  <button no="36" name="12-14DGA" />
+  <!--    36 = 12-14DG-CIRDEFAULT                 -->
+  <button no="37" name="10DGA" />
+  <!--    37 = 10DG-CIRDEFAULT                    -->
+  <button no="38" name="8DGA" />
+  <!--    38 = 8DG-CIRDEFAULT                     -->
+  <button no="39" name="6DGA" />
+  <!--    39 = 6DG-CIRDEFAULT                     -->
+  <button no="40" name="2DGA" />
+  <!--    40 = 2DG-CIRDEFAULT                     -->
+  <button no="41" name="40DGA" />
+  <!--    41 = 40DG-CIRDEFAULT                    -->
+  <button no="42" name="32DGA" />
+  <!--    42 = 32DG-CIRDEFAULT                    -->
+  <button no="43" name="26-30DGA" />
+  <!--    43 = 26-30DG-CIRDEFAULT                 -->
+  <button no="44" name="28DGA" />
+  <!--    44 = 28DG-CIRDEFAULT                    -->
+  <button no="45" name="20-24DGA" />
+  <!--    45 = 20-24DG-CIRDEFAULT                 -->
+  <button no="46" name="22DGA" />
+  <!--    46 = 22DG-CIRDEFAULT                    -->
+  <button no="47" name="18DGA" />
+  <!--    47 = 18DG-CIRDEFAULT                    -->
+  <button no="48" name="3GA" />
+  <!--    48 = 3G-CIRDEFAULT                      -->
+  <button no="49" name="IGA" />
+  <!--    49 = IG-CIRDEFAULT                      -->
+  <button no="50" name="IIGA" />
+  <!--    50 = IIG-CIRDEFAULT                     -->
+  <button no="51" name="4GA" />
+  <!--    51 = 4G-CIRDEFAULT                      -->
+  <button no="52" name="IAGA" />
+  <!--    52 = IAG-CIRDEFAULT                     -->
+  <button no="53" name="3-15GA" />
+  <!--    53 = 3-15G-CIRDEFAULT                   -->
+  <button no="54" name="VIGA" />
+  <!--    54 = VIG-CIRDEFAULT                     -->
+  <button no="55" name="D25GA" />
+  <!--    55 = D25G-CIRDEFAULT                    -->
+  <button no="56" name="D23GA" />
+  <!--    56 = D23G-CIRDEFAULT                    -->
+  <button no="57" name="1-17GA" />
+  <!--    57 = 1-17G-CIRDEFAULT                   -->
+  <button no="58" name="5-19GA" />
+  <!--    58 = 5-19G-CIRDEFAULT                   -->
+  <button no="59" name="D9GA" />
+  <!--    59 = D9G-CIRDEFAULT                     -->
+  <button no="60" name="VIAGA" />
+  <!--    60 = VIAG-CIRDEFAULT                    -->
+  <button no="61" name="D13GA" />
+  <!--    61 = D13G-CIRDEFAULT                    -->
+  <button no="62" name="8GA" />
+  <!--    62 = 8G-CIRDEFAULT                      -->
+  <button no="63" name="14-34GA" />
+  <!--    63 = 14-34G-CIRDEFAULT                  -->
+  <button no="64" name="6-12GA" />
+  <!--    64 = 6-12G-CIRDEFAULT                   -->
+  <button no="65" name="4-6GA" />
+  <!--    65 = 4-6G-CIRDEFAULT                    -->
+  <button no="66" name="IBGA" />
+  <!--    66 = IBG-CIRDEFAULT                     -->
+  <button no="67" name="LIGA" />
+  <!--    67 = LIG-CIRDEFAULT                     -->
+  <button no="68" name="LIIGA" />
+  <!--    68 = LIIG-CIRDEFAULT                    -->
+  <button no="69" name="X3LA" />
+  <!--    69 = X3-LA-ROUTE                        -->
+  <button no="70" name="X3DA" />
+  <!--    70 = X3-DA-ROUTE                        -->
+  <button no="71" name="S3LA" />
+  <!--    71 = S3-LA-ROUTE                        -->
+  <button no="72" name="S3DA" />
+  <!--    72 = S3-DA-ROUTE                        -->
+  <button no="73" name="XILA" />
+  <!--    73 = XI-LA-ROUTE                        -->
+  <button no="74" name="XIDA" />
+  <!--    74 = XI-DA-ROUTE                        -->
+  <button no="75" name="SILA" />
+  <!--    75 = SI-LA-ROUTE                        -->
+  <button no="76" name="SIDA" />
+  <!--    76 = SI-DA-ROUTE                        -->
+  <button no="77" name="XIILA" />
+  <!--    77 = XII-LA-ROUTE                       -->
+  <button no="78" name="XIIDA" />
+  <!--    78 = XII-DA-ROUTE                       -->
+  <button no="79" name="SIILA" />
+  <!--    79 = SII-LA-ROUTE                       -->
+  <button no="80" name="SIIDA" />
+  <!--    80 = SII-DA-ROUTE                       -->
+  <button no="81" name="X4LA" />
+  <!--    81 = X4-LA-ROUTE                        -->
+  <button no="82" name="X4DA" />
+  <!--    82 = X4-DA-ROUTE                        -->
+  <button no="83" name="S4LA" />
+  <!--    83 = S4-LA-ROUTE                        -->
+  <button no="84" name="S4DA" />
+  <!--    84 = S4-DA-ROUTE                        -->
+  <button no="85" name="D7A" />
+  <!--    85 = D7-DA-ROUTE                        -->
+  <button no="86" name="XTA" />
+  <!--    86 = X-TA-ROUTE                         -->
+  <button no="87" name="XLA" />
+  <!--    87 = X-LA-ROUTE                         -->
+  <button no="88" name="X进路引导" />
+  <!--    88 = X-YA-ROUTE                         -->
+  <button no="89" name="D15A" />
+  <!--    89 = D15-DA-ROUTE                       -->
+  <button no="90" name="XNLA" />
+  <!--    90 = XN-LA-ROUTE                        -->
+  <button no="91" name="XN进路引导" />
+  <!--    91 = XN-YA-ROUTE                        -->
+  <button no="92" name="XNDZA" />
+  <!--    92 = XNDZ-DA-ROUTE                      -->
+  <button no="93" name="D19A" />
+  <!--    93 = D19-DA-ROUTE                       -->
+  <button no="94" name="D5A" />
+  <!--    94 = D5-DA-ROUTE                        -->
+  <button no="95" name="D12A" />
+  <!--    95 = D12-DA-ROUTE                       -->
+  <button no="96" name="XVILA" />
+  <!--    96 = XVI-LA-ROUTE                       -->
+  <button no="97" name="XVIDA" />
+  <!--    97 = XVI-DA-ROUTE                       -->
+  <button no="98" name="SVILA" />
+  <!--    98 = SVI-LA-ROUTE                       -->
+  <button no="99" name="SVIDA" />
+  <!--    99 = SVI-DA-ROUTE                       -->
+  <button no="100" name="D25A" />
+  <!--   100 = D25-DA-ROUTE                       -->
+  <button no="101" name="D23A" />
+  <!--   101 = D23-DA-ROUTE                       -->
+  <button no="102" name="D17A" />
+  <!--   102 = D17-DA-ROUTE                       -->
+  <button no="103" name="D21A" />
+  <!--   103 = D21-DA-ROUTE                       -->
+  <button no="104" name="D11A" />
+  <!--   104 = D11-DA-ROUTE                       -->
+  <button no="105" name="D13A" />
+  <!--   105 = D13-DA-ROUTE                       -->
+  <button no="106" name="D9A" />
+  <!--   106 = D9-DA-ROUTE                        -->
+  <button no="107" name="D3A" />
+  <!--   107 = D3-DA-ROUTE                        -->
+  <button no="108" name="D1A" />
+  <!--   108 = D1-DA-ROUTE                        -->
+  <button no="109" name="XHTA" />
+  <!--   109 = XH-TA-ROUTE                        -->
+  <button no="110" name="XHLA" />
+  <!--   110 = XH-LA-ROUTE                        -->
+  <button no="111" name="XH进路引导" />
+  <!--   111 = XH-YA-ROUTE                        -->
+  <button no="112" name="X8LA" />
+  <!--   112 = X8-LA-ROUTE                        -->
+  <button no="113" name="X8DA" />
+  <!--   113 = X8-DA-ROUTE                        -->
+  <button no="114" name="S8LA" />
+  <!--   114 = S8-LA-ROUTE                        -->
+  <button no="115" name="S8DA" />
+  <!--   115 = S8-DA-ROUTE                        -->
+  <button no="116" name="D14A" />
+  <!--   116 = D14-DA-ROUTE                       -->
+  <button no="117" name="D4A" />
+  <!--   117 = D4-DA-ROUTE                        -->
+  <button no="118" name="SL2LA" />
+  <!--   118 = SL2-LA-ROUTE                       -->
+  <button no="119" name="SL2DA" />
+  <!--   119 = SL2-DA-ROUTE                       -->
+  <button no="120" name="SL2进路引导" />
+  <!--   120 = SL2-YA-ROUTE                       -->
+  <button no="121" name="XL1LA" />
+  <!--   121 = XL1-LA-ROUTE                       -->
+  <button no="122" name="XL1A" />
+  <!--   122 = XL1-DA-ROUTE                       -->
+  <button no="123" name="XL1进路引导" />
+  <!--   123 = XL1-YA-ROUTE                       -->
+  <button no="124" name="XZLA" />
+  <!--   124 = XZ-LA-ROUTE                        -->
+  <button no="125" name="SHTA" />
+  <!--   125 = SH-TA-ROUTE                        -->
+  <button no="126" name="SHLA" />
+  <!--   126 = SH-LA-ROUTE                        -->
+  <button no="127" name="SH进路引导" />
+  <!--   127 = SH-YA-ROUTE                        -->
+  <button no="128" name="XL3LA" />
+  <!--   128 = XL3-LA-ROUTE                       -->
+  <button no="129" name="XL3进路引导" />
+  <!--   129 = XL3-YA-ROUTE                       -->
+  <button no="130" name="SL4LA" />
+  <!--   130 = SL4-LA-ROUTE                       -->
+  <button no="131" name="SL4DA" />
+  <!--   131 = SL4-DA-ROUTE                       -->
+  <button no="132" name="SL4进路引导" />
+  <!--   132 = SL4-YA-ROUTE                       -->
+  <button no="133" name="STLA" />
+  <!--   133 = SC-LA-ROUTE                        -->
+  <button no="134" name="ST进路引导" />
+  <!--   134 = SC-YA-ROUTE                        -->
+  <button no="135" name="D16A" />
+  <!--   135 = D16-DA-ROUTE                       -->
+  <button no="136" name="D10A" />
+  <!--   136 = D10-DA-ROUTE                       -->
+  <button no="137" name="D8A" />
+  <!--   137 = D8-DA-ROUTE                        -->
+  <button no="138" name="D2A" />
+  <!--   138 = D2-DA-ROUTE                        -->
+  <button no="139" name="SNLA" />
+  <!--   139 = SN-LA-ROUTE                        -->
+  <button no="140" name="SN进路引导" />
+  <!--   140 = SN-YA-ROUTE                        -->
+  <button no="141" name="STA" />
+  <!--   141 = S-TA-ROUTE                         -->
+  <button no="142" name="SLA" />
+  <!--   142 = S-LA-ROUTE                         -->
+  <button no="143" name="S进路引导" />
+  <!--   143 = S-YA-ROUTE                         -->
+  <button no="144" name="D6A" />
+  <!--   144 = D6-DA-ROUTE                        -->
+  <button no="145" name="SDZA" />
+  <!--   145 = SDZ-DA-ROUTE                       -->
+  <button no="147" name="XH闭塞" />
+  <!--   147 = XH-BSA-MRA                         -->
+  <button no="148" name="XH复原" />
+  <!--   148 = XH-FUA-MRA                         -->
+  <button no="149" name="XH事故" />
+  <!--   149 = XH-BSGA-MRA                        -->
+  <button no="150" name="XH复零" />
+  <!--   150 = XH-JFLA-MRA                        -->
+  <button no="151" name="XH停用" />
+  <!--   151 = XH-JTZA-MRA                        -->
+  <button no="152" name="XH使用" />
+  <!--   152 = XH-JSYA-MRA                        -->
+  <button no="153" name="" />
+  <!--   153 = FLBL-MRA                           -->
+  <button no="154" name="非常站控" />
+  <!--   154 = STA-FCZKA-MRA                      -->
+  <button no="155" name="STA-YOKTY-MRA" />
+  <!--   155 = XHFZCGB-MRA                        -->
+  <button no="156" name="允许转回分散自律" />
+  <!--   156 = STA-YOKTY-MRA                      -->
+  <button no="157" name="X道岔单封" />
+  <!--   157 = YHX-FSA-MRA                        -->
+  <button no="158" name="S道岔单封" />
+  <!--   158 = YHS-FSA-MRA                        -->
+  <button no="159" name="X道岔解封" />
+  <!--   159 = YHX-FJA-MRA                        -->
+  <button no="160" name="S道岔解封" />
+  <!--   160 = YHS-FJA-MRA                        -->
+  <button no="161" name="X按钮单封" />
+  <!--   161 = YHX-NFA-MRA                        -->
+  <button no="162" name="S按钮单封" />
+  <!--   162 = YHS-NFA-MRA                        -->
+  <button no="163" name="X按钮解封" />
+  <!--   163 = YHX-NJA-MRA                        -->
+  <button no="164" name="S按钮解封" />
+  <!--   164 = YHS-NJA-MRA                        -->
+  <button no="169" name="SN总辅助" />
+  <!--   165 = KDA-MRA                            -->
+  <button no="170" name="SN接车辅助" />
+  <!--   166 = GDA-MRA                            -->
+  <button no="171" name="SN发车辅助" />
+  <!--   167 = SH-ZLGA-MRA                        -->
+  <button no="172" name="S总辅助" />
+  <!--   168 = SC-ZLGA-MRA                        -->
+  <button no="173" name="S接车辅助" />
+  <!--   169 = SN-ZFA-MRA                         -->
+  <button no="174" name="S发车辅助" />
+  <!--   170 = SN-JFA-MRA                         -->
+  <button no="175" name="X道岔单锁" />
+  <!--   171 = SN-FFA-MRA                         -->
+  <button no="175" name="S道岔单锁" />
+  <!--   172 = S-ZFA-MRA                          -->
+  <button no="176" name="XN总辅助" />
+  <!--   173 = S-JFA-MRA                          -->
+  <button no="177" name="XN接车辅助" />
+  <!--   174 = S-FFA-MRA                          -->
+  <button no="178" name="XN发车辅助" />
+  <!--   175 = DSA-MRA                            -->
+  <button no="179" name="X总辅助" />
+  <!--   176 = XN-ZFA-MRA                         -->
+  <button no="180" name="X接车辅助" />
+  <!--   177 = XN-JFA-MRA                         -->
+  <button no="181" name="X发车辅助" />
+  <!--   178 = XN-FFA-MRA                         -->
+  <button no="182" name="全站封锁" />
+  <!--   179 = X-ZFA-MRA                          -->
+  <button no="183" name="上电解锁" />
+  <!--   180 = X-JFA-MRA                          -->
+  <button no="184" name="故障通知" />
+  <!--   181 = X-FFA-MRA                          -->
+  <button no="185" name="同步检查按钮" />
+  <!--   182 = QZFS-MRA                           -->
+  <button no="186" name="X总人解" />
+  <!--   183 = SDJS-MRA                           -->
+  <button no="186" name="S总人解" />
+  <!--   184 = STA-GTA-MRA                        -->
+  <button no="187" name="X区段解锁" />
+  <!--   185 = DIFF-MRA                           -->
+  <button no="187" name="S区段解锁" />
+  <!--   186 = ZRAJ-M-MRA                         -->
+  <button no="188" name="S道岔单解" />
+  <!--   187 = QGJA-MRA                           -->
+  <button no="188" name="X道岔单解" />
+  <!--   188 = DCJSA-MRA                          -->
+  <button no="189" name="X引导总锁" />
+  <!--   189 = YHX-YZSA-MRA                       -->
+  <button no="190" name="S引导总锁" />
+  <!--   190 = YHS-YZSA-MRA                       -->
+  <button no="191" name="信号重开" />
+  <!--   191 = CKXA-MRA                           -->
+  <button no="192" name="X总取消" />
+  <!--   192 = ZQA-MRA                            -->
+  <button no="192" name="S总取消" />
+  <!--   193 = ZDA-MRA                            -->
+  <button no="193" name="X道岔总定" />
+  <!--   194 = ZFA-MRA                            -->
+  <button no="193" name="S道岔总定" />
+  <!--   195 = PQFAJ-MRA                          -->
+  <button no="194" name="X道岔总反" />
+  <!--   196 = X-YGFA-MRA                         -->
+  <button no="194" name="S道岔总反" />
+  <!--   197 = S-YGFA-MRA                         -->
+  <button no="196" name="X允许改方" />
+  <!--   198 = YHX-GDJ-MRA                        -->
+  <button no="197" name="S允许改方" />
+  <!--   199 = YHS-GDJ-MRA                        -->
+  <book Type="选修课" ISBN="7-111-19149-1">
+    <title>计算机操作系统</title>
+    <author>7-111-19149-1</author>
+    <price>28</price>
+  </book>
+  <button no="999" name="7-111-19149-1" />
+</InterlockButtons>

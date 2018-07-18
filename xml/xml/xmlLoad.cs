@@ -11,6 +11,9 @@ namespace xml.xml
     {
         public DevPropsMode()
         { }
+         /// <summary>
+         /// 类型
+          /// </summary>
         private string type;
         public string Type
         {
@@ -29,6 +32,25 @@ namespace xml.xml
             get { return name; }
             set { name = value; }
         }
-        https://www.cnblogs.com/a1656344531/archive/2012/11/28/2792863.html
+        
+    }
+    public class InterlockButtonsMode
+    {
+        public InterlockButtonsMode()
+        {
+
+        }
+        private string no;
+        public string No
+        {
+            get { return no; }
+            set { no = value; }
+        }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
     }
 }

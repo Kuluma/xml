@@ -9,26 +9,32 @@ namespace xml.xml
 {
     class InterlockButtons
     {
-        public void Out()
+        public void Out()//数据读取
         {
-            XDocument xDoc = XDocument.Load(PublicValue.FilePath+ "\\InterlockButtons.xml");
-            XElement root = xDoc.Root;  //获取根节点
-                                        //通过递归，获取所有下面的子元素
-            GetXElement(root);
-        }
-        private void GetXElement(XElement root)
-        {
-            //返回IEnumerable接口的对象，都可以实现foreach循环遍历
-            foreach (XElement element in root.Elements())
+         
+            XElement xElement = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
+            IEnumerable<XElement> elements = from el in xElement.Elements("button")
+                                             select el;
+            foreach (var item in elements)
             {
-                switch (element.Name.ToString())
-                {
-                    case "button":
-                        PublicValue.InterLocBtn.Add(element.Attribute("name").Value);
-                        break;
-                }
-                GetXElement(element);
+                
+                InterlockButtonsMode interlockButtonsMode = new InterlockButtonsMode();
+                interlockButtonsMode.No = item.Attribute("no").Value;
+                interlockButtonsMode.Name = item.Attribute("name").Value;
+                PublicValue.interlockButtonsMode.Add(interlockButtonsMode);
+
+              
             }
+        }
+       public void insert(string No,string Name)//数据插入
+        {
+            XElement xe = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
+                 XElement record = 
+                 new XElement("button",
+                 new XAttribute("no", "999"),
+                 new XAttribute("name", "7-111-19149-1"));
+                  xe.Add(record);
+                  xe.Save(PublicValue.FilePath + "\\InterlockButtons.xml");
         }
 
     }
