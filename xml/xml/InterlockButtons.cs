@@ -26,7 +26,7 @@ namespace xml.xml
               
             }
         }
-       public void insert(string No,string Name)//数据插入
+       public void insert()//数据插入
         {
             XElement xe = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
                  XElement record = 
@@ -37,5 +37,9 @@ namespace xml.xml
                   xe.Save(PublicValue.FilePath + "\\InterlockButtons.xml");
         }
 
+        public void replace()
+        {
+            
+        }
     }
 }

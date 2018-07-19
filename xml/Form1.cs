@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using xml.Properties;
 using xml.xml;
 using xml.界面;
 
@@ -204,8 +208,33 @@ namespace xml
 
         private void button1_Click(object sender, EventArgs e)
         {
-            InterlockButtons interlockButtons = new InterlockButtons();
-            interlockButtons.insert();
+            //InterlockButtons interlockButtons = new InterlockButtons();
+            //interlockButtons.insert();
+            XElement xe = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
+            if (dataGridView1.CurrentRow != null)
+            {
+                //dgvBookInfo.CurrentRow.Cells[1]对应着ISBN号
+                string no = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                IEnumerable<XElement> element = from ele in xe.Elements("button")
+                                                where ele.Attribute("no").Value == no
+                                                select ele;
+                if (element.Count() > 0)
+                {
+                    XElement first = element.First();
+                    ///设置新的属性
+                    first.SetAttributeValue("no", dataGridView1.CurrentRow.Cells[0].Value.ToString());
+                    first.SetAttributeValue("name", dataGridView1.CurrentRow.Cells[1].Value.ToString());
+                    /////替换新的节点
+                    //first.ReplaceNodes(
+                    //         new XElement ("name", dataGridView1.CurrentRow.Cells[1].Value.ToString())
+                             
+                    //         );
+                }
+                xe.Save(PublicValue.FilePath + "\\InterlockButtons.xml");
+
+                MessageBox.Show("修改成功！");
+             
+            }
         }
     }
 }
