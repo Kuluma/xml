@@ -129,6 +129,8 @@ namespace xml
             //ListBox lstForm1 = sender as ListBox;
             lstForm1.Items.Add(dragDrop(e));
             btnCompare_Click(null,null);
+            foreach (string FilePath in PublicValue.FilePaths)
+                treeView1.Nodes.Add(new DirectoryInfo(FilePath).Name);
         }
 
         /// <summary>
@@ -236,6 +238,8 @@ namespace xml
              
             }
         }
+
+        
     }
 }
  
