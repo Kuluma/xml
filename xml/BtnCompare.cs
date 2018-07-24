@@ -16,21 +16,21 @@ namespace xml
         {
             int flag1 = 0;
             int flag2 = 0;
-            foreach (string DevBtn1 in PublicValue.DevBtn)
+            foreach (var DevBtn1 in PublicValue.modelList)
             {
-                foreach (var InterlocBtn in PublicValue.InterLocBtn)
+                foreach (var InterlocBtn in PublicValue.interlockButtonsMode)
                 {         
-                    if (DevBtn1 == InterlocBtn)
+                    if (DevBtn1.Name == InterlocBtn.Name)
                     {
-                        PublicValue.DevBtn1.Add(DevBtn1);
-                        PublicValue.InterLocBtn1.Add(InterlocBtn);
+                        //PublicValue.DevBtn1.Add(DevBtn1);
+                        //PublicValue.InterLocBtn1.Add(InterlocBtn);
                         flag1 = 1;          
                     }
                 }
                 if (flag1==0)
                 {
-                    PublicValue.BtnCompare.Add("DEV中\"" + DevBtn1+ "\"在InterlockButton中不存在");
-                    PublicValue.DevBtn1.Add(DevBtn1);
+                    //PublicValue.BtnCompare.Add("DEV中\"" + DevBtn1+ "\"在InterlockButton中不存在");
+                    //PublicValue.DevBtn1.Add(DevBtn1);
                     PublicValue.InterLocBtn1.Add(null);
                 }
                 else
@@ -38,22 +38,21 @@ namespace xml
                     flag1 = 0;
                 }
             }
-            foreach (var InterlocBtn in PublicValue.InterLocBtn)
+            foreach (var InterlocBtn in PublicValue.interlockButtonsMode)
             { 
-                foreach (string DevBtn in PublicValue.DevBtn)
+                foreach (var DevBtn in PublicValue.modelList)
                 {
-                    if (DevBtn == InterlocBtn)
+                    if (DevBtn.Name == InterlocBtn.Name)
                     {
-                        //PublicValue.BtnCompare.Add(InterlocBtn +"="+ DevBtn);
-                        //PublicValue.BtnCompare.Add("InterlockButton中\"" + InterlocBtn + "\"在DEV中不存在");
+                        
                         flag2 = 1;
                     }
                 }
                 if (flag2 == 0)
                 {
-                    PublicValue.BtnCompare.Add("InterlockButton中\"" + InterlocBtn + "\"在DEV中不存在");
-                    PublicValue.DevBtn1.Add(null);
-                    PublicValue.InterLocBtn1.Add(InterlocBtn);
+                    //PublicValue.BtnCompare.Add("InterlockButton中\"" + InterlocBtn + "\"在DEV中不存在");
+                    //PublicValue.DevBtn1.Add(null);
+                    //PublicValue.InterLocBtn1.Add(InterlocBtn);
                 }
                 else
                 {
