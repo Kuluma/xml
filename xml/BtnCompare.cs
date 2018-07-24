@@ -16,23 +16,22 @@ namespace xml
         {
             int flag1 = 0;
             int flag2 = 0;
-            foreach (var DevBtn1 in PublicValue.modelList)
+            foreach (string DevBtn1 in PublicValue.DevBtn)
             {
-                foreach (var InterlocBtn in PublicValue.interlockButtonsMode)
+                foreach (var InterlocBtn in PublicValue.InterLocBtn)
                 {         
-                    if (DevBtn1.Name == InterlocBtn.Name)
+                    if (DevBtn1 == InterlocBtn)
                     {
-                        //PublicValue.DevBtn1.Add(DevBtn1);
-                        //PublicValue.InterLocBtn1.Add(InterlocBtn);
+                        PublicValue.DevBtn1.Add(DevBtn1);
+                        PublicValue.InterLocBtn1.Add(InterlocBtn);
                         flag1 = 1;          
                     }
                 }
                 if (flag1==0)
                 {
-                    Console.WriteLine("DEV中\"" + DevBtn1.Name + "\"在InterlockButton中不存在");
-                    //PublicValue.BtnCompare.Add("DEV中\"" + DevBtn1+ "\"在InterlockButton中不存在");
-                    //PublicValue.DevBtn1.Add(DevBtn1);
-                    //PublicValue.InterLocBtn1.Add(null);
+                    PublicValue.BtnCompare.Add("DEV中\"" + DevBtn1+ "\"在InterlockButton中不存在");
+                    PublicValue.DevBtn1.Add(DevBtn1);
+                    PublicValue.InterLocBtn1.Add(null);
                 }
                 else
                 {

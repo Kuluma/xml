@@ -34,9 +34,6 @@ namespace xml.xml
         }
         
     }
-    public class DevPropsMode_Button : DevPropsMode { 
-}
-
     public class InterlockButtonsMode
     {
         public InterlockButtonsMode()
