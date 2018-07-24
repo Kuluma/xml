@@ -32,7 +32,7 @@ namespace xml.xml
                  XElement record = 
                  new XElement("button",
                  new XAttribute("no", "999"),
-                 new XAttribute("name", "7-111-19149-1"));
+                 new XAttribute("name", "798989"));
                   xe.Add(record);
                   xe.Save(PublicValue.FilePath + "\\InterlockButtons.xml");
         }

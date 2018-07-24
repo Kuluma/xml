@@ -26,6 +26,7 @@ namespace xml
             DevProps1 Dev1 = new DevProps1();
             InterlockButtons InterLoc = new InterlockButtons();
             OpenFile openFile = new OpenFile();
+            BtnCompare btnCompare = new BtnCompare();
             lstForm1.Items.Clear();
             foreach (string FilePath in PublicValue.FilePaths)
             {
@@ -67,8 +68,9 @@ namespace xml
                     //MessageBox.Show(ex.Message);
 
                 }
-                //dataGridView1.DataSource = PublicValue.modelList;
-                dataGridView1.DataSource = PublicValue.interlockButtonsMode;
+                dataGridView1.DataSource = PublicValue.modelList;
+                btnCompare.Compare();
+                //dataGridView1.DataSource = PublicValue.interlockButtonsMode;
                 
             }
         }
@@ -213,7 +215,7 @@ namespace xml
             XElement xe = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
             if (dataGridView1.CurrentRow != null)
             {
-                //dgvBookInfo.CurrentRow.Cells[1]对应着ISBN号
+              
                 string no = dataGridView1.CurrentRow.Cells[0].Value.ToString();
                 IEnumerable<XElement> element = from ele in xe.Elements("button")
                                                 where ele.Attribute("no").Value == no
@@ -234,6 +236,35 @@ namespace xml
 
                 MessageBox.Show("修改成功！");
              
+            }
+        }
+
+        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            XElement xe = XElement.Load(PublicValue.FilePath + "\\InterlockButtons.xml");
+            if (dataGridView1.CurrentRow != null)
+            {
+
+                string no = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                IEnumerable<XElement> element = from ele in xe.Elements("button")
+                                                where ele.Attribute("no").Value == no
+                                                select ele;
+                if (element.Count() > 0)
+                {
+                    XElement first = element.First();
+                    ///设置新的属性
+                    first.SetAttributeValue("no", dataGridView1.CurrentRow.Cells[0].Value.ToString());
+                    first.SetAttributeValue("name", dataGridView1.CurrentRow.Cells[1].Value.ToString());
+                    /////替换新的节点
+                    //first.ReplaceNodes(
+                    //         new XElement ("name", dataGridView1.CurrentRow.Cells[1].Value.ToString())
+
+                    //         );
+                }
+                xe.Save(PublicValue.FilePath + "\\InterlockButtons.xml");
+
+                //MessageBox.Show("修改成功！");
+
             }
         }
     }
