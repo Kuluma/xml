@@ -7,8 +7,31 @@ using System.Xml.Linq;
 
 namespace xml.xml
 {
+    public class InterlockButtonsMode
+    {
+        public InterlockButtonsMode()
+        {
+
+        }
+        private string no;
+        public string No
+        {
+            get { return no; }
+            set { no = value; }
+        }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+    }
+
+
+
     class InterlockButtons
     {
+        public static List<InterlockButtonsMode> interlockButtonsMode = new List<InterlockButtonsMode>();
         public void Out()//数据读取
         {
          
@@ -18,10 +41,10 @@ namespace xml.xml
             foreach (var item in elements)
             {
                 
-                InterlockButtonsMode interlockButtonsMode = new InterlockButtonsMode();
-                interlockButtonsMode.No = item.Attribute("no").Value;
-                interlockButtonsMode.Name = item.Attribute("name").Value;
-                PublicValue.interlockButtonsMode.Add(interlockButtonsMode);
+                InterlockButtonsMode interlockButtonsModes = new InterlockButtonsMode();
+                interlockButtonsModes.No = item.Attribute("no").Value;
+                interlockButtonsModes.Name = item.Attribute("name").Value;
+                interlockButtonsMode.Add(interlockButtonsModes);
 
               
             }

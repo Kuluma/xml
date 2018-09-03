@@ -1,46 +1,73 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml;
 using System.Xml.Linq;
 using xml;
 
 namespace xml.xml
 {
+    public class DevPropsMode
+    {
+        public DevPropsMode()
+        { }
+        /// <summary>
+        /// 类型
+        /// </summary>
+        private string type;
+        public string Type
+        {
+            get { return type; }
+            set { type = value; }
+        }
+        private string id;
+        public string Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+    }
+
+
     class DevProps
     {
-     
-        public void OutDev()
+        public static List<DevPropsMode> DevPropsMode = new List<DevPropsMode>();
+        public void Out()
         {
-            XDocument xDoc = XDocument.Load(PublicValue.FilePath+ "\\DevProps.xml");
-            XElement root = xDoc.Root;  //获取根节点
-                                        //通过递归，获取所有下面的子元素
-            GetXElement(root);
-        }
-        private void GetXElement(XElement root)
-        {
-            //返回IEnumerable接口的对象，都可以实现foreach循环遍历
-            foreach (XElement element in root.Elements())
-            {        
-                    switch (element.Name.ToString())
-                    {
-                        case "FuncButton":
-                                PublicValue.DevBtn.Add(element.Attribute("name").Value);
-                            break;
-                        case "SignalButton":
-                                PublicValue.DevBtn.Add(element.Attribute("name").Value);
-                            break;
-                        case "SectionButton":
-                                 PublicValue.DevBtn.Add(element.Attribute("name").Value);
-                            break;
-                        case "SwitchButton":
-                                 PublicValue.DevBtn.Add(element.Attribute("name").Value);
-                            break;
-                }
-                GetXElement(element);
 
+            XDocument xDocument= XDocument.Load(PublicValue.FilePath + "\\DevProps.xml");
+            XElement xElement = XElement.Load(PublicValue.FilePath + "\\DevProps.xml");
+            IEnumerable<XElement> elements = from el in xElement.Elements("Devs")
+                                              select el;
+            foreach (var item in elements)
+            {
+                IEnumerable<XElement> elementss = from el in item.Elements(item.Attribute("DevType").Value)
+                                                  select el;
+                
+               
+                foreach (var ele in elementss)
+                {
+                    DevPropsMode devPropsMode = new DevPropsMode();
+                    devPropsMode.Type = item.Attribute("DevType").Value;
+                    devPropsMode.Id = ele.Attribute("id").Value;
+                    devPropsMode.Name = ele.Attribute("name").Value;
+
+                    DevPropsMode.Add(devPropsMode);
+                }
             }
         }
+    
+      
     }
 }

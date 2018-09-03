@@ -16,7 +16,7 @@ namespace xml
         {
             int flag1 = 0;
             int flag2 = 0;
-            foreach (var DevBtn1 in PublicValue.modelList)
+            foreach (var DevBtn1 in Dev.)
             {
                 foreach (var InterlocBtn in PublicValue.interlockButtonsMode)
                 {         

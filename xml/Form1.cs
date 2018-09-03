@@ -67,8 +67,9 @@ namespace xml
                     //MessageBox.Show(ex.Message);
 
                 }
-                //dataGridView1.DataSource = PublicValue.modelList;
-                dataGridView1.DataSource = PublicValue.interlockButtonsMode;
+                //dataGridView1.DataSource = DevProps1.DevPropsMode;
+
+                //dataGridView1.DataSource = PublicValue.interlockButtonsMode;
                 
             }
         }

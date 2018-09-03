@@ -92,11 +92,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PublicValue.cs" />
     <Compile Include="xml\DevProps.cs" />
-    <Compile Include="xml\DevProps1.cs" />
     <Compile Include="xml\InterlockButtons.cs" />
+    <Compile Include="xml\Layout.cs" />
     <Compile Include="xml\xmlLoad.cs" />
     <Compile Include="xml\SectionInfo.cs" />
     <Compile Include="xml\StationDetail.cs" />
+    <Compile Include="xml\XmlRead.cs" />
+    <Compile Include="处理\Compare.cs" />
     <Compile Include="界面\formStationDetail.cs">
       <SubType>Form</SubType>
     </Compile>

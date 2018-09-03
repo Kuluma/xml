@@ -7,13 +7,17 @@ using System.Text;
 
 namespace xml.xml
 {
-    public class DevPropsMode
+   
+    public class DevPropsMode_Button : DevPropsMode { 
+}
+
+  
+    public class LayoutMode
     {
-        public DevPropsMode()
-        { }
-         /// <summary>
-         /// 类型
-          /// </summary>
+        public LayoutMode()
+        {
+
+        }
         private string type;
         public string Type
         {
@@ -25,29 +29,6 @@ namespace xml.xml
         {
             get { return id; }
             set { id = value; }
-        }
-        private string name;
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-        
-    }
-    public class DevPropsMode_Button : DevPropsMode { 
-}
-
-    public class InterlockButtonsMode
-    {
-        public InterlockButtonsMode()
-        {
-
-        }
-        private string no;
-        public string No
-        {
-            get { return no; }
-            set { no = value; }
         }
         private string name;
         public string Name
